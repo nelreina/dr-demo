@@ -1,0 +1,90 @@
+[
+  {
+    "CoaCode": "10",
+    "SortCode": 1,
+    "Section": "EXCHANGE",
+    "RowDescription": "USD",
+    "NET SPOT POSITION": 13529306.98,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  },
+  {
+    "CoaCode": "20",
+    "SortCode": 2,
+    "Section": "EXCHANGE",
+    "RowDescription": "JPY",
+    "NET SPOT POSITION": 0,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  },
+  {
+    "CoaCode": "30",
+    "SortCode": 3,
+    "Section": "EXCHANGE",
+    "RowDescription": "GBP",
+    "NET SPOT POSITION": 0,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  },
+  {
+    "CoaCode": "40",
+    "SortCode": 4,
+    "Section": "EXCHANGE",
+    "RowDescription": "EUR",
+    "NET SPOT POSITION": 0,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  },
+  {
+    "CoaCode": "50",
+    "SortCode": 5,
+    "Section": "EXCHANGE",
+    "RowDescription": "CHF",
+    "NET SPOT POSITION": 0,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  },
+  {
+    "CoaCode": "60",
+    "SortCode": 6,
+    "Section": "EXCHANGE",
+    "RowDescription": "CAD",
+    "NET SPOT POSITION": 0,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  },
+  {
+    "CoaCode": "70",
+    "SortCode": 7,
+    "Section": "EXCHANGE",
+    "RowDescription": "NAF",
+    "NET SPOT POSITION": -10,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  },
+  {
+    "CoaCode": "80",
+    "SortCode": 8,
+    "Section": "EXCHANGE",
+    "RowDescription": "AUD",
+    "NET SPOT POSITION": 0,
+    "NET FORWARD POSITION": 0,
+    "GUARANTEES": 0,
+    "NET FUTURE INCOME/EXPENSES": 0,
+    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+  }
+]

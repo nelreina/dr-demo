@@ -1,0 +1,641 @@
+[
+  {
+    "CoaCode": null,
+    "SortCode": 1,
+    "Section": "CASH AND DEPOSIT BALANCES:",
+    "RowDescription": "Cash and Deposit Balances:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "10",
+    "SortCode": 2,
+    "Section": "CASH AND DEPOSIT BALANCES:",
+    "RowDescription": "- Cash and Due from Central Banks  and ODCs",
+    "Exposure Before CRM": 67394446.8,
+    "% Risk": "0%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "20",
+    "SortCode": 3,
+    "Section": "CASH AND DEPOSIT BALANCES:",
+    "RowDescription": "- Gold bullion",
+    "Exposure Before CRM": 0,
+    "% Risk": "0%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "30",
+    "SortCode": 4,
+    "Section": "CASH AND DEPOSIT BALANCES:",
+    "RowDescription": "- Cash items in process of collection and other cash items",
+    "Exposure Before CRM": 140234.89,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "40",
+    "SortCode": 5,
+    "Section": "CASH AND DEPOSIT BALANCES:",
+    "RowDescription": "Total Cash and Due from Banks",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "50",
+    "SortCode": 6,
+    "Section": "Interbank Funds - Sold",
+    "RowDescription": "Interbank Funds - Sold",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "60",
+    "SortCode": 7,
+    "Section": "Claims on: (Aruban Governments or Central Bank;   - non-commercial PSEs of Aruba) denominated and funded in domestic currency ",
+    "RowDescription": "Claims on: (Aruban Governments or Central Bank;   - non-commercial PSEs of Aruba) denominated and funded in domestic currency ",
+    "Exposure Before CRM": 0,
+    "% Risk": "0%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 8,
+    "Section": "Claims on: - foreign Governments and Central Banks:",
+    "RowDescription": "Claims on: - foreign Governments and Central Banks:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "70",
+    "SortCode": 9,
+    "Section": "Claims on: - foreign Governments and Central Banks:",
+    "RowDescription": "with risk grade 1",
+    "Exposure Before CRM": 0,
+    "% Risk": "0%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "80",
+    "SortCode": 10,
+    "Section": "Claims on: - foreign Governments and Central Banks:",
+    "RowDescription": "with risk grade 2",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "90",
+    "SortCode": 11,
+    "Section": "Claims on: - foreign Governments and Central Banks:",
+    "RowDescription": "with risk grade 3",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "100",
+    "SortCode": 12,
+    "Section": "Claims on: - foreign Governments and Central Banks:",
+    "RowDescription": "with risk grade 4",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "110",
+    "SortCode": 13,
+    "Section": "Claims on: - foreign Governments and Central Banks:",
+    "RowDescription": "with risk grade 5",
+    "Exposure Before CRM": 0,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "120",
+    "SortCode": 14,
+    "Section": "Claims on: - foreign Governments and Central Banks:",
+    "RowDescription": "with risk grade 6",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 15,
+    "Section": "Claims on: - foreign Governments with only ECA risk scores:",
+    "RowDescription": "Claims on: - foreign Governments with only ECA risk scores:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "130",
+    "SortCode": 16,
+    "Section": "Claims on: - foreign Governments with only ECA risk scores:",
+    "RowDescription": "With ECA risk scores 0-1",
+    "Exposure Before CRM": 0,
+    "% Risk": "0%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "140",
+    "SortCode": 17,
+    "Section": "Claims on: - foreign Governments with only ECA risk scores:",
+    "RowDescription": "With ECA risk score 2",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "150",
+    "SortCode": 18,
+    "Section": "Claims on: - foreign Governments with only ECA risk scores:",
+    "RowDescription": "With ECA risk score 3",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "160",
+    "SortCode": 19,
+    "Section": "Claims on: - foreign Governments with only ECA risk scores:",
+    "RowDescription": "With ECA risk scores 4-6",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "170",
+    "SortCode": 20,
+    "Section": "Claims on: - foreign Governments with only ECA risk scores:",
+    "RowDescription": "With ECA risk score 7",
+    "Exposure Before CRM": 0,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 21,
+    "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowDescription": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "180",
+    "SortCode": 22,
+    "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowDescription": "Own  discretion",
+    "Exposure Before CRM": 0,
+    "% Risk": "0%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "190",
+    "SortCode": 23,
+    "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowDescription": "Own  discretion",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "200",
+    "SortCode": 24,
+    "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowDescription": "Own  discretion",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "210",
+    "SortCode": 25,
+    "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowDescription": "Own  discretion",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "220",
+    "SortCode": 26,
+    "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowDescription": "Own  discretion",
+    "Exposure Before CRM": 0,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "230",
+    "SortCode": 27,
+    "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowDescription": "Own  discretion",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "240",
+    "SortCode": 28,
+    "Section": "Claims on: - BIS; IMF; ECB and EC; -  highly rated MDBs:",
+    "RowDescription": "Claims on: - BIS; IMF; ECB and EC; -  highly rated MDBs:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 29,
+    "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowDescription": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "250",
+    "SortCode": 30,
+    "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowDescription": "with risk grade 1",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "260",
+    "SortCode": 31,
+    "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowDescription": "with risk grade 2",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "270",
+    "SortCode": 32,
+    "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowDescription": "with risk grade 3",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "280",
+    "SortCode": 33,
+    "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowDescription": "with risk grade 4",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "290",
+    "SortCode": 34,
+    "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowDescription": "with risk grade 5",
+    "Exposure Before CRM": 0,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "300",
+    "SortCode": 35,
+    "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowDescription": "with risk grade 6",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 36,
+    "Section": "Claims on Banks; being  with an original maturity of = 3 months:",
+    "RowDescription": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "310",
+    "SortCode": 37,
+    "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "RowDescription": "with risk grade 1",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "320",
+    "SortCode": 38,
+    "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "RowDescription": "with risk grade 2",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "330",
+    "SortCode": 39,
+    "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "RowDescription": "with risk grade 3",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "340",
+    "SortCode": 40,
+    "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "RowDescription": "with risk grade 4",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "350",
+    "SortCode": 41,
+    "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "RowDescription": "with risk grade 5",
+    "Exposure Before CRM": 0,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "360",
+    "SortCode": 42,
+    "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "RowDescription": "with risk grade 6",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 43,
+    "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "RowDescription": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "370",
+    "SortCode": 44,
+    "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "RowDescription": "with risk grade 1",
+    "Exposure Before CRM": 0,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "380",
+    "SortCode": 45,
+    "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "RowDescription": "with risk grade 2",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "390",
+    "SortCode": 46,
+    "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "RowDescription": "with risk grades 3; 4",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "400",
+    "SortCode": 47,
+    "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "RowDescription": "with risk grade 5",
+    "Exposure Before CRM": 0,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "410",
+    "SortCode": 48,
+    "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "RowDescription": "with risk grade 6",
+    "Exposure Before CRM": 23799557.3601,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "420",
+    "SortCode": 49,
+    "Section": "Claims on unrated Corporates (ONCs). Higher risk weight due to  a high default experience in Aruba ",
+    "RowDescription": "Claims on unrated Corporates (ONCs). Higher risk weight due to  a high default experience in Aruba ",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "430",
+    "SortCode": 50,
+    "Section": "Claims in the Retail Portfolio ",
+    "RowDescription": "Claims in the Retail Portfolio ",
+    "Exposure Before CRM": 47211850.6522,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 51,
+    "Section": "Residential Mortgage Loans:",
+    "RowDescription": "Residential Mortgage Loans:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "440",
+    "SortCode": 52,
+    "Section": "Residential Mortgage Loans:",
+    "RowDescription": "- with LTV ratio between 50% up to and including 70% ",
+    "Exposure Before CRM": 0,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "450",
+    "SortCode": 53,
+    "Section": "Residential Mortgage Loans:",
+    "RowDescription": "- with LTV ratio up to and including 50% ",
+    "Exposure Before CRM": 0,
+    "% Risk": "35%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "460",
+    "SortCode": 54,
+    "Section": "Residential Mortgage Loans:",
+    "RowDescription": "Claims secured by commercial real estate and other mortgage execpt residential and past due mortgage loans",
+    "Exposure Before CRM": 2626778.58,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 55,
+    "Section": "Past Due Loans:",
+    "RowDescription": "Past Due Loans:",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "470",
+    "SortCode": 56,
+    "Section": "Past Due Loans:",
+    "RowDescription": "- Retail Loans past due for more than 90 days (> 3 months)  with specific provisions according to  SR IV",
+    "Exposure Before CRM": 195.74,
+    "% Risk": "125%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "480",
+    "SortCode": 57,
+    "Section": "Past Due Loans:",
+    "RowDescription": "- Residential Mortgages classified as Substandard, Doubtful and Loss",
+    "Exposure Before CRM": 2671120.5561,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "490",
+    "SortCode": 58,
+    "Section": "Past Due Loans:",
+    "RowDescription": "- All Other past due Loans classified as Substandard with specific provisions according to  supervisory directive on \"Loan Loss Provisioning\"",
+    "Exposure Before CRM": 13502314.71,
+    "% Risk": "125%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "500",
+    "SortCode": 59,
+    "Section": "Past Due Loans:",
+    "RowDescription": "- All Other past due Loans classified as Doubtful or Loss with specific provisions according to  supervisory directive on \"Loan Loss Provisioning\"\r\n",
+    "Exposure Before CRM": 2329988.76,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "510",
+    "SortCode": 60,
+    "Section": "Total Claims  (= sum of rows 60 through 500)",
+    "RowDescription": "Total Claims  (= sum of rows 60 through 500)",
+    "Exposure Before CRM": 393677.72,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "520",
+    "SortCode": 61,
+    "Section": "ASSETS",
+    "RowDescription": "- Non-current assets held for sale and discontinued operations;  - Property, Plant and Equipment\r\n",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "530",
+    "SortCode": 62,
+    "Section": "ASSETS",
+    "RowDescription": "- All Other past due Loans classified as Doubtful or Loss as descibed in SR IV and for which the minimum specific provisions as indicated in SR IV have been set up",
+    "Exposure Before CRM": 1144979.85,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "540",
+    "SortCode": 63,
+    "Section": "ASSETS",
+    "RowDescription": "- All Other past due Loans classified as Doubtful or Loss as descibed in SR IV but for which the( minimum) specific provisions as indicated in SR IV have not been set up",
+    "Exposure Before CRM": 422331.83,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 68,
+    "Section": "ALL OTHERS",
+    "RowDescription": "All other: Investments; Loans; Customers' Liability on Bankers' Acceptances and; all other claims on foreign PSEs",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "550",
+    "SortCode": 69,
+    "Section": "ALL OTHERS",
+    "RowDescription": "with risk grade 1 ",
+    "Exposure Before CRM": 0,
+    "% Risk": "0%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "560",
+    "SortCode": 70,
+    "Section": "ALL OTHERS",
+    "RowDescription": "with risk grade 2",
+    "Exposure Before CRM": 16031026.63,
+    "% Risk": "20%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "570",
+    "SortCode": 71,
+    "Section": "ALL OTHERS",
+    "RowDescription": "with risk grade 3",
+    "Exposure Before CRM": 1000573.66,
+    "% Risk": "50%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "580",
+    "SortCode": 72,
+    "Section": "ALL OTHERS",
+    "RowDescription": "with risk grade 4",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "590",
+    "SortCode": 73,
+    "Section": "ALL OTHERS",
+    "RowDescription": "with risk grade 5",
+    "Exposure Before CRM": 0,
+    "% Risk": "150%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "600",
+    "SortCode": 74,
+    "Section": "ALL OTHERS",
+    "RowDescription": "with risk grade 6",
+    "Exposure Before CRM": 0,
+    "% Risk": "100%",
+    "Risk Weighted Assets ": 0
+  },
+  {
+    "CoaCode": "650",
+    "SortCode": 75,
+    "Section": null,
+    "RowDescription": "Total Class 1 (excluding investments in Unconsolidated Subsidiaries and Affiliates; Goodwill and Intangible Assets with definite useful lives) (sum of rows 40; 50 and 550 through 640)",
+    "Exposure Before CRM": 0,
+    "% Risk": null,
+    "Risk Weighted Assets ": 0
+  }
+]

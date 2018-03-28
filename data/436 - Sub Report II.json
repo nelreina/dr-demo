@@ -1,0 +1,82 @@
+[
+  {
+    "CoaCode": "1403 004",
+    "SortCode": 1,
+    "Section": null,
+    "RowDescription": "Mortgages meeting qualification criteria:",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 034",
+    "SortCode": 2,
+    "Section": null,
+    "RowDescription": ".     Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 044",
+    "SortCode": 3,
+    "Section": null,
+    "RowDescription": ".     Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 054",
+    "SortCode": 4,
+    "Section": null,
+    "RowDescription": ".     Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 064",
+    "SortCode": 5,
+    "Section": null,
+    "RowDescription": ".     Other Nonfinancial Corporations",
+    "Resident AFL": 28976722.7,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 074",
+    "SortCode": 6,
+    "Section": null,
+    "RowDescription": ".     Households",
+    "Resident AFL": 69795798.61,
+    "Resident FC": 0,
+    "Non Resident AFL": 869344.04,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 014",
+    "SortCode": 7,
+    "Section": null,
+    "RowDescription": ".     Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 094",
+    "SortCode": 8,
+    "Section": null,
+    "RowDescription": ".     Other",
+    "Resident AFL": 165146.68,
+    "Resident FC": 0,
+    "Non Resident AFL": 131603.51,
+    "Non Resident FC": 0
+  }
+]

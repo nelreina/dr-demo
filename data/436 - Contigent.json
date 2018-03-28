@@ -1,0 +1,252 @@
+[
+  {
+    "CoaCode": null,
+    "SortCode": 1,
+    "Section": "GUARANTEES ISSUED",
+    "RowDescription": "GUARANTEES ISSUED",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8101 000",
+    "SortCode": 2,
+    "Section": "GUARANTEES ISSUED",
+    "RowDescription": "Direct credit substitutes",
+    "Resident AFL": 2493213.06,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8102 000",
+    "SortCode": 3,
+    "Section": "GUARANTEES ISSUED",
+    "RowDescription": "Standby Letters of Credit",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 23051,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8103 000",
+    "SortCode": 4,
+    "Section": "GUARANTEES ISSUED",
+    "RowDescription": "Short term; self liquidating trade letters",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8104 000",
+    "SortCode": 5,
+    "Section": "GUARANTEES ISSUED",
+    "RowDescription": "Credit arising from the movement of goods",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 6,
+    "Section": "RISK PARTICIPATIONS",
+    "RowDescription": "RISK PARTICIPATIONS",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8201 000",
+    "SortCode": 7,
+    "Section": "RISK PARTICIPATIONS",
+    "RowDescription": "Risk participations in bankers acceptances",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8202 000",
+    "SortCode": 8,
+    "Section": "RISK PARTICIPATIONS",
+    "RowDescription": "Risk participations in financial standby letters of credit",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 9,
+    "Section": "REPO-STYLE TRANSACTIONS",
+    "RowDescription": "REPO-STYLE TRANSACTIONS",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8301 000",
+    "SortCode": 10,
+    "Section": "REPO-STYLE TRANSACTIONS",
+    "RowDescription": "Sale and repurchase agreements",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8302 000",
+    "SortCode": 11,
+    "Section": "REPO-STYLE TRANSACTIONS",
+    "RowDescription": "Assets sales with recourse",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8303 000",
+    "SortCode": 12,
+    "Section": "REPO-STYLE TRANSACTIONS",
+    "RowDescription": "Lending of banks' securities or posting of securities as collateral",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8400 000",
+    "SortCode": 13,
+    "Section": "NOTE ISSUANCE FACILITIES AND REVOLVING UNDERWRITING FACILITIES",
+    "RowDescription": "Note Issuance Facilities and Revolving Underwriting Facilities",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 14,
+    "Section": "COMMITMENTS",
+    "RowDescription": "COMMITMENTS",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8501 000",
+    "SortCode": 15,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Forward assets purchases",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8502 000",
+    "SortCode": 16,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Forward forward deposits",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8503 000",
+    "SortCode": 17,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Partly-paid shares and securities",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8504 000",
+    "SortCode": 18,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Commitments with original maturity > 1 year",
+    "Resident AFL": 0,
+    "Resident FC": 2065470.081,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 40851.8096
+  },
+  {
+    "CoaCode": "8505 000",
+    "SortCode": 19,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Commitments with original maturity up to 1 year",
+    "Resident AFL": 1912214.76,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8506 000",
+    "SortCode": 20,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Commitments unconditionally cancelable without prior notice by the reporting institution",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8507 000",
+    "SortCode": 21,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Commitments with automatic cancellation due to deterioration in borrowers' creditworthiness",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8508 000",
+    "SortCode": 22,
+    "Section": "COMMITMENTS",
+    "RowDescription": "Commitments with certain drawdown",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8600 000",
+    "SortCode": 23,
+    "Section": "PENDING LITIGATION",
+    "RowDescription": "Pending Litigation",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8700 000",
+    "SortCode": 24,
+    "Section": "PERFORMANCE RELATED CONTINGENCIES",
+    "RowDescription": "Performance Related Contingencies",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "8900 000",
+    "SortCode": 25,
+    "Section": "ALL OTHER CONTINGENT LIABILITIES",
+    "RowDescription": "All Other Contingent Liabilities",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  }
+]

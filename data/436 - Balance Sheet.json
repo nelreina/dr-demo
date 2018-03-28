@@ -1,0 +1,2212 @@
+[
+  {
+    "CoaCode": null,
+    "SortCode": 1,
+    "Section": "CASH AND DEPOSIT BALANCES",
+    "RowDescription": "CASH AND DEPOSIT BALANCES",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1101 000",
+    "SortCode": 2,
+    "Section": "CASH AND DEPOSIT BALANCES",
+    "RowDescription": "Cash on hand",
+    "Resident AFL": 3062991.55,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 4701682.51
+  },
+  {
+    "CoaCode": "1102 000",
+    "SortCode": 3,
+    "Section": "CASH AND DEPOSIT BALANCES",
+    "RowDescription": "Due from Central Banks",
+    "Resident AFL": 30543993.75,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1103 000",
+    "SortCode": 4,
+    "Section": "CASH AND DEPOSIT BALANCES",
+    "RowDescription": "Due from Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 1022788.62,
+    "Non Resident FC": 32474355.01
+  },
+  {
+    "CoaCode": "1104 000",
+    "SortCode": 5,
+    "Section": "CASH AND DEPOSIT BALANCES",
+    "RowDescription": "Cash items in process of collection",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1109 000",
+    "SortCode": 6,
+    "Section": "CASH AND DEPOSIT BALANCES",
+    "RowDescription": "Other cash items",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 7,
+    "Section": "INTERBANK FUNDS - SOLD",
+    "RowDescription": "INTERBANK FUNDS - SOLD",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1203 000",
+    "SortCode": 8,
+    "Section": "INTERBANK FUNDS - SOLD",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 9,
+    "Section": "INVESTMENTS",
+    "RowDescription": "INVESTMENTS",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 000",
+    "SortCode": 10,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Financial Assets measured at fair value",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 100",
+    "SortCode": 11,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Equity Instruments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 130",
+    "SortCode": 12,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 140",
+    "SortCode": 13,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 150",
+    "SortCode": 14,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 160",
+    "SortCode": 15,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 190",
+    "SortCode": 16,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 200",
+    "SortCode": 17,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Debt Instruments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 210",
+    "SortCode": 18,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 230",
+    "SortCode": 19,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 240",
+    "SortCode": 20,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 250",
+    "SortCode": 21,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 260",
+    "SortCode": 22,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1301 290",
+    "SortCode": 23,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 000",
+    "SortCode": 24,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Financial Assets measured at amortized cost",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 100",
+    "SortCode": 25,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Short Term Debentures",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 110",
+    "SortCode": 26,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 130",
+    "SortCode": 27,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 140",
+    "SortCode": 28,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 150",
+    "SortCode": 29,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 160",
+    "SortCode": 30,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 190",
+    "SortCode": 31,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 200",
+    "SortCode": 32,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Long Term Debentures",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 210",
+    "SortCode": 33,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Governments",
+    "Resident AFL": 41473350,
+    "Resident FC": 17900000,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 230",
+    "SortCode": 34,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 240",
+    "SortCode": 35,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 3580000
+  },
+  {
+    "CoaCode": "1303 250",
+    "SortCode": 36,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 260",
+    "SortCode": 37,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1303 290",
+    "SortCode": 38,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1304 000",
+    "SortCode": 39,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Investments in entities accounted for using the equity method",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1304 130",
+    "SortCode": 40,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1304 140",
+    "SortCode": 41,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1304 150",
+    "SortCode": 42,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1304 160",
+    "SortCode": 43,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1304 190",
+    "SortCode": 44,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1305 000",
+    "SortCode": 45,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Derivatives Financial Assets",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1305 100",
+    "SortCode": 46,
+    "Section": "INVESTMENTS",
+    "RowDescription": "     Derivatives Held For Trading",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1305 200",
+    "SortCode": 47,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Derivatives Held For Hedging:",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1305 210",
+    "SortCode": 48,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Fair value hedge",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1305 220",
+    "SortCode": 49,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Cash flow hedge",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1305 230",
+    "SortCode": 50,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Hedge of a net investment in a foreign operation",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1306 000",
+    "SortCode": 51,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Time Deposits",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1306 200",
+    "SortCode": 52,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Central Banks",
+    "Resident AFL": 15242000,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1306 300",
+    "SortCode": 53,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1309 000",
+    "SortCode": 54,
+    "Section": "INVESTMENTS",
+    "RowDescription": "Less: Allowance for Impairment",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 55,
+    "Section": "LOANS",
+    "RowDescription": "LOANS",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1401 000",
+    "SortCode": 56,
+    "Section": "LOANS",
+    "RowDescription": "Current Account Overdrafts",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1401 010",
+    "SortCode": 57,
+    "Section": "LOANS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1401 030",
+    "SortCode": 58,
+    "Section": "LOANS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1401 040",
+    "SortCode": 59,
+    "Section": "LOANS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 749.96,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1401 050",
+    "SortCode": 60,
+    "Section": "LOANS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1401 060",
+    "SortCode": 61,
+    "Section": "LOANS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 21766467.83,
+    "Resident FC": 0,
+    "Non Resident AFL": 10.01,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1401 070",
+    "SortCode": 62,
+    "Section": "LOANS",
+    "RowDescription": "Households",
+    "Resident AFL": 1769514.68,
+    "Resident FC": 0,
+    "Non Resident AFL": 1022.9,
+    "Non Resident FC": 362.71
+  },
+  {
+    "CoaCode": "1401 090",
+    "SortCode": 63,
+    "Section": "LOANS",
+    "RowDescription": "Other",
+    "Resident AFL": 455881.97,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 000",
+    "SortCode": 64,
+    "Section": "LOANS",
+    "RowDescription": "Term Loans",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 010",
+    "SortCode": 65,
+    "Section": "LOANS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 030",
+    "SortCode": 66,
+    "Section": "LOANS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 040",
+    "SortCode": 67,
+    "Section": "LOANS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 12000000,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 050",
+    "SortCode": 68,
+    "Section": "LOANS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 060",
+    "SortCode": 69,
+    "Section": "LOANS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 4572015.73,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 070",
+    "SortCode": 70,
+    "Section": "LOANS",
+    "RowDescription": "Households",
+    "Resident AFL": 46994708.95,
+    "Resident FC": 0,
+    "Non Resident AFL": 105417.94,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1402 090",
+    "SortCode": 71,
+    "Section": "LOANS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 000",
+    "SortCode": 72,
+    "Section": "LOANS",
+    "RowDescription": "Mortgages",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 010",
+    "SortCode": 73,
+    "Section": "LOANS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 030",
+    "SortCode": 74,
+    "Section": "LOANS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 040",
+    "SortCode": 75,
+    "Section": "LOANS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 050",
+    "SortCode": 76,
+    "Section": "LOANS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 060",
+    "SortCode": 77,
+    "Section": "LOANS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 30678077.68,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 070",
+    "SortCode": 78,
+    "Section": "LOANS",
+    "RowDescription": "Households",
+    "Resident AFL": 70126407.53,
+    "Resident FC": 0,
+    "Non Resident AFL": 869344.04,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1403 090",
+    "SortCode": 79,
+    "Section": "LOANS",
+    "RowDescription": "Other",
+    "Resident AFL": 165146.68,
+    "Resident FC": 0,
+    "Non Resident AFL": 131603.51,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 000",
+    "SortCode": 80,
+    "Section": "LOANS",
+    "RowDescription": "Finance Leases",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 010",
+    "SortCode": 81,
+    "Section": "LOANS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 030",
+    "SortCode": 82,
+    "Section": "LOANS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 040",
+    "SortCode": 83,
+    "Section": "LOANS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 050",
+    "SortCode": 84,
+    "Section": "LOANS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 060",
+    "SortCode": 85,
+    "Section": "LOANS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 070",
+    "SortCode": 86,
+    "Section": "LOANS",
+    "RowDescription": "Households",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1404 090",
+    "SortCode": 87,
+    "Section": "LOANS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1405 000",
+    "SortCode": 88,
+    "Section": "LOANS",
+    "RowDescription": "Other loans",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1405 010",
+    "SortCode": 89,
+    "Section": "LOANS",
+    "RowDescription": "Governments",
+    "Resident AFL": 10,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1405 030",
+    "SortCode": 90,
+    "Section": "LOANS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1405 040",
+    "SortCode": 91,
+    "Section": "LOANS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1405 050",
+    "SortCode": 92,
+    "Section": "LOANS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1405 060",
+    "SortCode": 93,
+    "Section": "LOANS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 318750.5089,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1405 070",
+    "SortCode": 94,
+    "Section": "LOANS",
+    "RowDescription": "Households",
+    "Resident AFL": 1520.74,
+    "Resident FC": 2429565.747,
+    "Non Resident AFL": 5.24,
+    "Non Resident FC": 8674.8591
+  },
+  {
+    "CoaCode": "1405 090",
+    "SortCode": 95,
+    "Section": "LOANS",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 4086.8922,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1409 000",
+    "SortCode": 96,
+    "Section": "LOANS",
+    "RowDescription": "Less: Specific Provisions on Loans",
+    "Resident AFL": -11030113.91,
+    "Resident FC": -1976.16,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 97,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1501 000",
+    "SortCode": 98,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1503 000",
+    "SortCode": 99,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1504 000",
+    "SortCode": 100,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1505 000",
+    "SortCode": 101,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1506 000",
+    "SortCode": 102,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1507 000",
+    "SortCode": 103,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "Households",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1509 000",
+    "SortCode": 104,
+    "Section": "CUSTOMERS' LIABILITY ON BANKERS ACCEPTANCES",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 105,
+    "Section": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
+    "RowDescription": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1601 000",
+    "SortCode": 106,
+    "Section": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
+    "RowDescription": "Real Estate & Other Assets from Debts Previously Contracted",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1602 000",
+    "SortCode": 107,
+    "Section": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
+    "RowDescription": "All Other Non-current Assets",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1609 000",
+    "SortCode": 108,
+    "Section": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
+    "RowDescription": "Less: Allowance for Impairment",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 109,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "PROPERTY; PLANT AND EQUIPMENT",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1701 000",
+    "SortCode": 110,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "Land",
+    "Resident AFL": 1339256.37,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1702 000",
+    "SortCode": 111,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "Buildings",
+    "Resident AFL": 12638637.23,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1703 000",
+    "SortCode": 112,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "Leasehold Improvements",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1704 000",
+    "SortCode": 113,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "Machinery and Equipment",
+    "Resident AFL": 10773526.9,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1705 000",
+    "SortCode": 114,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "Revaluation Reserves",
+    "Resident AFL": 7030222,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1708 000",
+    "SortCode": 115,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "Less: Accumulated Depreciation",
+    "Resident AFL": -16022187.99,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1709 000",
+    "SortCode": 116,
+    "Section": "PROPERTY; PLANT AND EQUIPMENT",
+    "RowDescription": "Less: Allowance for Impairment",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 117,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "OTHER ASSETS :",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1901 000",
+    "SortCode": 118,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Intangible Assets:",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1901 010",
+    "SortCode": 119,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Goodwill",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1901 020",
+    "SortCode": 120,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Other Intangible Assets:",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1901 021",
+    "SortCode": 121,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "with indefinite useful life",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1901 022",
+    "SortCode": 122,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "with definite useful life",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1902 000",
+    "SortCode": 123,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Prepaid Expenses",
+    "Resident AFL": 441236.81,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1903 000",
+    "SortCode": 124,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Accounts Receivable",
+    "Resident AFL": 63769.73,
+    "Resident FC": 1253,
+    "Non Resident AFL": 2323874.33,
+    "Non Resident FC": 2486718.11
+  },
+  {
+    "CoaCode": "1904 000",
+    "SortCode": 125,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Accrued Interest Receivable",
+    "Resident AFL": 5988853.46,
+    "Resident FC": 243763.97,
+    "Non Resident AFL": 6579.42,
+    "Non Resident FC": 59295.47
+  },
+  {
+    "CoaCode": "1905 000",
+    "SortCode": 126,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Deferred Tax Assets",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1906 000",
+    "SortCode": 127,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Dividends Receivable",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "1907 000",
+    "SortCode": 128,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "All Other Assets",
+    "Resident AFL": 571557.09,
+    "Resident FC": 209381.99,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 45424.71
+  },
+  {
+    "CoaCode": "1909 000",
+    "SortCode": 129,
+    "Section": "OTHER ASSETS",
+    "RowDescription": "Less: Allowance for Impairment",
+    "Resident AFL": -4424323.26,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 130,
+    "Section": "DEPOSITS",
+    "RowDescription": "DEPOSITS",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2101 000",
+    "SortCode": 131,
+    "Section": "DEPOSITS",
+    "RowDescription": "Demand Deposits",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2101 100",
+    "SortCode": 132,
+    "Section": "DEPOSITS",
+    "RowDescription": "Governments",
+    "Resident AFL": 1235370.41,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2101 300",
+    "SortCode": 133,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2101 400",
+    "SortCode": 134,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 24014344.95,
+    "Resident FC": 1196888.98,
+    "Non Resident AFL": 355395.12,
+    "Non Resident FC": 2277896.37
+  },
+  {
+    "CoaCode": "2101 500",
+    "SortCode": 135,
+    "Section": "DEPOSITS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 6226331.03,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2101 600",
+    "SortCode": 136,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 15586380.79,
+    "Resident FC": 539789.6559,
+    "Non Resident AFL": 308619.46,
+    "Non Resident FC": 3382268.31
+  },
+  {
+    "CoaCode": "2101 700",
+    "SortCode": 137,
+    "Section": "DEPOSITS",
+    "RowDescription": "Households",
+    "Resident AFL": 12770134.16,
+    "Resident FC": 23299.283,
+    "Non Resident AFL": 1160356.06,
+    "Non Resident FC": 58056.6587
+  },
+  {
+    "CoaCode": "2101 900",
+    "SortCode": 138,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other",
+    "Resident AFL": 3844197.73,
+    "Resident FC": 0,
+    "Non Resident AFL": 28771.78,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2102 000",
+    "SortCode": 139,
+    "Section": "DEPOSITS",
+    "RowDescription": "Savings Deposits:",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2102 100",
+    "SortCode": 140,
+    "Section": "DEPOSITS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2102 300",
+    "SortCode": 141,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2102 400",
+    "SortCode": 142,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 4340855.41,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2102 500",
+    "SortCode": 143,
+    "Section": "DEPOSITS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 1134.42,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2102 600",
+    "SortCode": 144,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 90615.22
+  },
+  {
+    "CoaCode": "2102 700",
+    "SortCode": 145,
+    "Section": "DEPOSITS",
+    "RowDescription": "Households",
+    "Resident AFL": 49089390.51,
+    "Resident FC": 63017.76,
+    "Non Resident AFL": 5328041.3,
+    "Non Resident FC": 1020996.31
+  },
+  {
+    "CoaCode": "2102 900",
+    "SortCode": 146,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other",
+    "Resident AFL": 966430.71,
+    "Resident FC": 0,
+    "Non Resident AFL": 6783.33,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2103 000",
+    "SortCode": 147,
+    "Section": "DEPOSITS",
+    "RowDescription": "Time Deposits",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2103 100",
+    "SortCode": 148,
+    "Section": "DEPOSITS",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2103 300",
+    "SortCode": 149,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2103 400",
+    "SortCode": 150,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 69101389,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 27758000
+  },
+  {
+    "CoaCode": "2103 500",
+    "SortCode": 151,
+    "Section": "DEPOSITS",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2103 600",
+    "SortCode": 152,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 1855000,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2103 700",
+    "SortCode": 153,
+    "Section": "DEPOSITS",
+    "RowDescription": "Households",
+    "Resident AFL": 11213397.71,
+    "Resident FC": 0,
+    "Non Resident AFL": 1536394.54,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2103 900",
+    "SortCode": 154,
+    "Section": "DEPOSITS",
+    "RowDescription": "Other",
+    "Resident AFL": 367584.22,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 155,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "FINANCIAL LIABILITIES",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2201 000",
+    "SortCode": 156,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Financial Liabilities measured at fair value",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2201 100",
+    "SortCode": 157,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Debt Instruments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2201 200",
+    "SortCode": 158,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Other financial instruments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 000",
+    "SortCode": 159,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Financial Liabilities measured at amortized cost",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 100",
+    "SortCode": 160,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Governments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 200",
+    "SortCode": 161,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Central banks",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 300",
+    "SortCode": 162,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 693281.57
+  },
+  {
+    "CoaCode": "2202 400",
+    "SortCode": 163,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Other Financial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 500",
+    "SortCode": 164,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Public Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 600",
+    "SortCode": 165,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Other Nonfinancial Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 700",
+    "SortCode": 166,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Households",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2202 900",
+    "SortCode": 167,
+    "Section": "FINANCIAL LIABILITIES",
+    "RowDescription": "Other",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 168,
+    "Section": "DERIVATIVES FINANCIAL LIABILITIES",
+    "RowDescription": "DERIVATIVES FINANCIAL LIABILITIES",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2301 000",
+    "SortCode": 169,
+    "Section": "DERIVATIVES FINANCIAL LIABILITIES",
+    "RowDescription": "Derivatives Held For Trading",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2302 000",
+    "SortCode": 170,
+    "Section": "DERIVATIVES FINANCIAL LIABILITIES",
+    "RowDescription": "Derivatives Held For Hedging",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2302 100",
+    "SortCode": 171,
+    "Section": "DERIVATIVES FINANCIAL LIABILITIES",
+    "RowDescription": "Fair value hedges",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2302 200",
+    "SortCode": 172,
+    "Section": "DERIVATIVES FINANCIAL LIABILITIES",
+    "RowDescription": "Cash flow hedges",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2302 300",
+    "SortCode": 173,
+    "Section": "DERIVATIVES FINANCIAL LIABILITIES",
+    "RowDescription": "Hedge of net investments in foreign operations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 174,
+    "Section": "INTERBANK FUNDS - BOUGHT",
+    "RowDescription": "INTERBANK FUNDS - BOUGHT",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2403 000",
+    "SortCode": 175,
+    "Section": "INTERBANK FUNDS - BOUGHT",
+    "RowDescription": "Other Depository Corporations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2500 000",
+    "SortCode": 176,
+    "Section": "BANKERS' LIABILITY FOR ACCEPTANCES",
+    "RowDescription": "Bankers' Liability for Acceptances",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 177,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": " OTHER LIABILITIES",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2601 000",
+    "SortCode": 178,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Accrued and Unpaid Expenses",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2602 000",
+    "SortCode": 179,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Taxes Payable",
+    "Resident AFL": 1190349.17,
+    "Resident FC": 4001.24,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2603 000",
+    "SortCode": 180,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Accounts Payable",
+    "Resident AFL": 904476.36,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2604 000",
+    "SortCode": 181,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Accrued Interest Payable",
+    "Resident AFL": 5406.97,
+    "Resident FC": 0,
+    "Non Resident AFL": 105.66,
+    "Non Resident FC": 1719.68
+  },
+  {
+    "CoaCode": "2605 000",
+    "SortCode": 182,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Deferred Tax Liabilities and All other Provisions:",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2605 100",
+    "SortCode": 183,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Deferred Tax Liabilities",
+    "Resident AFL": 3271945.7,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2605 200",
+    "SortCode": 184,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "All other Provisions",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2606 000",
+    "SortCode": 185,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Dividends Payable",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2607 000",
+    "SortCode": 186,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "All Other Liabilities",
+    "Resident AFL": 1930636.51,
+    "Resident FC": 234.96,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 160698.59
+  },
+  {
+    "CoaCode": "2608 000",
+    "SortCode": 187,
+    "Section": " OTHER LIABILITIES",
+    "RowDescription": "Items in suspense",
+    "Resident AFL": 21193.14,
+    "Resident FC": 1662751.65,
+    "Non Resident AFL": 957128.98,
+    "Non Resident FC": 2526401.45
+  },
+  {
+    "CoaCode": "2700 000",
+    "SortCode": 188,
+    "Section": "LIABILITY INCLUDED IN DISPOSAL GROUPS CLASSIFIED AS HELD FOR SALE",
+    "RowDescription": "Liability include in disposal groups classified as Held for Sale",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 189,
+    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "RowDescription": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2801 000",
+    "SortCode": 190,
+    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "RowDescription": "Subordinated Debentures",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2801 100",
+    "SortCode": 191,
+    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "RowDescription": "Qualifying as Secondary Capital",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2801 200",
+    "SortCode": 192,
+    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "RowDescription": "Not Qualifying as Secondary Capital",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "2802 000",
+    "SortCode": 193,
+    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "RowDescription": "Limited Life Redeemable Preference Shares",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": null,
+    "SortCode": 194,
+    "Section": "SHAREHOLDERS' EQUITY",
+    "RowDescription": "SHAREHOLDERS' EQUITY",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3101 000",
+    "SortCode": 195,
+    "Section": "SHAREHOLDERS' EQUITY",
+    "RowDescription": "Share Capital",
+    "Resident AFL": 75000000,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3102 000",
+    "SortCode": 196,
+    "Section": "SHAREHOLDERS' EQUITY",
+    "RowDescription": "Share Premium",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 000",
+    "SortCode": 197,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Revaluation and Regulatory Reserves",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 100",
+    "SortCode": 198,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Revaluation Reserves",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 110",
+    "SortCode": 199,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Hedge of net investments in foreign operations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 120",
+    "SortCode": 200,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Cash flow Hedges",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 130",
+    "SortCode": 201,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Changes in fair value of equity investments measured at fair value that is not held for trading",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 140",
+    "SortCode": 202,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Changes in fair value of financial liabilities designated as at fair value through profit or loss attributable to changes in credit risk",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 150",
+    "SortCode": 203,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Revaluation Reserves Property Plant and Equipment",
+    "Resident AFL": 5514202.37,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 160",
+    "SortCode": 204,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Revaluation Reserves Intangible Assets",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 170",
+    "SortCode": 205,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Revaluation Reserves of Investment Properties",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 180",
+    "SortCode": 206,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Unrealized Reserves for Available for Sale Investments",
+    "Resident AFL": 714539,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 200",
+    "SortCode": 207,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Regulatory Reserves",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 210",
+    "SortCode": 208,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Regulatory Reserves for Investments",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 220",
+    "SortCode": 209,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Regulatory Reserves for Loans",
+    "Resident AFL": 5289661.18,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3103 230",
+    "SortCode": 210,
+    "Section": "Revaluation and Regulatory Reserves",
+    "RowDescription": "Regulatory Reserves for Other Assets",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3104 000",
+    "SortCode": 211,
+    "Section": "Other Reserves",
+    "RowDescription": "Other Reserves",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3104 100",
+    "SortCode": 212,
+    "Section": "Other Reserves",
+    "RowDescription": "Foreign Currency Translation Reserve",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3104 200",
+    "SortCode": 213,
+    "Section": "Other Reserves",
+    "RowDescription": "Statutory Reserves",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3104 300",
+    "SortCode": 214,
+    "Section": "Other Reserves",
+    "RowDescription": "Non-current assets held for sale and discontinued operations",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3104 400",
+    "SortCode": 215,
+    "Section": "Other Reserves",
+    "RowDescription": "Reserves of investments in entities accounted for using the equity method",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3104 500",
+    "SortCode": 216,
+    "Section": "Other Reserves",
+    "RowDescription": "All Other Reserves",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3105 000",
+    "SortCode": 217,
+    "Section": "Retained Earnings",
+    "RowDescription": "Retained Earnings",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3105 100",
+    "SortCode": 218,
+    "Section": "Retained Earnings",
+    "RowDescription": "Retained earnings after dividends declared",
+    "Resident AFL": 10108578.16,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3105 200",
+    "SortCode": 219,
+    "Section": "Retained Earnings",
+    "RowDescription": "Net income current period",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3105 300",
+    "SortCode": 220,
+    "Section": "Retained Earnings",
+    "RowDescription": "Less: Transfers to/ (from) Regulatory reserves",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  },
+  {
+    "CoaCode": "3200 000",
+    "SortCode": 221,
+    "Section": "NON-CONTROLLING INTEREST",
+    "RowDescription": "Non-Controlling Interest",
+    "Resident AFL": 0,
+    "Resident FC": 0,
+    "Non Resident AFL": 0,
+    "Non Resident FC": 0
+  }
+]
