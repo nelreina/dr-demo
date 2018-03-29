@@ -27,6 +27,7 @@
     "parcel-bundler": "^1.6.2"
   },
   "scripts": {
+    "start": "node src/app.js",
     "dev": "nodemon --watch src src/app.js",
     "import": "nodemon --watch src src/import-data-2-redis.js"
   }
