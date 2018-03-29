@@ -5,6 +5,7 @@
   "author": "Nelson Reina <nelreina@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "accounting": "^0.4.1",
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
