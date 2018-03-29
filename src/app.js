@@ -1,10 +1,7 @@
 const express = require('express');
-const path = require('path');
-const redis = require('redis');
-const methodOverride = require('method-override');
+const { createClient } = require('then-redis');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const { promisify } = require('util');
 require('dotenv').config();
 const PORT = process.env.PORT;
 
@@ -17,49 +14,19 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Redis Client
 
-const client = redis.createClient();
-const hgetAllAsync = promisify(client.hgetall).bind(client);
-const hsetAsync = promisify(client.hmset).bind(client);
+const client = createClient();
 
 client.on('connect', () => console.log('Connected to redis...'));
 
-// Method Override (to be able to send delete request)
-app.use(methodOverride('_method'));
-
-// some simple routes
-app.get('/api/ping', (req, res) => {
-  res.json({ message: 'PONG' });
-});
-
-app.get('/api/search/:id', async (req, res) => {
+app.get('/api/:key', async (req, res) => {
   try {
-    const { id } = req.params;
-    const user = await hgetAllAsync(id);
-    if (user) {
-      res.json(user);
+    const { key } = req.params;
+    const data = await client.get(key);
+    if (data) {
+      res.json(JSON.parse(data));
     } else {
-      res.json({ message: `User with id \"${id}\" not found!` });
+      res.json({ message: `No data found!` });
     }
-  } catch (error) {
-    console.error(error);
-    res.send('Error occured on the server!');
-  }
-});
-
-app.post('/api/add-user', async (req, res) => {
-  const fields = [];
-  const keys = Object.keys(req.body);
-  keys.forEach(k => {
-    if (k !== 'id') {
-      fields.push(k);
-      fields.push(req.body[k]);
-    }
-  });
-
-  const { id } = req.body;
-  try {
-    const resp = await hsetAsync(id, fields);
-    res.json(resp);
   } catch (error) {
     console.error(error);
     res.send('Error occured on the server!');
