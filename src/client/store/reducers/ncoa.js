@@ -10,7 +10,7 @@ const initialState = {};
 
 export const fetchNcoa = id => async dispatch => {
   dispatch({ type: FETCHING });
-  const payload = await get(`/api/ncoa${id}`);
+  const payload = await get(`/api/${id}`);
   dispatch({
     type: FETCH_SUCCESS,
     payload

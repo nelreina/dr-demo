@@ -50375,114 +50375,39 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Reports = function Reports(props) {
-  return _react2.default.createElement(
-    'h3',
-    null,
-    'Reports'
-  );
-};
-exports.default = Reports;
-},{"react":4}],3:[function(require,module,exports) {
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-var _lodash = require('lodash');
-
-var _periods = require('./store/reducers/periods');
-
-var periodsActions = _interopRequireWildcard(_periods);
-
-var _reports = require('./store/reducers/reports');
-
-var reportsActions = _interopRequireWildcard(_reports);
-
 var _reactRedux = require('react-redux');
 
 var _reactRouterDom = require('react-router-dom');
 
-var _Dashboard = require('./views/Dashboard');
-
-var _Dashboard2 = _interopRequireDefault(_Dashboard);
-
-var _Reports = require('./views/Reports');
-
-var _Reports2 = _interopRequireDefault(_Reports);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var Reports = function Reports(props) {
+  var list = props.list,
+      periodId = props.periodId,
+      path = props.match.path;
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var App = function (_Component) {
-  _inherits(App, _Component);
-
-  function App() {
-    _classCallCheck(this, App);
-
-    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
-  }
-
-  _createClass(App, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {
-      this.props.fetchPeriods();
-      this.props.fetchReports();
-    }
-  }, {
-    key: 'render',
-    value: function render() {
+  return _react2.default.createElement(
+    'div',
+    { className: 'list-group' },
+    list.map(function (report, key) {
       return _react2.default.createElement(
-        'div',
-        { className: 'container' },
+        _reactRouterDom.Link,
+        { className: 'list-group-item', key: key, to: path + '/' + report },
         _react2.default.createElement(
-          'div',
-          { className: 'nav' },
-          _react2.default.createElement(
-            _reactRouterDom.NavLink,
-            { to: '/' },
-            'Dashboard'
-          ),
-          _react2.default.createElement(
-            _reactRouterDom.NavLink,
-            { to: '/reports' },
-            'Reports'
-          )
-        ),
-        _react2.default.createElement(
-          _reactRouterDom.Switch,
+          'h5',
           null,
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/', exact: true, component: _Dashboard2.default }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/reports', exact: true, component: _Reports2.default })
+          report
         )
       );
-    }
-  }]);
-
-  return App;
-}(_react.Component);
-
-var actions = (0, _lodash.assign)({}, periodsActions, reportsActions);
-exports.default = (0, _reactRouterDom.withRouter)((0, _reactRedux.connect)(function (state) {
-  return state;
-}, actions)(App));
-},{"react":4,"lodash":373,"./store/reducers/periods":367,"./store/reducers/reports":380,"react-redux":350,"react-router-dom":383,"./views/Dashboard":428,"./views/Reports":429}],381:[function(require,module,exports) {
+    })
+  );
+};
+exports.default = (0, _reactRedux.connect)(function (state) {
+  return {
+    list: state.reports.data ? state.reports.data : []
+  };
+})(Reports);
+},{"react":4,"react-redux":350,"react-router-dom":383}],381:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -50515,7 +50440,7 @@ var fetchNcoa = exports.fetchNcoa = function fetchNcoa(id) {
             case 0:
               dispatch({ type: FETCHING });
               _context.next = 3;
-              return get('/api/ncoa' + id);
+              return get('/api/' + id);
 
             case 3:
               payload = _context.sent;
@@ -50561,7 +50486,211 @@ exports.default = function () {
       return state;
   }
 };
-},{"nelreina-web-utils":199,"lodash":373}],355:[function(require,module,exports) {
+},{"nelreina-web-utils":199,"lodash":373}],430:[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = require('react-redux');
+
+var _ncoa = require('../store/reducers/ncoa');
+
+var actions = _interopRequireWildcard(_ncoa);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Report = function (_Component) {
+  _inherits(Report, _Component);
+
+  function Report() {
+    _classCallCheck(this, Report);
+
+    return _possibleConstructorReturn(this, (Report.__proto__ || Object.getPrototypeOf(Report)).apply(this, arguments));
+  }
+
+  _createClass(Report, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var _props = this.props,
+          params = _props.match.params,
+          periodId = _props.periodId;
+
+      var id = periodId + ' - ' + params.id;
+      this.props.fetchNcoa(id);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props2 = this.props,
+          params = _props2.match.params,
+          data = _props2.data;
+
+      var reportName = params.id;
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'h3',
+          null,
+          reportName
+        ),
+        _react2.default.createElement(
+          'pre',
+          null,
+          JSON.stringify(data, null, 2)
+        )
+      );
+    }
+  }]);
+
+  return Report;
+}(_react.Component);
+
+var msp = function msp(state) {
+  return {
+    data: state.ncoa.data ? state.ncoa.data : [],
+    periodId: state.periods.activePeriod ? state.periods.activePeriod.id : null
+  };
+};
+exports.default = (0, _reactRedux.connect)(msp, actions)(Report);
+},{"react":4,"react-redux":350,"../store/reducers/ncoa":381}],3:[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _lodash = require('lodash');
+
+var _periods = require('./store/reducers/periods');
+
+var periodsActions = _interopRequireWildcard(_periods);
+
+var _reports = require('./store/reducers/reports');
+
+var reportsActions = _interopRequireWildcard(_reports);
+
+var _reactRedux = require('react-redux');
+
+var _reactRouterDom = require('react-router-dom');
+
+var _Dashboard = require('./views/Dashboard');
+
+var _Dashboard2 = _interopRequireDefault(_Dashboard);
+
+var _Reports = require('./views/Reports');
+
+var _Reports2 = _interopRequireDefault(_Reports);
+
+var _Report = require('./views/Report');
+
+var _Report2 = _interopRequireDefault(_Report);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var App = function (_Component) {
+  _inherits(App, _Component);
+
+  function App() {
+    _classCallCheck(this, App);
+
+    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));
+  }
+
+  _createClass(App, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.props.fetchPeriods();
+      this.props.fetchReports();
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'container' },
+        _react2.default.createElement(
+          'ul',
+          { className: 'nav justify-content-center' },
+          _react2.default.createElement(
+            'li',
+            { className: 'nav-item' },
+            _react2.default.createElement(
+              _reactRouterDom.NavLink,
+              { className: 'nav-link', to: '/' },
+              'Dashboard'
+            )
+          ),
+          _react2.default.createElement(
+            'li',
+            { className: 'nav-item' },
+            _react2.default.createElement(
+              _reactRouterDom.NavLink,
+              { className: 'nav-link', to: '/reports' },
+              'Reports'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _reactRouterDom.Switch,
+          null,
+          _react2.default.createElement(_reactRouterDom.Route, { path: '/', exact: true, component: _Dashboard2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { path: '/reports', exact: true, component: _Reports2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, { path: '/reports/:id', exact: true, component: _Report2.default }),
+          _react2.default.createElement(_reactRouterDom.Route, {
+            render: function render(props) {
+              return _react2.default.createElement(
+                'h3',
+                null,
+                'Path ',
+                props.location.pathname,
+                ' not found'
+              );
+            }
+          })
+        )
+      );
+    }
+  }]);
+
+  return App;
+}(_react.Component);
+
+var actions = (0, _lodash.assign)({}, periodsActions, reportsActions);
+exports.default = (0, _reactRouterDom.withRouter)((0, _reactRedux.connect)(function (state) {
+  return state;
+}, actions)(App));
+},{"react":4,"lodash":373,"./store/reducers/periods":367,"./store/reducers/reports":380,"react-redux":350,"react-router-dom":383,"./views/Dashboard":428,"./views/Reports":429,"./views/Report":430}],355:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {

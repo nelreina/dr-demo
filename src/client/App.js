@@ -7,6 +7,7 @@ import { Switch, Route, withRouter, NavLink } from 'react-router-dom';
 
 import Dashboard from './views/Dashboard';
 import Reports from './views/Reports';
+import Report from './views/Report';
 class App extends Component {
   componentWillMount() {
     this.props.fetchPeriods();
@@ -16,13 +17,25 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="nav">
-          <NavLink to="/">Dashboard</NavLink>
-          <NavLink to="/reports">Reports</NavLink>
-        </div>
+        <ul className="nav justify-content-center">
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/">
+              Dashboard
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/reports">
+              Reports
+            </NavLink>
+          </li>
+        </ul>
         <Switch>
           <Route path="/" exact component={Dashboard} />
           <Route path="/reports" exact component={Reports} />
+          <Route path="/reports/:id" exact component={Report} />
+          <Route
+            render={props => <h3>Path {props.location.pathname} not found</h3>}
+          />
         </Switch>
       </div>
     );

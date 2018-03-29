@@ -24,6 +24,7 @@ client.on('connect', () => console.log('Connected to redis...'));
 app.get('/api/:key', async (req, res) => {
   try {
     const { key } = req.params;
+    console.info(key);
     const data = await client.get(key);
     if (data) {
       res.json(JSON.parse(data));
