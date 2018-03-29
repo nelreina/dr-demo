@@ -4,10 +4,13 @@ const path = require('path');
 const { uniq } = require('lodash');
 
 const client = createClient();
-const loads = { 433: { period: 201801 }, 436: { period: 201802 } };
+const loads = {
+  433: { period: 201801, name: 'Jan 2018' },
+  436: { period: 201802, name: 'Feb 2018' }
+};
 client.on('connect', () => console.log('Connected to redis...'));
 client.set('loads', JSON.stringify(loads));
-const dataDir = path.resolve(__dirname, '../data');
+const dataDir = path.resolve(__dirname, '../../data');
 (async () => {
   const reports = [];
   fs.readdirSync(dataDir).forEach(function(file) {
