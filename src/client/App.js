@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
-import { api } from 'nelreina-web-utils';
-const { get } = api;
-export default class App extends Component {
-  state = {};
-  async componentWillMount() {
-    const data = await get('/api/433 - Balance Sheet');
-    this.setState({ data });
+import * as actions from './store/reducers/periods';
+import { connect } from 'react-redux';
+
+class App extends Component {
+  componentWillMount() {
+    this.props.fetchPeriods();
   }
+
   render() {
     return (
       <div>
-        <pre>{JSON.stringify(this.state, null, 2)}</pre>
+        <pre>{JSON.stringify(this.props, null, 2)}</pre>
       </div>
     );
   }
 }
+
+export default connect(state => state, actions)(App);
