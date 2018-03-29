@@ -12,7 +12,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <pre>{JSON.stringify(this.props, null, 2)}</pre>
       </div>
     );

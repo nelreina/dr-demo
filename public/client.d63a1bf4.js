@@ -43633,7 +43633,7 @@ exports.api = api;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.fetchPeriods = undefined;
+exports.setActivePeriod = exports.fetchPeriods = undefined;
 var _this = undefined;
 
 var _nelreinaWebUtils = require('nelreina-web-utils');
@@ -43645,6 +43645,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 var FETCHING = 'FETCHING_PERIODS';
 var FETCH_SUCCESS = 'FETCH_PERIODS_SUCCESS';
 var FETCH_ERROR = 'FETCH_PERIODS_ERROR';
+var SET_ACTIVE_PERIOD = 'SET_ACTIVE_PERIOD';
 
 var get = _nelreinaWebUtils.api.get;
 
@@ -43653,14 +43654,14 @@ var initialState = {};
 var fetchPeriods = exports.fetchPeriods = function fetchPeriods() {
   return function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(dispatch) {
-      var payload;
+      var payload, keys;
       return regeneratorRuntime.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
               dispatch({ type: FETCHING });
               _context.next = 3;
-              return get('/api/loads');
+              return get('/api/periods');
 
             case 3:
               payload = _context.sent;
@@ -43669,8 +43670,11 @@ var fetchPeriods = exports.fetchPeriods = function fetchPeriods() {
                 type: FETCH_SUCCESS,
                 payload: payload
               });
+              keys = Object.keys(payload);
 
-            case 5:
+              dispatch({ type: SET_ACTIVE_PERIOD, payload: payload[keys[0]] });
+
+            case 7:
             case 'end':
               return _context.stop();
           }
@@ -43682,6 +43686,13 @@ var fetchPeriods = exports.fetchPeriods = function fetchPeriods() {
       return _ref.apply(this, arguments);
     };
   }();
+};
+
+var setActivePeriod = exports.setActivePeriod = function setActivePeriod(period) {
+  return {
+    type: SET_ACTIVE_PERIOD,
+    payload: period
+  };
 };
 
 exports.default = function () {
@@ -43701,6 +43712,8 @@ exports.default = function () {
       return (0, _lodash.assign)({}, state, { error: false, fetching: true, data: [] });
     case FETCH_ERROR:
       return (0, _lodash.assign)({}, state, { error: true, message: payload, data: [] });
+    case SET_ACTIVE_PERIOD:
+      return (0, _lodash.assign)({}, state, { activePeriod: payload });
 
     default:
       return state;
@@ -45731,7 +45744,7 @@ var App = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
+        { className: 'container' },
         _react2.default.createElement(
           'pre',
           null,
@@ -46089,7 +46102,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   { store: _store2.default },
   _react2.default.createElement(_App2.default, null)
 ), document.querySelector('#root'));
-},{"core-js/modules/es6.typed.array-buffer":7,"core-js/modules/es6.typed.int8-array":6,"core-js/modules/es6.typed.uint8-array":8,"core-js/modules/es6.typed.uint8-clamped-array":9,"core-js/modules/es6.typed.int16-array":10,"core-js/modules/es6.typed.uint16-array":11,"core-js/modules/es6.typed.int32-array":12,"core-js/modules/es6.typed.uint32-array":13,"core-js/modules/es6.typed.float32-array":14,"core-js/modules/es6.typed.float64-array":15,"core-js/modules/es6.map":16,"core-js/modules/es6.set":17,"core-js/modules/es6.weak-map":18,"core-js/modules/es6.weak-set":19,"core-js/modules/es6.reflect.apply":20,"core-js/modules/es6.reflect.construct":21,"core-js/modules/es6.reflect.define-property":22,"core-js/modules/es6.reflect.delete-property":23,"core-js/modules/es6.reflect.get":24,"core-js/modules/es6.reflect.get-own-property-descriptor":25,"core-js/modules/es6.reflect.get-prototype-of":26,"core-js/modules/es6.reflect.has":27,"core-js/modules/es6.reflect.is-extensible":28,"core-js/modules/es6.reflect.own-keys":29,"core-js/modules/es6.reflect.prevent-extensions":30,"core-js/modules/es6.reflect.set":31,"core-js/modules/es6.reflect.set-prototype-of":32,"core-js/modules/es6.promise":33,"core-js/modules/es6.symbol":34,"core-js/modules/es6.object.freeze":35,"core-js/modules/es6.object.seal":36,"core-js/modules/es6.object.prevent-extensions":37,"core-js/modules/es6.object.is-frozen":38,"core-js/modules/es6.object.is-sealed":39,"core-js/modules/es6.object.is-extensible":40,"core-js/modules/es6.object.get-own-property-descriptor":41,"core-js/modules/es6.object.get-prototype-of":42,"core-js/modules/es6.object.keys":43,"core-js/modules/es6.object.get-own-property-names":44,"core-js/modules/es6.object.assign":45,"core-js/modules/es6.object.is":46,"core-js/modules/es6.object.set-prototype-of":47,"core-js/modules/es6.function.name":48,"core-js/modules/es6.string.raw":49,"core-js/modules/es6.string.from-code-point":51,"core-js/modules/es6.string.code-point-at":50,"core-js/modules/es6.string.repeat":52,"core-js/modules/es6.string.starts-with":53,"core-js/modules/es6.string.ends-with":54,"core-js/modules/es6.string.includes":55,"core-js/modules/es6.regexp.flags":56,"core-js/modules/es6.regexp.match":58,"core-js/modules/es6.regexp.replace":57,"core-js/modules/es6.regexp.split":59,"core-js/modules/es6.regexp.search":60,"core-js/modules/es6.array.from":61,"core-js/modules/es6.array.of":62,"core-js/modules/es6.array.copy-within":63,"core-js/modules/es6.array.find":65,"core-js/modules/es6.array.find-index":64,"core-js/modules/es6.array.fill":67,"core-js/modules/es6.array.iterator":66,"core-js/modules/es6.number.is-finite":68,"core-js/modules/es6.number.is-integer":69,"core-js/modules/es6.number.is-safe-integer":70,"core-js/modules/es6.number.is-nan":71,"core-js/modules/es6.number.epsilon":72,"core-js/modules/es6.number.min-safe-integer":73,"core-js/modules/es6.number.max-safe-integer":74,"core-js/modules/es6.math.acosh":75,"core-js/modules/es6.math.asinh":76,"core-js/modules/es6.math.atanh":77,"core-js/modules/es6.math.cbrt":78,"core-js/modules/es6.math.clz32":79,"core-js/modules/es6.math.cosh":80,"core-js/modules/es6.math.expm1":81,"core-js/modules/es6.math.fround":82,"core-js/modules/es6.math.hypot":83,"core-js/modules/es6.math.imul":84,"core-js/modules/es6.math.log1p":85,"core-js/modules/es6.math.log10":86,"core-js/modules/es6.math.log2":87,"core-js/modules/es6.math.sign":88,"core-js/modules/es6.math.sinh":89,"core-js/modules/es6.math.tanh":90,"core-js/modules/es6.math.trunc":91,"core-js/modules/es7.array.includes":92,"core-js/modules/es7.object.values":93,"core-js/modules/es7.object.entries":94,"core-js/modules/es7.object.get-own-property-descriptors":95,"core-js/modules/es7.string.pad-start":96,"core-js/modules/es7.string.pad-end":97,"core-js/modules/web.timers":98,"core-js/modules/web.immediate":99,"core-js/modules/web.dom.iterable":100,"regenerator-runtime/runtime":101,"react":4,"react-dom":5,"./App":3,"react-redux":350,"./store":351}],379:[function(require,module,exports) {
+},{"core-js/modules/es6.typed.array-buffer":7,"core-js/modules/es6.typed.int8-array":6,"core-js/modules/es6.typed.uint8-array":8,"core-js/modules/es6.typed.uint8-clamped-array":9,"core-js/modules/es6.typed.int16-array":10,"core-js/modules/es6.typed.uint16-array":11,"core-js/modules/es6.typed.int32-array":12,"core-js/modules/es6.typed.uint32-array":13,"core-js/modules/es6.typed.float32-array":14,"core-js/modules/es6.typed.float64-array":15,"core-js/modules/es6.map":16,"core-js/modules/es6.set":17,"core-js/modules/es6.weak-map":18,"core-js/modules/es6.weak-set":19,"core-js/modules/es6.reflect.apply":20,"core-js/modules/es6.reflect.construct":21,"core-js/modules/es6.reflect.define-property":22,"core-js/modules/es6.reflect.delete-property":23,"core-js/modules/es6.reflect.get":24,"core-js/modules/es6.reflect.get-own-property-descriptor":25,"core-js/modules/es6.reflect.get-prototype-of":26,"core-js/modules/es6.reflect.has":27,"core-js/modules/es6.reflect.is-extensible":28,"core-js/modules/es6.reflect.own-keys":29,"core-js/modules/es6.reflect.prevent-extensions":30,"core-js/modules/es6.reflect.set":31,"core-js/modules/es6.reflect.set-prototype-of":32,"core-js/modules/es6.promise":33,"core-js/modules/es6.symbol":34,"core-js/modules/es6.object.freeze":35,"core-js/modules/es6.object.seal":36,"core-js/modules/es6.object.prevent-extensions":37,"core-js/modules/es6.object.is-frozen":38,"core-js/modules/es6.object.is-sealed":39,"core-js/modules/es6.object.is-extensible":40,"core-js/modules/es6.object.get-own-property-descriptor":41,"core-js/modules/es6.object.get-prototype-of":42,"core-js/modules/es6.object.keys":43,"core-js/modules/es6.object.get-own-property-names":44,"core-js/modules/es6.object.assign":45,"core-js/modules/es6.object.is":46,"core-js/modules/es6.object.set-prototype-of":47,"core-js/modules/es6.function.name":48,"core-js/modules/es6.string.raw":49,"core-js/modules/es6.string.from-code-point":51,"core-js/modules/es6.string.code-point-at":50,"core-js/modules/es6.string.repeat":52,"core-js/modules/es6.string.starts-with":53,"core-js/modules/es6.string.ends-with":54,"core-js/modules/es6.string.includes":55,"core-js/modules/es6.regexp.flags":56,"core-js/modules/es6.regexp.match":58,"core-js/modules/es6.regexp.replace":57,"core-js/modules/es6.regexp.split":59,"core-js/modules/es6.regexp.search":60,"core-js/modules/es6.array.from":61,"core-js/modules/es6.array.of":62,"core-js/modules/es6.array.copy-within":63,"core-js/modules/es6.array.find":65,"core-js/modules/es6.array.find-index":64,"core-js/modules/es6.array.fill":67,"core-js/modules/es6.array.iterator":66,"core-js/modules/es6.number.is-finite":68,"core-js/modules/es6.number.is-integer":69,"core-js/modules/es6.number.is-safe-integer":70,"core-js/modules/es6.number.is-nan":71,"core-js/modules/es6.number.epsilon":72,"core-js/modules/es6.number.min-safe-integer":73,"core-js/modules/es6.number.max-safe-integer":74,"core-js/modules/es6.math.acosh":75,"core-js/modules/es6.math.asinh":76,"core-js/modules/es6.math.atanh":77,"core-js/modules/es6.math.cbrt":78,"core-js/modules/es6.math.clz32":79,"core-js/modules/es6.math.cosh":80,"core-js/modules/es6.math.expm1":81,"core-js/modules/es6.math.fround":82,"core-js/modules/es6.math.hypot":83,"core-js/modules/es6.math.imul":84,"core-js/modules/es6.math.log1p":85,"core-js/modules/es6.math.log10":86,"core-js/modules/es6.math.log2":87,"core-js/modules/es6.math.sign":88,"core-js/modules/es6.math.sinh":89,"core-js/modules/es6.math.tanh":90,"core-js/modules/es6.math.trunc":91,"core-js/modules/es7.array.includes":92,"core-js/modules/es7.object.values":93,"core-js/modules/es7.object.entries":94,"core-js/modules/es7.object.get-own-property-descriptors":95,"core-js/modules/es7.string.pad-start":96,"core-js/modules/es7.string.pad-end":97,"core-js/modules/web.timers":98,"core-js/modules/web.immediate":99,"core-js/modules/web.dom.iterable":100,"regenerator-runtime/runtime":101,"react":4,"react-dom":5,"./App":3,"react-redux":350,"./store":351}],382:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -46258,5 +46271,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[379,2])
+},{}]},{},[382,2])
 //# sourceMappingURL=/client.d63a1bf4.map
