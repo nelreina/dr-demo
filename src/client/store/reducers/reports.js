@@ -10,7 +10,7 @@ const initialState = {};
 
 export const fetchReports = () => async dispatch => {
   dispatch({ type: FETCHING });
-  const payload = await get(`/api/loads`);
+  const payload = await get(`/api/reports`);
   dispatch({
     type: FETCH_SUCCESS,
     payload
