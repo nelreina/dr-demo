@@ -4,7 +4,7 @@ const { get } = api;
 export default class App extends Component {
   state = {};
   async componentWillMount() {
-    const data = await get('/api/loads');
+    const data = await get('/api/433 - Balance Sheet');
     this.setState({ data });
   }
   render() {

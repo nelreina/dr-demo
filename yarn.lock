@@ -2816,9 +2816,13 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
-nelreina-web-utils@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/nelreina-web-utils/-/nelreina-web-utils-0.0.5.tgz#c0576f0700c117c8e12d65686e058e4a5309241c"
+nelreina-web-utils@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/nelreina-web-utils/-/nelreina-web-utils-0.0.6.tgz#b455c6822d4bccc012c5d9c365e7be0ec1d5b71a"
+  dependencies:
+    redux "^3.7.2"
+    redux-devtools-extension "^2.13.2"
+    redux-thunk "^2.2.0"
 
 nice-try@^1.0.4:
   version "1.0.4"

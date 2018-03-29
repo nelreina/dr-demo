@@ -12,7 +12,7 @@
     "express": "^4.16.2",
     "lodash": "^4.17.5",
     "method-override": "^2.3.10",
-    "nelreina-web-utils": "^0.0.5",
+    "nelreina-web-utils": "^0.0.6",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
@@ -32,8 +32,8 @@
   },
   "scripts": {
     "start": "node src/app.js",
-    "serve": "nodemon --watch src src/app.js",
-    "client": "parcel watch client/index.html -d public",
-    "import": "nodemon --watch src src/import-dat-2-redis.js"
+    "serve": "nodemon --watch src/server src/server/app.js",
+    "client": "parcel watch src/client/index.html -d public",
+    "import": "nodemon --watch src/server src/server/import-dat-2-redis.js"
   }
 }

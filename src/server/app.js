@@ -8,7 +8,7 @@ const PORT = process.env.PORT;
 
 const app = express();
 app.use(cors());
-app.use(express.static(path.resolve(__dirname, '../public')));
+app.use(express.static(path.resolve(__dirname, '../../public')));
 // Body Parser initi
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
