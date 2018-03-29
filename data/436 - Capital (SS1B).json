@@ -4,6 +4,9 @@
     "SortCode": 1,
     "Section": "TIER I CAPITAL",
     "RowDescription": "Tier 1 Capital:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -13,6 +16,9 @@
     "SortCode": 2,
     "Section": "TIER I CAPITAL",
     "RowDescription": "Share Capital",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 75000000,
     "%": "100%",
     "CAPITAL BASE": 75000000
@@ -22,6 +28,9 @@
     "SortCode": 3,
     "Section": "TIER I CAPITAL",
     "RowDescription": "Share Premium",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -31,6 +40,9 @@
     "SortCode": 4,
     "Section": "TIER I CAPITAL",
     "RowDescription": "Other reserves",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -40,6 +52,9 @@
     "SortCode": 5,
     "Section": "TIER I CAPITAL",
     "RowDescription": "Retained Earnings",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 10108578.16,
     "%": "100%",
     "CAPITAL BASE": 10108578.16
@@ -49,6 +64,9 @@
     "SortCode": 6,
     "Section": "TIER I CAPITAL",
     "RowDescription": "Non-controlling Interest",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -58,6 +76,9 @@
     "SortCode": 7,
     "Section": "TIER I CAPITAL",
     "RowDescription": "Tier 1 Capital (= sum of rows 10 through 50)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -67,6 +88,9 @@
     "SortCode": 8,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Deductions from Tier 1 Capital:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -76,6 +100,9 @@
     "SortCode": 9,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "I.  100% deductions:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -85,6 +112,9 @@
     "SortCode": 10,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Goodwill ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -94,6 +124,9 @@
     "SortCode": 11,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Intangible Assets with definite useful lives",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -103,6 +136,9 @@
     "SortCode": 12,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Disallowed deferred tax assets",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -112,6 +148,9 @@
     "SortCode": 13,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Disallowed unrealized gains on Financial Assets measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -121,6 +160,9 @@
     "SortCode": 14,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Disallowed unrealized gains on Financial Liabilities measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -130,6 +172,9 @@
     "SortCode": 15,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Shortfall in Tier 2 capital",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -139,6 +184,9 @@
     "SortCode": 16,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "II.   50/50 deductions of (significant) Investments:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -148,6 +196,9 @@
     "SortCode": 17,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Equity Investments in Banking; Securities and other Financial Entities (excl Insurance Companies)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "50%",
     "CAPITAL BASE": 0
@@ -157,6 +208,9 @@
     "SortCode": 18,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Other Regulatory Investments in Banking; Securities and other Financial Entities (excl Insurance Companies)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "50%",
     "CAPITAL BASE": 0
@@ -166,6 +220,9 @@
     "SortCode": 19,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Reciprocal Crossholdings designed to artificially inflate the capital position of the reporting institution",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -175,6 +232,9 @@
     "SortCode": 20,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Participation in Insurance Subsidiaries and significant minority investments in Insurance Entities (insurance undertakings; reinsurance undertakings; insurance holding companies)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "50%",
     "CAPITAL BASE": 0
@@ -184,6 +244,9 @@
     "SortCode": 21,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Other Regulatory Capital Investments in Insurance Subsidiaries and significant minority investments in Insurance Entities (insurance undertakings; reinsurance undertakings; insurance holding companies)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "50%",
     "CAPITAL BASE": 0
@@ -193,6 +256,9 @@
     "SortCode": 22,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Investments in Commercial Entities exceeding the materiality level ≥20%",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -202,6 +268,9 @@
     "SortCode": 23,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Total Deductions from Tier 1 Capital (= sum of rows 60 through 180)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -211,6 +280,9 @@
     "SortCode": 24,
     "Section": "DEDUCTIONS FROM TIER I CAPITAL",
     "RowDescription": "Net Tier 1 Capital (> 50% Total capital Base) (= rows 60 less 190)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -220,6 +292,9 @@
     "SortCode": 25,
     "Section": "TIER 2 CAPITAL",
     "RowDescription": "Tier 2 Capital:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -229,6 +304,9 @@
     "SortCode": 26,
     "Section": "TIER 2 CAPITAL",
     "RowDescription": "Revaluation reserves",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 6228741.37,
     "%": "100%",
     "CAPITAL BASE": 6228741.37
@@ -238,6 +316,9 @@
     "SortCode": 27,
     "Section": "TIER 2 CAPITAL",
     "RowDescription": "Regulatory reserves  ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 5289661.18,
     "%": "100%",
     "CAPITAL BASE": 5289661.18
@@ -247,6 +328,9 @@
     "SortCode": 28,
     "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES QUALIFYING AS TIER 2 CAPITAL:",
     "RowDescription": "Subordinated Debentures and limited life redeemable preference shares Qualifying as Tier 2 Capital:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -256,6 +340,9 @@
     "SortCode": 29,
     "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES QUALIFYING AS TIER 2 CAPITAL:",
     "RowDescription": "> 4 years",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -265,6 +352,9 @@
     "SortCode": 30,
     "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES QUALIFYING AS TIER 2 CAPITAL:",
     "RowDescription": "4 ≤ 3 years",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -274,6 +364,9 @@
     "SortCode": 31,
     "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES QUALIFYING AS TIER 2 CAPITAL:",
     "RowDescription": "3 ≤ 2 years",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -283,6 +376,9 @@
     "SortCode": 32,
     "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES QUALIFYING AS TIER 2 CAPITAL:",
     "RowDescription": "2 ≤ 1 years",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -292,6 +388,9 @@
     "SortCode": 33,
     "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES QUALIFYING AS TIER 2 CAPITAL:",
     "RowDescription": "≤ 1year",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -301,6 +400,9 @@
     "SortCode": 34,
     "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES QUALIFYING AS TIER 2 CAPITAL:",
     "RowDescription": "Total Subordinated Debentures and Limited life redeemable preference shares (Max 50% of net tier 1) (= sum of rows 230 through 270)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -310,6 +412,9 @@
     "SortCode": 35,
     "Section": null,
     "RowDescription": "Tier 2 Capital (= sum of rows 210; 220 and 280)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -319,6 +424,9 @@
     "SortCode": 36,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Adjustment on tier 2 capital (deduction of prudential filters):",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -328,6 +436,9 @@
     "SortCode": 37,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Revaluation Reserves Property Plant and Equipment",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -337,6 +448,9 @@
     "SortCode": 38,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Revaluation of intangible assets with indefinite useful life",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -346,6 +460,9 @@
     "SortCode": 39,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Revaluation of investment property ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -355,6 +472,9 @@
     "SortCode": 40,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Disallowed unrealized reserves for Available for Sale Investments",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -364,6 +484,9 @@
     "SortCode": 41,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Changes in fair value of equity investments measured at fair value that is not held for sale",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -373,6 +496,9 @@
     "SortCode": 42,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Changes in fair value of financial liabilities measured at fair value attributable to changes in credit risk",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -382,6 +508,9 @@
     "SortCode": 43,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Accumulated net/unrealized: gains (losses) on cash flow hedges",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "100%",
     "CAPITAL BASE": 0
@@ -391,6 +520,9 @@
     "SortCode": 44,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Total adjustment on Tier 2 capital (= sum of rows 300 through 360)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "",
     "CAPITAL BASE": 0
@@ -400,6 +532,9 @@
     "SortCode": 45,
     "Section": "ADJUSTMENT ON TIER 2 CAPITAL (DEDUCTION OF PRUDENTIAL FILTERS):",
     "RowDescription": "Adjusted Tier 2 Capital (= row 290 less 370)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "",
     "CAPITAL BASE": 0
@@ -409,6 +544,9 @@
     "SortCode": 46,
     "Section": "DEDUCTIONS FROM TIER 2 CAPITAL:",
     "RowDescription": "Deductions from Tier 2 Capital:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -418,6 +556,9 @@
     "SortCode": 47,
     "Section": "DEDUCTIONS FROM TIER 2 CAPITAL:",
     "RowDescription": " 50/50 deductions of (significant) Investments",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": "50%",
     "CAPITAL BASE": 0
@@ -427,6 +568,9 @@
     "SortCode": 48,
     "Section": null,
     "RowDescription": "Net Tier 2 Capital (max. 100% of Net Tier 1 Capital) (= rows 380 less 390)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -436,6 +580,9 @@
     "SortCode": 49,
     "Section": null,
     "RowDescription": "TOTAL  CAPITAL BASE (= sum of rows 200 and 400)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0
@@ -445,6 +592,9 @@
     "SortCode": 50,
     "Section": null,
     "RowDescription": "TOTAL  CAPITAL BASE (previous reporting period)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "AMOUNT": 0,
     "%": null,
     "CAPITAL BASE": 0

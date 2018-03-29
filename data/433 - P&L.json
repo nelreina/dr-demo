@@ -4,6 +4,9 @@
     "SortCode": 1,
     "Section": "INTEREST INCOME",
     "RowDescription": "INTEREST INCOME",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -12,6 +15,9 @@
     "SortCode": 2,
     "Section": "INTEREST INCOME",
     "RowDescription": "INTEREST INCOME ON DEPOSITS BALANCES AND ON INTERBANK FUNDS-SOLD",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -20,6 +26,9 @@
     "SortCode": 3,
     "Section": "INTEREST INCOME",
     "RowDescription": "Other Depository Corporations",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 117633.18
   },
@@ -28,6 +37,9 @@
     "SortCode": 4,
     "Section": "INTEREST INCOME",
     "RowDescription": "INTEREST INCOME ON INVESTMENTS",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -36,6 +48,9 @@
     "SortCode": 5,
     "Section": "INTEREST INCOME",
     "RowDescription": "Financial Assets measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -44,6 +59,9 @@
     "SortCode": 6,
     "Section": "INTEREST INCOME",
     "RowDescription": "Financial Assets measured at amortized cost",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -52,6 +70,9 @@
     "SortCode": 7,
     "Section": "INTEREST INCOME",
     "RowDescription": "Total Short Term debentures",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -60,6 +81,9 @@
     "SortCode": 8,
     "Section": "INTEREST INCOME",
     "RowDescription": "Total Long Term Debentures",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 2003152.18
   },
@@ -68,6 +92,9 @@
     "SortCode": 9,
     "Section": "INTEREST INCOME",
     "RowDescription": "DERIVATIVES HEDGE ACCOUNTING: INTEREST RATE RISK",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -76,6 +103,9 @@
     "SortCode": 10,
     "Section": "INTEREST INCOME",
     "RowDescription": "Time Deposits",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -84,6 +114,9 @@
     "SortCode": 11,
     "Section": "INTEREST INCOME",
     "RowDescription": "Central Banks",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -92,6 +125,9 @@
     "SortCode": 12,
     "Section": "INTEREST INCOME",
     "RowDescription": "Other Depository Corporations",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -100,6 +136,9 @@
     "SortCode": 13,
     "Section": "INTEREST INCOME",
     "RowDescription": "INTEREST INCOME ON LOANS",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -108,6 +147,9 @@
     "SortCode": 14,
     "Section": "INTEREST INCOME",
     "RowDescription": "Current Account Overdrafts",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 1402882.8
   },
@@ -116,6 +158,9 @@
     "SortCode": 15,
     "Section": "INTEREST INCOME",
     "RowDescription": "Term Loans",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 3885899.9
   },
@@ -124,6 +169,9 @@
     "SortCode": 16,
     "Section": "INTEREST INCOME",
     "RowDescription": "Mortgages",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 5144880.89
   },
@@ -132,6 +180,9 @@
     "SortCode": 17,
     "Section": "INTEREST INCOME",
     "RowDescription": "Finance Leases",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -140,6 +191,9 @@
     "SortCode": 18,
     "Section": "INTEREST INCOME",
     "RowDescription": "Other Loans",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 269304.22
   },
@@ -148,6 +202,9 @@
     "SortCode": 19,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "INTEREST EXPENSES",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -156,6 +213,9 @@
     "SortCode": 20,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Demand Deposits",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 202764.83
   },
@@ -164,6 +224,9 @@
     "SortCode": 21,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Savings Deposits",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 606953.98
   },
@@ -172,6 +235,9 @@
     "SortCode": 22,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Time Deposits",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 1692816.84
   },
@@ -180,6 +246,9 @@
     "SortCode": 23,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Financial Liabilities measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -188,6 +257,9 @@
     "SortCode": 24,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Debt Instruments",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -196,6 +268,9 @@
     "SortCode": 25,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Other financial liabilities",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -204,6 +279,9 @@
     "SortCode": 26,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Financial Liabilities measured at amortized cost",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -212,6 +290,9 @@
     "SortCode": 27,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "DERIVATIVES HEDGE ACCOUNTING: INTEREST RATE RISK",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -220,6 +301,9 @@
     "SortCode": 28,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Interbank Funds - Bought",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -228,6 +312,9 @@
     "SortCode": 29,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Other Depository Corporations",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -236,6 +323,9 @@
     "SortCode": 30,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Subordinated Debentures and Limited Life Redeemable Preference Shares",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -244,6 +334,9 @@
     "SortCode": 31,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Subordinated Debentures",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -252,6 +345,9 @@
     "SortCode": 32,
     "Section": "INTEREST EXPENSES",
     "RowDescription": "Limited Life Preferred Stock",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -260,6 +356,9 @@
     "SortCode": 33,
     "Section": "NET INTEREST INCOME",
     "RowDescription": "NET INTEREST INCOME",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -268,6 +367,9 @@
     "SortCode": 34,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "FEES AND COMMISSIONS INCOME",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -276,6 +378,9 @@
     "SortCode": 35,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Service Income",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -284,6 +389,9 @@
     "SortCode": 36,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Transfer Fees",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 313807.52
   },
@@ -292,6 +400,9 @@
     "SortCode": 37,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Withdrawal Fees",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 51452.58
   },
@@ -300,6 +411,9 @@
     "SortCode": 38,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Collections",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 7833.47
   },
@@ -308,6 +422,9 @@
     "SortCode": 39,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Securities Brokerage Activities",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -316,6 +433,9 @@
     "SortCode": 40,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Insurance Brokerage Activities",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 279030.26
   },
@@ -324,6 +444,9 @@
     "SortCode": 41,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Fees on loans",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 572413.21
   },
@@ -332,6 +455,9 @@
     "SortCode": 42,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Other",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 891202.23
   },
@@ -340,6 +466,9 @@
     "SortCode": 43,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Foreign Exchange Fees",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -348,6 +477,9 @@
     "SortCode": 44,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Fees on Contingent Liabilities",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -356,6 +488,9 @@
     "SortCode": 45,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Guarantees Issued",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 17568.06
   },
@@ -364,6 +499,9 @@
     "SortCode": 46,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Risk Participation",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -372,6 +510,9 @@
     "SortCode": 47,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Repo-style transactions",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -380,6 +521,9 @@
     "SortCode": 48,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Note issuance and revolving underwriting facilities",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -388,6 +532,9 @@
     "SortCode": 49,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "Commitments",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -396,6 +543,9 @@
     "SortCode": 50,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "All Other Contingent Liabilities",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -404,6 +554,9 @@
     "SortCode": 51,
     "Section": "FEES AND COMMISSIONS INCOME",
     "RowDescription": "All Other Fees and Commissions",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 16287.25
   },
@@ -412,6 +565,9 @@
     "SortCode": 52,
     "Section": "FEES AND COMMISSIONS EXPENSES",
     "RowDescription": "Fees and commissions Expense",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 58589.41
   },
@@ -420,6 +576,9 @@
     "SortCode": 53,
     "Section": "NET FEES AND COMMISSIONS",
     "RowDescription": "NET FEES AND COMMISSIONS",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -428,6 +587,9 @@
     "SortCode": 54,
     "Section": "DIVIDEND INCOME ON INVESTMENTS",
     "RowDescription": "DIVIDEND INCOME ON INVESTMENTS",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -436,6 +598,9 @@
     "SortCode": 55,
     "Section": "DIVIDEND INCOME ON INVESTMENTS",
     "RowDescription": "Financial Assets measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -444,6 +609,9 @@
     "SortCode": 56,
     "Section": "DIVIDEND INCOME ON INVESTMENTS",
     "RowDescription": "Equity Instruments",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -452,6 +620,9 @@
     "SortCode": 57,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Realized Gains /(Losses) on Financial Assets measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -460,6 +631,9 @@
     "SortCode": 58,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "(UN) REALIZED GAINS / (LOSSES) ON FINANCIAL ASSETS MEASURED AT FAIR VALUE",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -468,6 +642,9 @@
     "SortCode": 59,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Unrealized Gains /(Losses) on Financial Assets measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -476,6 +653,9 @@
     "SortCode": 60,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Unrealized Gains on Financial Assets measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -484,6 +664,9 @@
     "SortCode": 61,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Unrealized (Losses) on Financial Assets measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -492,6 +675,9 @@
     "SortCode": 62,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "(UN) REALIZED GAINS / (LOSSES) ON FINANCIAL LIABILITIES MEASURED AT FAIR VALUE",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -500,6 +686,9 @@
     "SortCode": 63,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Realized Gains / (Losses) on Financial Liabilities measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -508,6 +697,9 @@
     "SortCode": 64,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Unrealized Gains / (Losses) on Financial Liabilities measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -516,6 +708,9 @@
     "SortCode": 65,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Unrealized Gains on Financial Liabilities measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -524,6 +719,9 @@
     "SortCode": 66,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Unrealized (Losses) on Financial Liabilities measured at fair value",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -532,6 +730,9 @@
     "SortCode": 67,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "REALIZED GAINS / (LOSSES) ON FINANCIAL ASSETS AND LIABILITIES MEASURED AT AMORTIZED COST",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -540,6 +741,9 @@
     "SortCode": 68,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Short term debentures",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -548,6 +752,9 @@
     "SortCode": 69,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Long Term Debentures",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -556,6 +763,9 @@
     "SortCode": 70,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "SHARE OF THE PROFIT /(LOSS) OF INVESTMENTS IN ENTITIES ACCOUNTED FOR USING THE EQUITY METHOD",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -564,6 +774,9 @@
     "SortCode": 71,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "GAINS / (LOSSES) ON DERIVATIVES FINANCIAL ASSETS AND LIABILITIES",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -572,6 +785,9 @@
     "SortCode": 72,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Derivatives held for Trading",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -580,6 +796,9 @@
     "SortCode": 73,
     "Section": "(UN)REALIZED GAINS AND LOSSES",
     "RowDescription": "Derivatives held for Hedging",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -588,6 +807,9 @@
     "SortCode": 74,
     "Section": "GAINS / (LOSSES) ON FOREIGN CURRENCIES",
     "RowDescription": "Gains / (Losses) On Foreign Currencies",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 533612.44
   },
@@ -596,6 +818,9 @@
     "SortCode": 75,
     "Section": "PROFIT/(LOSS) FROM NON-CURRENT ASSETS AND DISPOSALS GROUPS CLASSIFIED AS HELD FOR SALE NOT QUALIFYING AS DISCONTINUED OPERATIONS",
     "RowDescription": "Profit/(Loss) From Non-Current Assets And Disposals Groups Classified As Held For Sale Not Qualifying As Discontinued Operations",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -604,6 +829,9 @@
     "SortCode": 76,
     "Section": "ALL OTHER INCOME",
     "RowDescription": "All Other Income",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 27869.55
   },
@@ -612,6 +840,9 @@
     "SortCode": 77,
     "Section": "PERSONNEL EXPENSES",
     "RowDescription": "Personnel Expenses",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 6869775.45
   },
@@ -620,6 +851,9 @@
     "SortCode": 78,
     "Section": "OCCUPANCY EXPENSES",
     "RowDescription": "Occupancy Expenses",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 1514622.69
   },
@@ -628,6 +862,9 @@
     "SortCode": 79,
     "Section": "PROVISION FOR / (RECOVERIES FROM) LOAN LOSSES",
     "RowDescription": "Provision For / (Recoveries From) Loan Losses",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 974999.97
   },
@@ -636,6 +873,9 @@
     "SortCode": 80,
     "Section": "IMPAIRMENT",
     "RowDescription": "IMPAIRMENT:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -644,6 +884,9 @@
     "SortCode": 81,
     "Section": "IMPAIRMENT",
     "RowDescription": "Financial Assets measured at amortized cost",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -652,6 +895,9 @@
     "SortCode": 82,
     "Section": "IMPAIRMENT",
     "RowDescription": "Financial Assets (Unquoted Equity)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -660,6 +906,9 @@
     "SortCode": 83,
     "Section": "IMPAIRMENT",
     "RowDescription": "Property plant and equipment",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -668,6 +917,9 @@
     "SortCode": 84,
     "Section": "IMPAIRMENT",
     "RowDescription": "Investment properties",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -676,6 +928,9 @@
     "SortCode": 85,
     "Section": "IMPAIRMENT",
     "RowDescription": "Investments in entities accounted for using the equity method",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -684,6 +939,9 @@
     "SortCode": 86,
     "Section": "IMPAIRMENT",
     "RowDescription": "Goodwill",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -692,6 +950,9 @@
     "SortCode": 87,
     "Section": "IMPAIRMENT",
     "RowDescription": "Other Non-Financial Assets",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -700,6 +961,9 @@
     "SortCode": 88,
     "Section": "ALL OTHER OPERATING EXPENSES",
     "RowDescription": "All Other Operating Expenses",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 1985789.43
   },
@@ -708,6 +972,9 @@
     "SortCode": 89,
     "Section": "OPERATING PROFIT",
     "RowDescription": "OPERATING PROFIT",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -716,6 +983,9 @@
     "SortCode": 90,
     "Section": "NON-CONTROLLING INTEREST IN PROFIT/ (LOSS) OF CONSOLIDATED SUBSIDIARIES",
     "RowDescription": "Non-Controlling Interest In Profit/ (Loss) Of Consolidated Subsidiaries",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -724,6 +994,9 @@
     "SortCode": 91,
     "Section": "NET INCOME AFTER NON-CONTROLLING INTEREST",
     "RowDescription": "NET INCOME AFTER NON-CONTROLLING INTEREST",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -732,6 +1005,9 @@
     "SortCode": 92,
     "Section": "LESS: APPLICABLE PROFIT TAXES",
     "RowDescription": "Less: Applicable Profit Taxes",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 405000
   },
@@ -740,6 +1016,9 @@
     "SortCode": 93,
     "Section": "NET INCOME FOR THE CURRENT PERIOD",
     "RowDescription": "NET INCOME FOR THE CURRENT PERIOD",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   },
@@ -748,6 +1027,9 @@
     "SortCode": 94,
     "Section": "NET INCOME FOR THE CURRENT PERIOD",
     "RowDescription": "Dividends Declared",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Resident": 0,
     "Non Resident": 0
   }

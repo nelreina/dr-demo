@@ -4,6 +4,9 @@
     "SortCode": 1,
     "Section": "CASH AND DEPOSIT BALANCES:",
     "RowDescription": "Cash and Deposit Balances:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -13,6 +16,9 @@
     "SortCode": 2,
     "Section": "CASH AND DEPOSIT BALANCES:",
     "RowDescription": "- Cash and Due from Central Banks  and ODCs",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 71805811.44,
     "% Risk": "0%",
     "Risk Weighted Assets ": 0
@@ -22,6 +28,9 @@
     "SortCode": 3,
     "Section": "CASH AND DEPOSIT BALANCES:",
     "RowDescription": "- Gold bullion",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "0%",
     "Risk Weighted Assets ": 0
@@ -31,6 +40,9 @@
     "SortCode": 4,
     "Section": "CASH AND DEPOSIT BALANCES:",
     "RowDescription": "- Cash items in process of collection and other cash items",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -40,6 +52,9 @@
     "SortCode": 5,
     "Section": "CASH AND DEPOSIT BALANCES:",
     "RowDescription": "Total Cash and Due from Banks",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -49,6 +64,9 @@
     "SortCode": 6,
     "Section": "Interbank Funds - Sold",
     "RowDescription": "Interbank Funds - Sold",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -58,6 +76,9 @@
     "SortCode": 7,
     "Section": "Claims on: (Aruban Governments or Central Bank;   - non-commercial PSEs of Aruba) denominated and funded in domestic currency ",
     "RowDescription": "Claims on: (Aruban Governments or Central Bank;   - non-commercial PSEs of Aruba) denominated and funded in domestic currency ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "0%",
     "Risk Weighted Assets ": 0
@@ -67,6 +88,9 @@
     "SortCode": 8,
     "Section": "Claims on: - foreign Governments and Central Banks:",
     "RowDescription": "Claims on: - foreign Governments and Central Banks:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -76,6 +100,9 @@
     "SortCode": 9,
     "Section": "Claims on: - foreign Governments and Central Banks:",
     "RowDescription": "with risk grade 1",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "0%",
     "Risk Weighted Assets ": 0
@@ -85,6 +112,9 @@
     "SortCode": 10,
     "Section": "Claims on: - foreign Governments and Central Banks:",
     "RowDescription": "with risk grade 2",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -94,6 +124,9 @@
     "SortCode": 11,
     "Section": "Claims on: - foreign Governments and Central Banks:",
     "RowDescription": "with risk grade 3",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -103,6 +136,9 @@
     "SortCode": 12,
     "Section": "Claims on: - foreign Governments and Central Banks:",
     "RowDescription": "with risk grade 4",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -112,6 +148,9 @@
     "SortCode": 13,
     "Section": "Claims on: - foreign Governments and Central Banks:",
     "RowDescription": "with risk grade 5",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "150%",
     "Risk Weighted Assets ": 0
@@ -121,6 +160,9 @@
     "SortCode": 14,
     "Section": "Claims on: - foreign Governments and Central Banks:",
     "RowDescription": "with risk grade 6",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -130,6 +172,9 @@
     "SortCode": 15,
     "Section": "Claims on: - foreign Governments with only ECA risk scores:",
     "RowDescription": "Claims on: - foreign Governments with only ECA risk scores:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -139,6 +184,9 @@
     "SortCode": 16,
     "Section": "Claims on: - foreign Governments with only ECA risk scores:",
     "RowDescription": "With ECA risk scores 0-1",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "0%",
     "Risk Weighted Assets ": 0
@@ -148,6 +196,9 @@
     "SortCode": 17,
     "Section": "Claims on: - foreign Governments with only ECA risk scores:",
     "RowDescription": "With ECA risk score 2",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -157,6 +208,9 @@
     "SortCode": 18,
     "Section": "Claims on: - foreign Governments with only ECA risk scores:",
     "RowDescription": "With ECA risk score 3",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -166,6 +220,9 @@
     "SortCode": 19,
     "Section": "Claims on: - foreign Governments with only ECA risk scores:",
     "RowDescription": "With ECA risk scores 4-6",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -175,6 +232,9 @@
     "SortCode": 20,
     "Section": "Claims on: - foreign Governments with only ECA risk scores:",
     "RowDescription": "With ECA risk score 7",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "150%",
     "Risk Weighted Assets ": 0
@@ -184,6 +244,9 @@
     "SortCode": 21,
     "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
     "RowDescription": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -193,6 +256,9 @@
     "SortCode": 22,
     "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
     "RowDescription": "Own  discretion",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "0%",
     "Risk Weighted Assets ": 0
@@ -202,6 +268,9 @@
     "SortCode": 23,
     "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
     "RowDescription": "Own  discretion",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -211,6 +280,9 @@
     "SortCode": 24,
     "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
     "RowDescription": "Own  discretion",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -220,6 +292,9 @@
     "SortCode": 25,
     "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
     "RowDescription": "Own  discretion",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -229,6 +304,9 @@
     "SortCode": 26,
     "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
     "RowDescription": "Own  discretion",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "150%",
     "Risk Weighted Assets ": 0
@@ -238,6 +316,9 @@
     "SortCode": 27,
     "Section": "Claims on: - foreign Governments or Central Banks denominated and funded in their foreign domestic currency;  - Certain foreign PSEs :",
     "RowDescription": "Own  discretion",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -247,6 +328,9 @@
     "SortCode": 28,
     "Section": "Claims on: - BIS; IMF; ECB and EC; -  highly rated MDBs:",
     "RowDescription": "Claims on: - BIS; IMF; ECB and EC; -  highly rated MDBs:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -256,6 +340,9 @@
     "SortCode": 29,
     "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
     "RowDescription": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -265,6 +352,9 @@
     "SortCode": 30,
     "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
     "RowDescription": "with risk grade 1",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -274,6 +364,9 @@
     "SortCode": 31,
     "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
     "RowDescription": "with risk grade 2",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -283,6 +376,9 @@
     "SortCode": 32,
     "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
     "RowDescription": "with risk grade 3",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -292,6 +388,9 @@
     "SortCode": 33,
     "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
     "RowDescription": "with risk grade 4",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -301,6 +400,9 @@
     "SortCode": 34,
     "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
     "RowDescription": "with risk grade 5",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "150%",
     "Risk Weighted Assets ": 0
@@ -310,6 +412,9 @@
     "SortCode": 35,
     "Section": "Claims on: MDBs; - non-commercial PSEs of Aruba in foreign currency; - Banks; with an original maturity of > 3 months; -  Other Financial Institution (excluding Insurance Companies) subject to supervisory and regulatory arrangements:",
     "RowDescription": "with risk grade 6",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -319,6 +424,9 @@
     "SortCode": 36,
     "Section": "Claims on Banks; being  with an original maturity of = 3 months:",
     "RowDescription": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -328,6 +436,9 @@
     "SortCode": 37,
     "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
     "RowDescription": "with risk grade 1",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -337,6 +448,9 @@
     "SortCode": 38,
     "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
     "RowDescription": "with risk grade 2",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -346,6 +460,9 @@
     "SortCode": 39,
     "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
     "RowDescription": "with risk grade 3",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -355,6 +472,9 @@
     "SortCode": 40,
     "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
     "RowDescription": "with risk grade 4",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -364,6 +484,9 @@
     "SortCode": 41,
     "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
     "RowDescription": "with risk grade 5",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "150%",
     "Risk Weighted Assets ": 0
@@ -373,6 +496,9 @@
     "SortCode": 42,
     "Section": "Claims on Banks; being  with an original maturity of ≤ 3 months:",
     "RowDescription": "with risk grade 6",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -382,6 +508,9 @@
     "SortCode": 43,
     "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
     "RowDescription": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -391,6 +520,9 @@
     "SortCode": 44,
     "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
     "RowDescription": "with risk grade 1",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "20%",
     "Risk Weighted Assets ": 0
@@ -400,6 +532,9 @@
     "SortCode": 45,
     "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
     "RowDescription": "with risk grade 2",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -409,6 +544,9 @@
     "SortCode": 46,
     "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
     "RowDescription": "with risk grades 3; 4",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -418,6 +556,9 @@
     "SortCode": 47,
     "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
     "RowDescription": "with risk grade 5",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "150%",
     "Risk Weighted Assets ": 0
@@ -427,6 +568,9 @@
     "SortCode": 48,
     "Section": "Claims on: Other Financial Institutions including Securities firms (but excluding Insurance Companies) not subject to supervisory and regulatory arrangements; - Corporates including Insurance Companies and commercial PSEs owned by the Government",
     "RowDescription": "with risk grade 6",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 23615884.3489,
     "% Risk": null,
     "Risk Weighted Assets ": 23588817.3989
@@ -436,6 +580,9 @@
     "SortCode": 49,
     "Section": "Claims on unrated Corporates (ONCs). Higher risk weight due to  a high default experience in Aruba ",
     "RowDescription": "Claims on unrated Corporates (ONCs). Higher risk weight due to  a high default experience in Aruba ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -445,6 +592,9 @@
     "SortCode": 50,
     "Section": "Claims in the Retail Portfolio ",
     "RowDescription": "Claims in the Retail Portfolio ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 47171089.3965,
     "% Risk": "100%",
     "Risk Weighted Assets ": 47171089.3965
@@ -454,6 +604,9 @@
     "SortCode": 51,
     "Section": "Residential Mortgage Loans:",
     "RowDescription": "Residential Mortgage Loans:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -463,6 +616,9 @@
     "SortCode": 52,
     "Section": "Residential Mortgage Loans:",
     "RowDescription": "- with LTV ratio between 50% up to and including 70% ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "50%",
     "Risk Weighted Assets ": 0
@@ -472,6 +628,9 @@
     "SortCode": 53,
     "Section": "Residential Mortgage Loans:",
     "RowDescription": "- with LTV ratio up to and including 50% ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "35%",
     "Risk Weighted Assets ": 0
@@ -481,6 +640,9 @@
     "SortCode": 54,
     "Section": "Residential Mortgage Loans:",
     "RowDescription": "Claims secured by commercial real estate and other mortgage execpt residential and past due mortgage loans",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 2778049.67,
     "% Risk": "100%",
     "Risk Weighted Assets ": 2778049.67
@@ -490,6 +652,9 @@
     "SortCode": 55,
     "Section": "Past Due Loans:",
     "RowDescription": "Past Due Loans:",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -499,6 +664,9 @@
     "SortCode": 56,
     "Section": "Past Due Loans:",
     "RowDescription": "- Retail Loans past due for more than 90 days (> 3 months)  with specific provisions according to  SR IV",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 350.7,
     "% Risk": "125%",
     "Risk Weighted Assets ": 438.375
@@ -508,6 +676,9 @@
     "SortCode": 57,
     "Section": "Past Due Loans:",
     "RowDescription": "- Residential Mortgages classified as Substandard, Doubtful and Loss",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 2205102.4518,
     "% Risk": "150%",
     "Risk Weighted Assets ": 3307653.6777
@@ -517,6 +688,9 @@
     "SortCode": 58,
     "Section": "Past Due Loans:",
     "RowDescription": "- All Other past due Loans classified as Substandard with specific provisions according to  supervisory directive on \"Loan Loss Provisioning\"",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 18017604.02,
     "% Risk": "125%",
     "Risk Weighted Assets ": 22522005.025
@@ -526,6 +700,9 @@
     "SortCode": 59,
     "Section": "Past Due Loans:",
     "RowDescription": "- All Other past due Loans classified as Doubtful or Loss with specific provisions according to  supervisory directive on \"Loan Loss Provisioning\"\r\n",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 1784703.17,
     "% Risk": "150%",
     "Risk Weighted Assets ": 2677054.755
@@ -535,6 +712,9 @@
     "SortCode": 60,
     "Section": "Total Claims  (= sum of rows 60 through 500)",
     "RowDescription": "Total Claims  (= sum of rows 60 through 500)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 457504.98,
     "% Risk": null,
     "Risk Weighted Assets ": 571881.225
@@ -544,6 +724,9 @@
     "SortCode": 61,
     "Section": "ASSETS",
     "RowDescription": "- Non-current assets held for sale and discontinued operations;  - Property, Plant and Equipment\r\n",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -553,6 +736,9 @@
     "SortCode": 62,
     "Section": "ASSETS",
     "RowDescription": "- All Other past due Loans classified as Doubtful or Loss as descibed in SR IV and for which the minimum specific provisions as indicated in SR IV have been set up",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 1137633.69,
     "% Risk": "100%",
     "Risk Weighted Assets ": 1137633.69
@@ -562,6 +748,9 @@
     "SortCode": 63,
     "Section": "ASSETS",
     "RowDescription": "- All Other past due Loans classified as Doubtful or Loss as descibed in SR IV but for which the( minimum) specific provisions as indicated in SR IV have not been set up",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 199896.44,
     "% Risk": null,
     "Risk Weighted Assets ": 39979.288
@@ -571,6 +760,9 @@
     "SortCode": 68,
     "Section": "ALL OTHERS",
     "RowDescription": "All other: Investments; Loans; Customers' Liability on Bankers' Acceptances and; all other claims on foreign PSEs",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
@@ -580,6 +772,9 @@
     "SortCode": 69,
     "Section": "ALL OTHERS",
     "RowDescription": "with risk grade 1 ",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "0%",
     "Risk Weighted Assets ": 0
@@ -589,6 +784,9 @@
     "SortCode": 70,
     "Section": "ALL OTHERS",
     "RowDescription": "with risk grade 2",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 15759454.51,
     "% Risk": "20%",
     "Risk Weighted Assets ": 15759454.51
@@ -598,6 +796,9 @@
     "SortCode": 71,
     "Section": "ALL OTHERS",
     "RowDescription": "with risk grade 3",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 1718892.51,
     "% Risk": "50%",
     "Risk Weighted Assets ": 1718892.51
@@ -607,6 +808,9 @@
     "SortCode": 72,
     "Section": "ALL OTHERS",
     "RowDescription": "with risk grade 4",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -616,6 +820,9 @@
     "SortCode": 73,
     "Section": "ALL OTHERS",
     "RowDescription": "with risk grade 5",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "150%",
     "Risk Weighted Assets ": 0
@@ -625,6 +832,9 @@
     "SortCode": 74,
     "Section": "ALL OTHERS",
     "RowDescription": "with risk grade 6",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": "100%",
     "Risk Weighted Assets ": 0
@@ -634,6 +844,9 @@
     "SortCode": 75,
     "Section": null,
     "RowDescription": "Total Class 1 (excluding investments in Unconsolidated Subsidiaries and Affiliates; Goodwill and Intangible Assets with definite useful lives) (sum of rows 40; 50 and 550 through 640)",
+    "RowType": "VAL",
+    "SumType": null,
+    "SumAccounts": null,
     "Exposure Before CRM": 0,
     "% Risk": null,
     "Risk Weighted Assets ": 0
