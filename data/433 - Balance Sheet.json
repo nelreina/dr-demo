@@ -83,8 +83,8 @@
     "Section": "CASH AND DEPOSIT BALANCES",
     "RowDescription": "Total Cash and Deposit Balances",
     "RowType": "SUM",
-    "SumType": "CSV",
-    "SumAccounts": "1101, 1102, 1103, 1104, 1109",
+    "SumType": "GRP",
+    "SumAccounts": "11",
     "col1": 0,
     "col2": 0,
     "col3": 0,
@@ -601,7 +601,8 @@
     "CoaCode": "1304 000",
     "SortCode": 390,
     "Section": "INVESTMENTS",
-    "RowDescription": "Investments in entities accounted for using the equity method",
+    "RowDescription":
+      "Investments in entities accounted for using the equity method",
     "RowType": "HD",
     "SumType": null,
     "SumAccounts": null,
@@ -679,7 +680,8 @@
     "CoaCode": "1304 000",
     "SortCode": 441,
     "Section": "INVESTMENTS",
-    "RowDescription": "Total Investments in entities accounted for using the equity method",
+    "RowDescription":
+      "Total Investments in entities accounted for using the equity method",
     "RowType": "SUM",
     "SumType": "GRP",
     "SumAccounts": "1304",
@@ -1524,7 +1526,8 @@
     "CoaCode": "1600 000",
     "SortCode": 1050,
     "Section": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
-    "RowDescription": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
+    "RowDescription":
+      "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
     "RowType": "HD",
     "SumType": null,
     "SumAccounts": null,
@@ -1537,7 +1540,8 @@
     "CoaCode": "1601 000",
     "SortCode": 1060,
     "Section": "NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS",
-    "RowDescription": "Real Estate & Other Assets from Debts Previously Contracted",
+    "RowDescription":
+      "Real Estate & Other Assets from Debts Previously Contracted",
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
@@ -2602,8 +2606,10 @@
   {
     "CoaCode": "2700 000",
     "SortCode": 1880,
-    "Section": "LIABILITY INCLUDED IN DISPOSAL GROUPS CLASSIFIED AS HELD FOR SALE",
-    "RowDescription": "Liability include in disposal groups classified as Held for Sale",
+    "Section":
+      "LIABILITY INCLUDED IN DISPOSAL GROUPS CLASSIFIED AS HELD FOR SALE",
+    "RowDescription":
+      "Liability include in disposal groups classified as Held for Sale",
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
@@ -2615,8 +2621,10 @@
   {
     "CoaCode": "2800 000",
     "SortCode": 1890,
-    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
-    "RowDescription": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "Section":
+      "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "RowDescription":
+      "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
     "RowType": "HD",
     "SumType": null,
     "SumAccounts": null,
@@ -2628,7 +2636,8 @@
   {
     "CoaCode": "2801 000",
     "SortCode": 1900,
-    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "Section":
+      "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
     "RowDescription": "Subordinated Debentures",
     "RowType": "HD",
     "SumType": null,
@@ -2641,7 +2650,8 @@
   {
     "CoaCode": "2801 100",
     "SortCode": 1910,
-    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "Section":
+      "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
     "RowDescription": "Qualifying as Secondary Capital",
     "RowType": "VAL",
     "SumType": null,
@@ -2654,7 +2664,8 @@
   {
     "CoaCode": "2801 200",
     "SortCode": 1920,
-    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "Section":
+      "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
     "RowDescription": "Not Qualifying as Secondary Capital",
     "RowType": "VAL",
     "SumType": null,
@@ -2667,7 +2678,8 @@
   {
     "CoaCode": "2802 000",
     "SortCode": 1930,
-    "Section": "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
+    "Section":
+      "SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES",
     "RowDescription": "Limited Life Redeemable Preference Shares",
     "RowType": "VAL",
     "SumType": null,
@@ -2772,7 +2784,8 @@
     "CoaCode": "3103 130",
     "SortCode": 2010,
     "Section": "Revaluation and Regulatory Reserves",
-    "RowDescription": "Changes in fair value of equity investments measured at fair value that is not held for trading",
+    "RowDescription":
+      "Changes in fair value of equity investments measured at fair value that is not held for trading",
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
@@ -2785,7 +2798,8 @@
     "CoaCode": "3103 140",
     "SortCode": 2020,
     "Section": "Revaluation and Regulatory Reserves",
-    "RowDescription": "Changes in fair value of financial liabilities designated as at fair value through profit or loss attributable to changes in credit risk",
+    "RowDescription":
+      "Changes in fair value of financial liabilities designated as at fair value through profit or loss attributable to changes in credit risk",
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
@@ -2941,7 +2955,8 @@
     "CoaCode": "3104 300",
     "SortCode": 2140,
     "Section": "Other Reserves",
-    "RowDescription": "Non-current assets held for sale and discontinued operations",
+    "RowDescription":
+      "Non-current assets held for sale and discontinued operations",
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
@@ -2954,7 +2969,8 @@
     "CoaCode": "3104 400",
     "SortCode": 2150,
     "Section": "Other Reserves",
-    "RowDescription": "Reserves of investments in entities accounted for using the equity method",
+    "RowDescription":
+      "Reserves of investments in entities accounted for using the equity method",
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
