@@ -7,9 +7,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "10",
@@ -19,9 +19,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 75000000,
-    "%": "100%",
-    "CAPITAL BASE": 75000000
+    "col1": 75000000,
+    "col2": "100%",
+    "col3": 75000000
   },
   {
     "CoaCode": "20",
@@ -31,9 +31,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "30",
@@ -43,9 +43,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "40",
@@ -55,9 +55,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 10108578.16,
-    "%": "100%",
-    "CAPITAL BASE": 10108578.16
+    "col1": 10108578.16,
+    "col2": "100%",
+    "col3": 10108578.16
   },
   {
     "CoaCode": "50",
@@ -67,9 +67,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "60",
@@ -79,9 +79,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -91,9 +91,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -103,9 +103,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "70",
@@ -115,9 +115,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "80",
@@ -127,9 +127,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "90",
@@ -139,9 +139,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "100",
@@ -151,9 +151,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "110",
@@ -163,9 +163,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "120",
@@ -175,9 +175,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -187,9 +187,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "130",
@@ -199,9 +199,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "50%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "140",
@@ -211,9 +211,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "50%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "150",
@@ -223,9 +223,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "160",
@@ -235,9 +235,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "50%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "170",
@@ -247,9 +247,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "50%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "180",
@@ -259,9 +259,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "190",
@@ -271,9 +271,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "200",
@@ -283,9 +283,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -295,9 +295,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "210",
@@ -307,9 +307,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 6228741.37,
-    "%": "100%",
-    "CAPITAL BASE": 6228741.37
+    "col1": 6228741.37,
+    "col2": "100%",
+    "col3": 6228741.37
   },
   {
     "CoaCode": "220",
@@ -319,9 +319,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 5289661.18,
-    "%": "100%",
-    "CAPITAL BASE": 5289661.18
+    "col1": 5289661.18,
+    "col2": "100%",
+    "col3": 5289661.18
   },
   {
     "CoaCode": null,
@@ -331,9 +331,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "230",
@@ -343,9 +343,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "240",
@@ -355,9 +355,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "250",
@@ -367,9 +367,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "260",
@@ -379,9 +379,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "270",
@@ -391,9 +391,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "280",
@@ -403,9 +403,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "290",
@@ -415,9 +415,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -427,9 +427,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "300",
@@ -439,9 +439,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "310",
@@ -451,9 +451,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "320",
@@ -463,9 +463,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "330",
@@ -475,9 +475,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "340",
@@ -487,9 +487,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "350",
@@ -499,9 +499,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "360",
@@ -511,9 +511,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "100%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "370",
@@ -523,9 +523,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "",
+    "col3": 0
   },
   {
     "CoaCode": "380",
@@ -535,9 +535,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -547,9 +547,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "390",
@@ -559,9 +559,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": "50%",
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "400",
@@ -571,9 +571,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "410",
@@ -583,9 +583,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "420",
@@ -595,8 +595,8 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "AMOUNT": 0,
-    "%": null,
-    "CAPITAL BASE": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   }
 ]

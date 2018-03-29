@@ -7,11 +7,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": 13498382.04,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": 13498382.04,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   },
   {
     "CoaCode": "20",
@@ -21,11 +21,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": 0,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": 0,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   },
   {
     "CoaCode": "30",
@@ -35,11 +35,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": 0,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": 0,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   },
   {
     "CoaCode": "40",
@@ -49,11 +49,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": 0,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": 0,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   },
   {
     "CoaCode": "50",
@@ -63,11 +63,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": 0,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": 0,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   },
   {
     "CoaCode": "60",
@@ -77,11 +77,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": 0,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": 0,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   },
   {
     "CoaCode": "70",
@@ -91,11 +91,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": -10,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": -10,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   },
   {
     "CoaCode": "80",
@@ -105,10 +105,10 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NET SPOT POSITION": 0,
-    "NET FORWARD POSITION": 0,
-    "GUARANTEES": 0,
-    "NET FUTURE INCOME/EXPENSES": 0,
-    "OTHER PROFIT ANS LOSS FOREIGN CURRENCY": 0
+    "col1": 0,
+    "col2": 0,
+    "col3": 0,
+    "col4": 0,
+    "col5": 0
   }
 ]

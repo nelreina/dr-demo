@@ -7,9 +7,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "10",
@@ -19,9 +19,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 71805811.44,
-    "% Risk": "0%",
-    "Risk Weighted Assets ": 0
+    "col1": 71805811.44,
+    "col2": "0%",
+    "col3": 0
   },
   {
     "CoaCode": "20",
@@ -31,9 +31,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "0%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "0%",
+    "col3": 0
   },
   {
     "CoaCode": "30",
@@ -43,9 +43,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "40",
@@ -55,9 +55,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "50",
@@ -67,9 +67,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "60",
@@ -79,9 +79,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "0%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "0%",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -91,9 +91,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "70",
@@ -103,9 +103,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "0%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "0%",
+    "col3": 0
   },
   {
     "CoaCode": "80",
@@ -115,9 +115,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "90",
@@ -127,9 +127,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "100",
@@ -139,9 +139,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "110",
@@ -151,9 +151,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "150%",
+    "col3": 0
   },
   {
     "CoaCode": "120",
@@ -163,9 +163,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -175,9 +175,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "130",
@@ -187,9 +187,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "0%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "0%",
+    "col3": 0
   },
   {
     "CoaCode": "140",
@@ -199,9 +199,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "150",
@@ -211,9 +211,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "160",
@@ -223,9 +223,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "170",
@@ -235,9 +235,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "150%",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -247,9 +247,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "180",
@@ -259,9 +259,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "0%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "0%",
+    "col3": 0
   },
   {
     "CoaCode": "190",
@@ -271,9 +271,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "200",
@@ -283,9 +283,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "210",
@@ -295,9 +295,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "220",
@@ -307,9 +307,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "150%",
+    "col3": 0
   },
   {
     "CoaCode": "230",
@@ -319,9 +319,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "240",
@@ -331,9 +331,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -343,9 +343,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "250",
@@ -355,9 +355,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "260",
@@ -367,9 +367,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "270",
@@ -379,9 +379,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "280",
@@ -391,9 +391,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "290",
@@ -403,9 +403,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "150%",
+    "col3": 0
   },
   {
     "CoaCode": "300",
@@ -415,9 +415,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -427,9 +427,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "310",
@@ -439,9 +439,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "320",
@@ -451,9 +451,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "330",
@@ -463,9 +463,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "340",
@@ -475,9 +475,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "350",
@@ -487,9 +487,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "150%",
+    "col3": 0
   },
   {
     "CoaCode": "360",
@@ -499,9 +499,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": null,
@@ -511,9 +511,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "370",
@@ -523,9 +523,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "20%",
+    "col3": 0
   },
   {
     "CoaCode": "380",
@@ -535,9 +535,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "390",
@@ -547,9 +547,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "400",
@@ -559,9 +559,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "150%",
+    "col3": 0
   },
   {
     "CoaCode": "410",
@@ -571,9 +571,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 23615884.3489,
-    "% Risk": null,
-    "Risk Weighted Assets ": 23588817.3989
+    "col1": 23615884.3489,
+    "col2": null,
+    "col3": 23588817.3989
   },
   {
     "CoaCode": "420",
@@ -583,9 +583,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "430",
@@ -595,9 +595,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 47171089.3965,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 47171089.3965
+    "col1": 47171089.3965,
+    "col2": "100%",
+    "col3": 47171089.3965
   },
   {
     "CoaCode": null,
@@ -607,9 +607,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "440",
@@ -619,9 +619,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "50%",
+    "col3": 0
   },
   {
     "CoaCode": "450",
@@ -631,9 +631,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "35%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "35%",
+    "col3": 0
   },
   {
     "CoaCode": "460",
@@ -643,9 +643,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 2778049.67,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 2778049.67
+    "col1": 2778049.67,
+    "col2": "100%",
+    "col3": 2778049.67
   },
   {
     "CoaCode": null,
@@ -655,9 +655,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "470",
@@ -667,9 +667,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 350.7,
-    "% Risk": "125%",
-    "Risk Weighted Assets ": 438.375
+    "col1": 350.7,
+    "col2": "125%",
+    "col3": 438.375
   },
   {
     "CoaCode": "480",
@@ -679,9 +679,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 2205102.4518,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 3307653.6777
+    "col1": 2205102.4518,
+    "col2": "150%",
+    "col3": 3307653.6777
   },
   {
     "CoaCode": "490",
@@ -691,9 +691,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 18017604.02,
-    "% Risk": "125%",
-    "Risk Weighted Assets ": 22522005.025
+    "col1": 18017604.02,
+    "col2": "125%",
+    "col3": 22522005.025
   },
   {
     "CoaCode": "500",
@@ -703,9 +703,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 1784703.17,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 2677054.755
+    "col1": 1784703.17,
+    "col2": "150%",
+    "col3": 2677054.755
   },
   {
     "CoaCode": "510",
@@ -715,9 +715,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 457504.98,
-    "% Risk": null,
-    "Risk Weighted Assets ": 571881.225
+    "col1": 457504.98,
+    "col2": null,
+    "col3": 571881.225
   },
   {
     "CoaCode": "520",
@@ -727,9 +727,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "530",
@@ -739,9 +739,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 1137633.69,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 1137633.69
+    "col1": 1137633.69,
+    "col2": "100%",
+    "col3": 1137633.69
   },
   {
     "CoaCode": "540",
@@ -751,9 +751,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 199896.44,
-    "% Risk": null,
-    "Risk Weighted Assets ": 39979.288
+    "col1": 199896.44,
+    "col2": null,
+    "col3": 39979.288
   },
   {
     "CoaCode": null,
@@ -763,9 +763,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   },
   {
     "CoaCode": "550",
@@ -775,9 +775,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "0%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "0%",
+    "col3": 0
   },
   {
     "CoaCode": "560",
@@ -787,9 +787,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 15759454.51,
-    "% Risk": "20%",
-    "Risk Weighted Assets ": 15759454.51
+    "col1": 15759454.51,
+    "col2": "20%",
+    "col3": 15759454.51
   },
   {
     "CoaCode": "570",
@@ -799,9 +799,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 1718892.51,
-    "% Risk": "50%",
-    "Risk Weighted Assets ": 1718892.51
+    "col1": 1718892.51,
+    "col2": "50%",
+    "col3": 1718892.51
   },
   {
     "CoaCode": "580",
@@ -811,9 +811,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "590",
@@ -823,9 +823,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "150%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "150%",
+    "col3": 0
   },
   {
     "CoaCode": "600",
@@ -835,9 +835,9 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": "100%",
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": "100%",
+    "col3": 0
   },
   {
     "CoaCode": "650",
@@ -847,8 +847,8 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "Exposure Before CRM": 0,
-    "% Risk": null,
-    "Risk Weighted Assets ": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0
   }
 ]

@@ -7,11 +7,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8101 000",
@@ -21,11 +21,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "10",
@@ -35,11 +35,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "20",
@@ -49,11 +49,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "30",
@@ -63,11 +63,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "40",
@@ -77,11 +77,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "50",
@@ -91,11 +91,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "60",
@@ -105,11 +105,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8102 000",
@@ -119,11 +119,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "80",
@@ -133,11 +133,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "90",
@@ -147,11 +147,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "100",
@@ -161,11 +161,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "110",
@@ -175,11 +175,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "120",
@@ -189,11 +189,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "130",
@@ -203,11 +203,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8103 000",
@@ -217,11 +217,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "150",
@@ -231,11 +231,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "160",
@@ -245,11 +245,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "170",
@@ -259,11 +259,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "180",
@@ -273,11 +273,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "190",
@@ -287,11 +287,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "200",
@@ -301,11 +301,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8104 000",
@@ -315,11 +315,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "220",
@@ -329,11 +329,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "230",
@@ -343,11 +343,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "240",
@@ -357,11 +357,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "250",
@@ -371,11 +371,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "260",
@@ -385,11 +385,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "270",
@@ -399,11 +399,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": null,
@@ -413,11 +413,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8201 000",
@@ -427,11 +427,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "300",
@@ -441,11 +441,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "310",
@@ -455,11 +455,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "320",
@@ -469,11 +469,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "330",
@@ -483,11 +483,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "340",
@@ -497,11 +497,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "350",
@@ -511,11 +511,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8202 000",
@@ -525,11 +525,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "370",
@@ -539,11 +539,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "380",
@@ -553,11 +553,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "390",
@@ -567,11 +567,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "400",
@@ -581,11 +581,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "410",
@@ -595,11 +595,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "420",
@@ -609,11 +609,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": null,
@@ -623,11 +623,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8301 000",
@@ -637,11 +637,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "450",
@@ -651,11 +651,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "460",
@@ -665,11 +665,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "470",
@@ -679,11 +679,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "480",
@@ -693,11 +693,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "490",
@@ -707,11 +707,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "500",
@@ -721,11 +721,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 12853375.93,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 12853375.93,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8302 000",
@@ -735,11 +735,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "520",
@@ -749,11 +749,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "530",
@@ -763,11 +763,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "540",
@@ -777,11 +777,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "550",
@@ -791,11 +791,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "560",
@@ -805,11 +805,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "570",
@@ -819,11 +819,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8303 000",
@@ -833,11 +833,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "590",
@@ -847,11 +847,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "600",
@@ -861,11 +861,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "610",
@@ -875,11 +875,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "620",
@@ -889,11 +889,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "630",
@@ -903,11 +903,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "640",
@@ -917,11 +917,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": null,
@@ -931,11 +931,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "670",
@@ -945,11 +945,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "680",
@@ -959,11 +959,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "690",
@@ -973,11 +973,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "700",
@@ -987,11 +987,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "710",
@@ -1001,11 +1001,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "720",
@@ -1015,11 +1015,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8500 000",
@@ -1029,11 +1029,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8501 000",
@@ -1043,11 +1043,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "740",
@@ -1057,11 +1057,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "750",
@@ -1071,11 +1071,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "760",
@@ -1085,11 +1085,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "770",
@@ -1099,11 +1099,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "780",
@@ -1113,11 +1113,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "790",
@@ -1127,11 +1127,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8502 000",
@@ -1141,11 +1141,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "810",
@@ -1155,11 +1155,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "820",
@@ -1169,11 +1169,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "830",
@@ -1183,11 +1183,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "840",
@@ -1197,11 +1197,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "850",
@@ -1211,11 +1211,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "860",
@@ -1225,11 +1225,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8503 000",
@@ -1239,11 +1239,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "880",
@@ -1253,11 +1253,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "890",
@@ -1267,11 +1267,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "900",
@@ -1281,11 +1281,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "910",
@@ -1295,11 +1295,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "920",
@@ -1309,11 +1309,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "930",
@@ -1323,11 +1323,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8504 000",
@@ -1337,11 +1337,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "950",
@@ -1351,11 +1351,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "960",
@@ -1365,11 +1365,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "970",
@@ -1379,11 +1379,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "980",
@@ -1393,11 +1393,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "990",
@@ -1407,11 +1407,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "1000",
@@ -1421,11 +1421,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8505 000",
@@ -1435,11 +1435,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "1020",
@@ -1449,11 +1449,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "1030",
@@ -1463,11 +1463,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "1040",
@@ -1477,11 +1477,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "1050",
@@ -1491,11 +1491,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "1060",
@@ -1505,11 +1505,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "1070",
@@ -1519,11 +1519,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8506 000",
@@ -1533,11 +1533,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "2000",
@@ -1547,11 +1547,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": null,
@@ -1561,11 +1561,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "2010",
@@ -1575,11 +1575,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "2020",
@@ -1589,11 +1589,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "2030",
@@ -1603,11 +1603,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "2040",
@@ -1617,11 +1617,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "2050",
@@ -1631,11 +1631,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "2060",
@@ -1645,11 +1645,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8600 000",
@@ -1659,11 +1659,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8700 000",
@@ -1673,11 +1673,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "3000",
@@ -1687,11 +1687,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "3010",
@@ -1701,11 +1701,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "3020",
@@ -1715,11 +1715,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "3030",
@@ -1729,11 +1729,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "3040",
@@ -1743,11 +1743,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "3050",
@@ -1757,11 +1757,11 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   },
   {
     "CoaCode": "8900 000",
@@ -1771,10 +1771,10 @@
     "RowType": "VAL",
     "SumType": null,
     "SumAccounts": null,
-    "NOTIONAL AMOUNT": 0,
-    "CREDIT FACTOR": null,
-    "CREDIT EQUIVALENT AMOUNT": 0,
-    "RISK WEIGHT AVG": null,
-    "TOTAL RWA": 0
+    "col1": 0,
+    "col2": null,
+    "col3": 0,
+    "col4": null,
+    "col5": 0
   }
 ]
