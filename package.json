@@ -31,12 +31,18 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "nodemon": "^1.17.1",
-    "parcel-bundler": "^1.7.0"
+    "npm-run-all": "^4.1.2",
+    "parcel-bundler": "^1.7.0",
+    "rimraf": "^2.6.2"
   },
   "scripts": {
-    "start": "node src/server/app.js",
-    "serve": "nodemon --watch src/server src/server/app.js",
-    "parcel": "parcel watch src/client/index.html -d public",
+    "start": "npm-run-all parcel:clear parcel:build start:server",
+    "start:server": "node src/server/app.js",
+    "dev": "npm-run-all parcel:clear server:dev",
+    "server:dev": "nodemon --watch src/server src/server/app.js",
+    "parcel:dev": "parcel watch src/client/index.html -d public",
+    "parcel:clear": "rimraf public",
+    "parcel:build": "parcel build src/client/index.html -d public",
     "import": "nodemon --watch src/server src/server/import-dat-2-redis.js"
   }
 }
