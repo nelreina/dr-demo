@@ -34,9 +34,9 @@
     "parcel-bundler": "^1.7.0"
   },
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node src/server/app.js",
     "serve": "nodemon --watch src/server src/server/app.js",
-    "client": "parcel watch src/client/index.html -d public",
+    "parcel": "parcel watch src/client/index.html -d public",
     "import": "nodemon --watch src/server src/server/import-dat-2-redis.js"
   }
 }
