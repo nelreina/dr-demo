@@ -4,6 +4,8 @@ const { createClient } = require('then-redis');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 require('dotenv').config();
+
+const initImport = require('./import-data-2-redis');
 const PORT = process.env.PORT;
 
 const publicPath = path.resolve(__dirname, '../../public');
@@ -19,7 +21,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 const client = createClient();
 
-client.on('connect', () => console.log('Connected to redis...'));
+client.on('connect', () => {
+  console.log('Connected to redis...');
+  initImport(client);
+});
 
 app.get('/api/:key', async (req, res) => {
   try {
