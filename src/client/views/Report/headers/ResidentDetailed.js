@@ -11,6 +11,7 @@ const ResidentDetailed = ({ header }) => {
         <th style={header} colSpan="2">
           NON REISDENT
         </th>
+        <th />
       </tr>
       <tr>
         <th>Account</th>
@@ -19,6 +20,7 @@ const ResidentDetailed = ({ header }) => {
         <th style={header}>FC</th>
         <th style={header}>AFL</th>
         <th style={header}>FC</th>
+        <th style={header}>Total</th>
       </tr>
     </thead>
   );

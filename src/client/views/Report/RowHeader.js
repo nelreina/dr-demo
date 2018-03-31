@@ -7,7 +7,7 @@ const RowHeader = ({ row, options }) => {
       <td style={style.nowrap}>
         <h6>{row.CoaCode}</h6>
       </td>
-      <td colSpan="5">
+      <td colSpan="6">
         <h6>{row.RowDescription}</h6>
       </td>
     </tr>

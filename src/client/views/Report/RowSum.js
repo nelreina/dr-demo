@@ -45,6 +45,9 @@ const RowSum = ({ row, options, data }) => {
       <th style={rightAlign}>
         {accounting.formatMoney(sum.col4, amountFormat)}
       </th>
+      <th style={rightAlign}>
+        {accounting.formatMoney(sum.total, amountFormat)}
+      </th>
     </tr>
   );
 };

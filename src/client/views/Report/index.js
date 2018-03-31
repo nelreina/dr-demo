@@ -25,6 +25,7 @@ const getColsArray = report => {
   for (let i = 1; i <= report.countAmountColumns; i++) {
     cols.push('col' + i);
   }
+  cols.push('total');
   return cols;
 };
 class Report extends Component {
