@@ -9,7 +9,7 @@ const ReportHeader = ({ options, report }) => {
     case 'ResidentDetailed':
       return <ResidentDetailed header={header} />;
     default:
-      return '';
+      return <thead />;
   }
 };
 
