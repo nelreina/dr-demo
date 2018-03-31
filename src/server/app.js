@@ -34,7 +34,7 @@ app.get('/api/:key', async (req, res) => {
     if (data) {
       res.json(JSON.parse(data));
     } else {
-      res.json({ message: `No data found!` });
+      res.status(404).json({ message: `No data found!` });
     }
   } catch (error) {
     console.error(error);
