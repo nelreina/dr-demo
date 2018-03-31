@@ -28,7 +28,7 @@ const calcSum = (data, SumRow) => {
 
 const RowSum = ({ row, options, data }) => {
   const { style: { rightAlign, nowrap }, amountFormat } = options;
-  const sum = calcSum(data, row);
+  const sum = data ? calcSum(data, row) : {};
   return (
     <tr className="table-secondary">
       <th style={nowrap}>{row.CoaCode}</th>
