@@ -8,13 +8,27 @@ const FETCH_ERROR = 'FETCH_NCOA_ERROR';
 const { get } = api;
 const initialState = {};
 
-export const fetchNcoa = id => async dispatch => {
+export const fetchNcoa = ReportCode => async (dispatch, getState) => {
+  const state = getState();
+  const MatchProcessId =
+    state.periods && state.periods.activePeriod
+      ? state.periods.activePeriod.id
+      : null;
+  if (!MatchProcessId) return;
+  const id = `${MatchProcessId} - ${ReportCode}`;
   dispatch({ type: FETCHING });
-  const payload = await get(`/api/${id}`);
-  dispatch({
-    type: FETCH_SUCCESS,
-    payload
-  });
+  try {
+    const payload = await get(`/api/${id}`);
+    dispatch({
+      type: FETCH_SUCCESS,
+      payload
+    });
+  } catch (error) {
+    dispatch({
+      type: FETCH_ERROR,
+      payload: error
+    });
+  }
 };
 
 export default (state = initialState, action) => {
@@ -27,7 +41,11 @@ export default (state = initialState, action) => {
         data: payload
       });
     case FETCHING:
-      return assign({}, state, { error: false, fetching: true, data: [] });
+      return assign({}, state, {
+        error: false,
+        fetching: true,
+        data: undefined
+      });
     case FETCH_ERROR:
       return assign({}, state, { error: true, message: payload, data: [] });
 
