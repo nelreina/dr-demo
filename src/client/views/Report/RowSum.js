@@ -2,23 +2,25 @@ import React from 'react';
 import accounting from 'accounting';
 import { reduce } from 'lodash';
 import { connect } from 'react-redux';
-const calcSum = (data, SumRow) => {
+const calcSum = (data, SumRow, group) => {
   const sumCols = {
-    col1: 0,
-    col2: 0,
-    col3: 0,
-    col4: 0
+    Col1: 0,
+    Col2: 0,
+    Col3: 0,
+    Col4: 0,
+    Total: 0
   };
   const calcRows = data.filter(
-    row => row.CoaCode.startsWith(SumRow.SumAccounts) && row.RowType === 'VAL'
+    row => row.CoaCode.startsWith(SumRow[group]) && row.RowType === 'VAL'
   );
   reduce(
     calcRows,
     (sum, row) => {
-      sum.col1 += row.col1;
-      sum.col2 += row.col2;
-      sum.col3 += row.col3;
-      sum.col4 += row.col4;
+      sum.Col1 += row.Col1;
+      sum.Col2 += row.Col2;
+      sum.Col3 += row.Col3;
+      sum.Col4 += row.Col4;
+      sum.Total += row.Total;
       return sum;
     },
     sumCols
@@ -27,27 +29,17 @@ const calcSum = (data, SumRow) => {
 };
 
 const RowSum = ({ row, options, data }) => {
-  const { style: { rightAlign, nowrap }, amountFormat } = options;
-  const sum = data ? calcSum(data, row) : {};
+  const { style: { rightAlign, nowrap }, amountFormat, cols } = options;
+  const sum = data ? calcSum(data, row, 'SumGroup') : {};
   return (
     <tr className="table-secondary">
       <th style={nowrap}>{row.CoaCode}</th>
       <th>{row.RowDescription}</th>
-      <th style={rightAlign}>
-        {accounting.formatMoney(sum.col1, amountFormat)}
-      </th>
-      <th style={rightAlign}>
-        {accounting.formatMoney(sum.col2, amountFormat)}
-      </th>
-      <th style={rightAlign}>
-        {accounting.formatMoney(sum.col3, amountFormat)}
-      </th>
-      <th style={rightAlign}>
-        {accounting.formatMoney(sum.col4, amountFormat)}
-      </th>
-      <th style={rightAlign}>
-        {accounting.formatMoney(sum.total, amountFormat)}
-      </th>
+      {cols.map(col => (
+        <th style={rightAlign} key={col}>
+          {accounting.formatMoney(sum[col], amountFormat)}
+        </th>
+      ))}
     </tr>
   );
 };

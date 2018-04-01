@@ -23,9 +23,9 @@ const amountFormat = {
 const getColsArray = report => {
   const cols = [];
   for (let i = 1; i <= report.countAmountColumns; i++) {
-    cols.push('col' + i);
+    cols.push('Col' + i);
   }
-  cols.push('total');
+  cols.push('Total');
   return cols;
 };
 class Report extends Component {
