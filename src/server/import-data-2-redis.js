@@ -48,22 +48,22 @@ const findReportCode = name => {
 };
 
 const dataDir = path.resolve(__dirname, '../../data');
-module.exports = async client => {
+module.exports = async (client, logger) => {
   client.flushdb();
   client.set('periods', JSON.stringify(periods));
   fs.readdirSync(dataDir).forEach(function(file) {
-    console.log(`importing... ${file}`);
+    logger.debug(`importing... ${file}`);
     const name = file.replace('.json', '').substring(6);
-    // console.log(`name substr... ${name.substring(0, 3)}`);
+    // logger.info(`name substr... ${name.substring(0, 3)}`);
     const code = findReportCode(name);
     if (code) {
       const key = `${file.substring(0, 3)} - ${code}`;
       const data = require(`${dataDir}/${file}`);
       client.set(key, JSON.stringify(data));
     }
-    // console.info(data);
+    // logger.info(data);
   });
   client.set('reports', JSON.stringify(reports));
   const ret = await client.get('reports');
-  console.info('Imported reports: ', JSON.parse(ret));
+  logger.info('Imported reports: ', ret);
 };
