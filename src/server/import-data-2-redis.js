@@ -8,15 +8,7 @@ const periods = {
   436: { id: 436, period: 201802, name: 'Feb 2018' }
 };
 const en = {};
-const es = {
-  Dashboard: 'Tablero',
-  Reports: 'Raportes',
-  'Balance Sheet': 'Hoja de balance',
-  'Profit & Loss': 'Ganancia y perdida',
-  'Contingent Liability': 'Pasivo contingente',
-  'GUARANTEES ISSUED': 'GARANTÍAS EMITIDAS',
-  'RISK PARTICIPATIONS': 'PARTICIPACIONES DE RIESGO'
-};
+const es = {};
 const reports = {
   BS: {
     code: 'BS',
