@@ -60,14 +60,14 @@ const dataDir = path.resolve(__dirname, '../../data');
 module.exports = async (client, logger) => {
   client.flushdb();
   client.set('periods', JSON.stringify(periods));
-  fs.readdirSync(dataDir).forEach(function(file) {
+  fs.readdirSync(`${dataDir}/reports`).forEach(function(file) {
     logger.debug(`importing... ${file}`);
     const name = file.replace('.json', '').substring(6);
     // logger.info(`name substr... ${name.substring(0, 3)}`);
     const code = findReportCode(name);
     if (code) {
       const key = `${file.substring(0, 3)} - ${code}`;
-      const data = require(`${dataDir}/${file}`);
+      const data = require(`${dataDir}/reports/${file}`);
       client.set(key, JSON.stringify(data));
     }
     // logger.info(data);
