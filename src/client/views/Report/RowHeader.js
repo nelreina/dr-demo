@@ -1,6 +1,7 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 
-const RowHeader = ({ row, options }) => {
+const RowHeader = ({ row, options, t }) => {
   const { style } = options;
   return (
     <tr className="table-primary">
@@ -8,10 +9,10 @@ const RowHeader = ({ row, options }) => {
         <h6>{row.CoaCode}</h6>
       </td>
       <td colSpan="6">
-        <h6>{row.RowDescription}</h6>
+        <h6>{t(row.RowDescription)}</h6>
       </td>
     </tr>
   );
 };
 
-export default RowHeader;
+export default translate()(RowHeader);

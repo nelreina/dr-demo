@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import { BrowserRouter } from 'react-router-dom';
 import S from 'string';
+import './i18n';
 S.extendPrototype();
 render(
   <Provider store={store}>

@@ -2,6 +2,8 @@ import React from 'react';
 import accounting from 'accounting';
 import { reduce } from 'lodash';
 import { connect } from 'react-redux';
+import { translate } from 'react-i18next';
+
 const calcSum = (data, SumRow, group) => {
   const sumCols = {
     Col1: 0,
@@ -28,13 +30,13 @@ const calcSum = (data, SumRow, group) => {
   return sumCols;
 };
 
-const RowSum = ({ row, options, data }) => {
+const RowSum = ({ row, options, data, t }) => {
   const { style: { rightAlign, nowrap }, amountFormat, cols } = options;
   const sum = data ? calcSum(data, row, 'SumGroup') : {};
   return (
     <tr className="table-secondary">
       <th style={nowrap}>{row.CoaCode}</th>
-      <th>{row.RowDescription}</th>
+      <th>TOTAL {t(row.RowDescription)}</th>
       {cols.map(col => (
         <th style={rightAlign} key={col}>
           {accounting.formatMoney(sum[col], amountFormat)}
@@ -44,6 +46,8 @@ const RowSum = ({ row, options, data }) => {
   );
 };
 
-export default connect(state => ({
-  data: state.ncoa.data
-}))(RowSum);
+export default translate()(
+  connect(state => ({
+    data: state.ncoa.data
+  }))(RowSum)
+);

@@ -3,6 +3,8 @@ import { assign } from 'lodash';
 import * as periodsActions from './store/reducers/periods';
 import * as reportsActions from './store/reducers/reports';
 import { connect } from 'react-redux';
+import { translate } from 'react-i18next';
+
 import { Switch, Route, withRouter, NavLink } from 'react-router-dom';
 
 import Dashboard from './views/Dashboard';
@@ -13,19 +15,38 @@ class App extends Component {
     this.props.fetchPeriods();
     this.props.fetchReports();
   }
+  changeLang = lng => {
+    const { i18n } = this.props;
+    i18n.changeLanguage(lng);
+  };
 
   render() {
+    const { t } = this.props;
     return (
       <div className="container">
+        <div className="btn-group">
+          <button
+            onClick={() => this.changeLang('en')}
+            className="btn btn-primary"
+          >
+            EN
+          </button>
+          <button
+            onClick={() => this.changeLang('es')}
+            className="btn btn-secondary"
+          >
+            ES
+          </button>
+        </div>
         <ul className="nav justify-content-center">
           <li className="nav-item">
             <NavLink className="nav-link" to="/">
-              Dashboard
+              {t('Dashboard')}
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/reports">
-              Reports
+              {t('Reports')}
             </NavLink>
           </li>
         </ul>
@@ -42,4 +63,7 @@ class App extends Component {
   }
 }
 const actions = assign({}, periodsActions, reportsActions);
-export default withRouter(connect(state => state, actions)(App));
+const AppConnect = connect(state => state, actions)(App);
+const AppTranslate = translate()(AppConnect);
+const AppWithRouter = withRouter(AppTranslate);
+export default AppWithRouter;

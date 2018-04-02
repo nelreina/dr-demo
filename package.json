@@ -44,8 +44,8 @@
     "start": "npm-run-all parcel:clear parcel:build start:server",
     "start:server": "node src/server/app.js",
     "dev": "npm-run-all parcel:clear server:dev",
+    "dev:client": "parcel watch src/client/index.html -d public",
     "server:dev": "nodemon --watch src/server src/server/app.js",
-    "parcel:dev": "parcel watch src/client/index.html -d public",
     "parcel:clear": "rimraf public",
     "parcel:build": "parcel build src/client/index.html -d public",
     "import": "nodemon --watch src/server src/server/import-dat-2-redis.js"

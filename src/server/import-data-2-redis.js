@@ -7,7 +7,16 @@ const periods = {
   // 433: { id: 433, period: 201801, name: 'Jan 2018' },
   436: { id: 436, period: 201802, name: 'Feb 2018' }
 };
-
+const en = {};
+const es = {
+  Dashboard: 'Tablero',
+  Reports: 'Raportes',
+  'Balance Sheet': 'Hoja de balance',
+  'Profit & Loss': 'Ganancia y perdida',
+  'Contingent Liability': 'Pasivo contingente',
+  'GUARANTEES ISSUED': 'GARANTÍAS EMITIDAS',
+  'RISK PARTICIPATIONS': 'PARTICIPACIONES DE RIESGO'
+};
 const reports = {
   BS: {
     code: 'BS',
@@ -64,6 +73,8 @@ module.exports = async (client, logger) => {
     // logger.info(data);
   });
   client.set('reports', JSON.stringify(reports));
+  client.set('locale-es', JSON.stringify(es));
+  client.set('locale-en', JSON.stringify(en));
   const ret = await client.get('reports');
   logger.info('Imported reports: ', ret);
 };
