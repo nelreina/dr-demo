@@ -41,11 +41,11 @@
     "rimraf": "^2.6.2"
   },
   "scripts": {
-    "start": "npm-run-all parcel:clear parcel:build start:server",
-    "start:server": "node src/server/app.js",
-    "dev": "npm-run-all parcel:clear server:dev",
+    "start": "npm-run-all parcel:clear parcel:build prod:server",
+    "prod:server": "node src/server/app.js",
+    "dev": "npm-run-all parcel:clear dev:server",
     "dev:client": "parcel watch src/client/index.html -d public",
-    "server:dev": "nodemon --watch src/server src/server/app.js",
+    "dev:server": "nodemon --watch src/server src/server/app.js",
     "parcel:clear": "rimraf public",
     "parcel:build": "parcel build src/client/index.html -d public",
     "import": "nodemon --watch src/server src/server/import-dat-2-redis.js"
