@@ -28,12 +28,6 @@ const reports = {
     header: 'ResidentDetailed',
     countAmountColumns: 4
   },
-  SUB1: {
-    code: 'SUB1',
-    name: 'Sub Report I',
-    header: 'Custom',
-    countAmountColumns: 12
-  },
   SUB2: {
     code: 'SUB2',
     name: 'Sub Report II',
