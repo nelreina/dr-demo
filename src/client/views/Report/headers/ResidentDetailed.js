@@ -1,29 +1,30 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 
-const ResidentDetailed = ({ header }) => {
+const ResidentDetailed = ({ header, t }) => {
   return (
     <thead>
       <tr>
         <th colSpan="2" />
         <th style={header} colSpan="2">
-          RESIDENT
+          {t('RESIDENT')}
         </th>
         <th style={header} colSpan="2">
-          NON REISDENT
+          {t('NON RESIDENT')}
         </th>
         <th />
       </tr>
       <tr>
-        <th>Account</th>
-        <th>Description</th>
-        <th style={header}>AFL</th>
-        <th style={header}>FC</th>
-        <th style={header}>AFL</th>
-        <th style={header}>FC</th>
+        <th>{t('Account')}</th>
+        <th>{t('Description')}</th>
+        <th style={header}>Pesos</th>
+        <th style={header}>{t('FC')}</th>
+        <th style={header}>Pesos</th>
+        <th style={header}>{t('FC')}</th>
         <th style={header}>Total</th>
       </tr>
     </thead>
   );
 };
 
-export default ResidentDetailed;
+export default translate()(ResidentDetailed);
