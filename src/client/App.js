@@ -9,7 +9,7 @@ import { translate } from 'react-i18next';
 import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
 import PrivateRoute from './PrivateRoute';
-import Dashboard from './views/Dashboard';
+import TopBar from './components/TopBar';
 import ReportList from './views/Reports';
 import Report from './views/Report';
 import Login from './views/Login';
@@ -26,23 +26,10 @@ class App extends Component {
   };
 
   render() {
-    const { t, auth: { isAuthenticated, user }, logout } = this.props;
+    const { t, logout } = this.props;
     return (
       <div className="container">
-        <div className="btn-group">
-          <button
-            onClick={() => this.changeLang('en')}
-            className="btn btn-primary"
-          >
-            EN
-          </button>
-          <button
-            onClick={() => this.changeLang('es')}
-            className="btn btn-secondary"
-          >
-            ES
-          </button>
-        </div>
+        <TopBar {...this.props} />
         <hr />
         <Switch>
           <Redirect exact from="/" to="/reports" />
@@ -53,16 +40,6 @@ class App extends Component {
             render={props => <h3>Path {props.location.pathname} not found</h3>}
           />
         </Switch>
-        {isAuthenticated ? (
-          <div className="user-info">
-            Login as {user.username} <br />
-            <button onClick={logout} className="btn btn-danger">
-              LOGOUT
-            </button>
-          </div>
-        ) : (
-          ''
-        )}
       </div>
     );
   }
