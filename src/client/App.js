@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { assign } from 'lodash';
 import * as periodsActions from './store/reducers/periods';
 import * as reportsActions from './store/reducers/reports';
+import { authActions } from 'nelreina-web-utils';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 
@@ -25,7 +26,7 @@ class App extends Component {
   };
 
   render() {
-    const { t, auth: { isAuthenticated, user } } = this.props;
+    const { t, auth: { isAuthenticated, user }, logout } = this.props;
     return (
       <div className="container">
         <div className="btn-group">
@@ -52,12 +53,21 @@ class App extends Component {
             render={props => <h3>Path {props.location.pathname} not found</h3>}
           />
         </Switch>
-        {isAuthenticated ? user.username : ''}
+        {isAuthenticated ? (
+          <div className="user-info">
+            Login as {user.username} <br />
+            <button onClick={logout} className="btn btn-danger">
+              LOGOUT
+            </button>
+          </div>
+        ) : (
+          ''
+        )}
       </div>
     );
   }
 }
-const actions = assign({}, periodsActions, reportsActions);
+const actions = assign({}, periodsActions, reportsActions, authActions);
 const AppConnect = connect(state => state, actions)(App);
 const AppTranslate = translate()(AppConnect);
 const AppWithRouter = withRouter(AppTranslate);
