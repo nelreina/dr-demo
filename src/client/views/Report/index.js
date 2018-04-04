@@ -52,14 +52,16 @@ class Report extends Component {
     props.fetchNcoa(params.id);
   };
   render() {
-    const { match: { params }, data, reports, t } = this.props;
+    const { match: { params }, data, reports, t, activePeriod } = this.props;
     const report = reports[params.id] || {};
     const cols = getColsArray(report);
     const options = { style, amountFormat, cols };
     return (
       <div>
         <div className="report-header">
-          <h3>{report && t(report.name)}</h3>
+          <h3>
+            {report && t(report.name)} - {activePeriod && activePeriod.name}
+          </h3>
           <Link to="/" className="btn btn-light">
             {t('BACK')}
           </Link>
