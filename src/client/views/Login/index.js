@@ -3,7 +3,7 @@ import { translate } from 'react-i18next';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import { authActions as actions } from 'nelreina-web-utils';
-
+import LoginForm from './LoginForm';
 // import * as actions from '../store/reducers/auth';
 
 class Login extends Component {
@@ -12,9 +12,7 @@ class Login extends Component {
     return auth.isAuthenticated ? (
       <Redirect to="/reports" />
     ) : (
-      <button className="btn btn-primary" onClick={login}>
-        {t('LOGIN')}
-      </button>
+      <LoginForm action={login} message={auth.message} />
     );
   }
 }
