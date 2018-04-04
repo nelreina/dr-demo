@@ -12,16 +12,19 @@ const findReportCode = name => {
 
 const ogarcia = {
   username: 'ogarcia',
+  fullName: 'Oscar Garcia',
   email: 'oscar.garcia@ibis-management.com',
   isAdmin: true
 };
 const nreina = {
   username: 'nreina',
+  fullName: 'Nelson Reina',
   email: 'nelson.reina@ibis-management.com',
   isAdmin: true
 };
 const guest = {
   username: 'guest',
+  fullName: 'Guest User',
   email: 'info@ibis-management.com',
   isAdmin: false
 };
