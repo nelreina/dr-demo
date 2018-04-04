@@ -3375,9 +3375,9 @@ nelreina-node-utils@^0.0.4:
     json-2-csv "^2.2.0"
     unirest "^0.5.1"
 
-nelreina-web-utils@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/nelreina-web-utils/-/nelreina-web-utils-0.0.15.tgz#9ef23c216f667dc6b0971d446dd8431f0b3d9b0f"
+nelreina-web-utils@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/nelreina-web-utils/-/nelreina-web-utils-0.0.16.tgz#1d3e965819c9bea903425740edb8ebb37d4425a5"
   dependencies:
     redux "^3.7.2"
     redux-devtools-extension "^2.13.2"
