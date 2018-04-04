@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { assign, reduce, isEqual } from 'lodash';
+import { Link } from 'react-router-dom';
+
 import * as actions from '../../store/reducers/ncoa';
 import Row from './Row';
 import ReportHeader from './ReportHeader';
@@ -56,7 +58,12 @@ class Report extends Component {
     const options = { style, amountFormat, cols };
     return (
       <div>
-        <h3>{report && t(report.name)}</h3>
+        <div className="report-header">
+          <h3>{report && t(report.name)}</h3>
+          <Link to="/" className="btn btn-light">
+            {t('BACK')}
+          </Link>
+        </div>
         <table style={{ zoom: '70%' }} className="table table-sm">
           <ReportHeader options={{ header }} report={report} />
           <tbody>
