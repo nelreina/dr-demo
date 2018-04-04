@@ -1,11 +1,13 @@
 import React from 'react';
 import accounting from 'accounting';
-const RowValue = ({ row, options }) => {
+import { translate } from 'react-i18next';
+
+const RowValue = ({ row, options, t }) => {
   const { style: { rightAlign }, amountFormat, cols } = options;
   return (
     <tr>
       <td style={{ whiteSpace: 'nowrap' }}>{row.CoaCode}</td>
-      <td>{row.RowDescription}</td>
+      <td>{t(row.RowDescription)}</td>
       {cols.map(col => (
         <td style={rightAlign} key={col}>
           {accounting.formatMoney(row[col], amountFormat)}
@@ -15,4 +17,4 @@ const RowValue = ({ row, options }) => {
   );
 };
 
-export default RowValue;
+export default translate()(RowValue);
