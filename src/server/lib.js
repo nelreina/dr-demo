@@ -9,6 +9,29 @@ const findReportCode = name => {
   const ret = find(rdata, { name });
   return ret ? ret.code : null;
 };
+
+const ogarcia = {
+  username: 'ogarcia',
+  email: 'oscar.garcia@ibis-management.com',
+  isAdmin: true
+};
+const nreina = {
+  username: 'nreina',
+  email: 'nelson.reina@ibis-management.com',
+  isAdmin: true
+};
+const guest = {
+  username: 'guest',
+  email: 'info@ibis-management.com',
+  isAdmin: false
+};
+
+exports.addUsers = client => {
+  client.set('ogarcia/ogarcia', JSON.stringify(ogarcia));
+  client.set('guest/guest', JSON.stringify(guest));
+  client.set('nreina/201804', JSON.stringify(nreina));
+};
+
 const reports = {
   BS: {
     code: 'BS',

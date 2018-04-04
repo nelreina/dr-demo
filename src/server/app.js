@@ -52,13 +52,16 @@ app.get('/locales/:key', async (req, res) => {
 
 app.post('/api/login', async (req, res) => {
   try {
-    const data = {
-      isAuthenticated: true,
-      user: {
-        username: 'nelreina'
-      }
-    };
-    res.send(data);
+    const { username, password } = req.body;
+    const data = await client.get(`${username}/${password}`);
+    if (data) {
+      const response = {};
+      response.isAuthenticated = true;
+      response.user = JSON.parse(data);
+      res.json(response);
+    } else {
+      res.status(403).send();
+    }
   } catch (error) {
     logger.error(error);
     res.status(503).send(error);
