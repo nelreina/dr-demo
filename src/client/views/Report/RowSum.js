@@ -36,7 +36,7 @@ const RowSum = ({ row, options, data, t }) => {
   return (
     <tr className="table-secondary">
       <th style={nowrap}>{row.CoaCode}</th>
-      <th>TOTAL {t(row.RowDescription)}</th>
+      <th className="text-uppercase">TOTAL {t(row.RowDescription)}</th>
       {cols.map(col => (
         <th style={rightAlign} key={col}>
           {accounting.formatMoney(sum[col], amountFormat)}

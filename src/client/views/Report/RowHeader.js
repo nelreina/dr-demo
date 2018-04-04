@@ -9,7 +9,7 @@ const RowHeader = ({ row, options, t }) => {
         <h6>{row.CoaCode}</h6>
       </td>
       <td colSpan="6">
-        <h6>{t(row.RowDescription)}</h6>
+        <h6 className="text-uppercase" >{t(row.RowDescription)}</h6>
       </td>
     </tr>
   );
