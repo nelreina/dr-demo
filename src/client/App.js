@@ -7,9 +7,12 @@ import { translate } from 'react-i18next';
 
 import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
+import PrivateRoute from './PrivateRoute';
 import Dashboard from './views/Dashboard';
-import Reports from './views/Reports';
+import ReportList from './views/Reports';
 import Report from './views/Report';
+import Login from './views/Login';
+
 import './App.css';
 class App extends Component {
   componentWillMount() {
@@ -22,7 +25,7 @@ class App extends Component {
   };
 
   render() {
-    const { t } = this.props;
+    const { t, auth: { isAuthenticated, user } } = this.props;
     return (
       <div className="container">
         <div className="btn-group">
@@ -42,12 +45,14 @@ class App extends Component {
         <hr />
         <Switch>
           <Redirect exact from="/" to="/reports" />
-          <Route path="/reports" exact component={Reports} />
-          <Route path="/reports/:id" exact component={Report} />
+          <Route path="/login" exact component={Login} />
+          <PrivateRoute path="/reports" exact component={ReportList} />
+          <PrivateRoute path="/reports/:id" exact component={Report} />
           <Route
             render={props => <h3>Path {props.location.pathname} not found</h3>}
           />
         </Switch>
+        {isAuthenticated ? user.username : ''}
       </div>
     );
   }
