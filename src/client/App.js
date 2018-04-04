@@ -5,11 +5,12 @@ import * as reportsActions from './store/reducers/reports';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 
-import { Switch, Route, withRouter, NavLink } from 'react-router-dom';
+import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
 import Dashboard from './views/Dashboard';
 import Reports from './views/Reports';
 import Report from './views/Report';
+import './App.css';
 class App extends Component {
   componentWillMount() {
     this.props.fetchPeriods();
@@ -38,20 +39,9 @@ class App extends Component {
             ES
           </button>
         </div>
-        <ul className="nav justify-content-center">
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/">
-              {t('Dashboard')}
-            </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink className="nav-link" to="/reports">
-              {t('Reports')}
-            </NavLink>
-          </li>
-        </ul>
+        <hr />
         <Switch>
-          <Route path="/" exact component={Dashboard} />
+          <Redirect exact from="/" to="/reports" />
           <Route path="/reports" exact component={Reports} />
           <Route path="/reports/:id" exact component={Report} />
           <Route
