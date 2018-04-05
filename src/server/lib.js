@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { find } = require('lodash');
+const { find, reduce } = require('lodash');
 const { converters } = require('nelreina-node-utils');
 const { toJSON } = converters;
 const reports = require('./db/reports.json');
@@ -46,3 +46,20 @@ exports.importTranslations = async (client, logger, dataDir, file) => {
   saveTranslations(key, json, client, logger);
 };
 exports.reports = reports;
+exports.calcGroupSum = (data, SumRow) => {
+  const sumCols = {
+    groupAmount: 0
+  };
+  const calcRows = data.filter(
+    row => row.CoaCode.startsWith(SumRow['groupValue']) && row.RowType === 'VAL'
+  );
+  reduce(
+    calcRows,
+    (sum, row) => {
+      sum.groupAmount += row.groupAmount;
+      return sum;
+    },
+    sumCols
+  );
+  return sumCols;
+};
