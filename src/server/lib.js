@@ -32,7 +32,7 @@ const guest = {
 exports.addUsers = client => {
   client.set('ogarcia/ogarcia', JSON.stringify(ogarcia));
   client.set('guest/guest', JSON.stringify(guest));
-  client.set('nreina/201804', JSON.stringify(nreina));
+  client.set('nreina/polka', JSON.stringify(nreina));
 };
 
 const reports = {
