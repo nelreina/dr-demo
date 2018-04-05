@@ -5,8 +5,10 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { keys } = require('lodash');
 const Log4js = require('log4js');
-Log4js.configure('./log4js.json');
+const S = require('string');
 
+S.extendPrototype();
+Log4js.configure('./log4js.json');
 require('dotenv').config();
 
 const initImport = require('./import-data-2-redis');
