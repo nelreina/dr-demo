@@ -110,6 +110,27 @@ app.get('/api/:key', async (req, res) => {
     res.send('Error occured on the server!');
   }
 });
+app.get('/api/ncoa/:key/:coacode/:col', async (req, res) => {
+  try {
+    const { key, coacode, col } = req.params;
+    logger.info(`get api/${key}/${coacode}/${col}`);
+    const data = await client.get(key);
+    if (data) {
+      // Filter Results
+      // const ncoa = JSON.parse(data);
+      const ncoa = JSON.parse(data).filter(row => {
+        return row.CoaCode === coacode && row.CoaColumn === col;
+      });
+      res.json(ncoa);
+    } else {
+      logger.error(`api/${key}: "No data found"`);
+      res.status(404).json({ message: `No data found!` });
+    }
+  } catch (error) {
+    logger.error(error);
+    res.send('Error occured on the server!');
+  }
+});
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(publicPath, 'index.html'));
 });
