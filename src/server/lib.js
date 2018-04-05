@@ -2,6 +2,8 @@ const fs = require('fs');
 const { find } = require('lodash');
 const { converters } = require('nelreina-node-utils');
 const { toJSON } = converters;
+const reports = require('./db/reports.json');
+const user = require('./db/mock-users.json');
 
 const findReportCode = name => {
   const rkeys = Object.keys(reports);
@@ -10,56 +12,10 @@ const findReportCode = name => {
   return ret ? ret.code : null;
 };
 
-const ogarcia = {
-  username: 'ogarcia',
-  fullName: 'Oscar Garcia',
-  email: 'oscar.garcia@ibis-management.com',
-  isAdmin: true
-};
-const nreina = {
-  username: 'nreina',
-  fullName: 'Nelson Reina',
-  email: 'nelson.reina@ibis-management.com',
-  isAdmin: true
-};
-const guest = {
-  username: 'guest',
-  fullName: 'Guest User',
-  email: 'info@ibis-management.com',
-  isAdmin: false
-};
-
 exports.addUsers = client => {
-  client.set('ogarcia/ogarcia', JSON.stringify(ogarcia));
-  client.set('guest/guest', JSON.stringify(guest));
-  client.set('nreina/polka', JSON.stringify(nreina));
-};
-
-const reports = {
-  BS: {
-    code: 'BS',
-    name: 'Balance Sheet',
-    header: 'ResidentDetailed',
-    countAmountColumns: 4
-  },
-  PL: {
-    code: 'PL',
-    name: 'Profit & Loss',
-    header: 'Resident',
-    countAmountColumns: 2
-  },
-  CL: {
-    code: 'CL',
-    name: 'Contingent Liability',
-    header: 'ResidentDetailed',
-    countAmountColumns: 4
-  },
-  SUB2: {
-    code: 'SUB2',
-    name: 'Sub Report II',
-    header: 'ResidentDetailed',
-    countAmountColumns: 4
-  }
+  client.set('ogarcia/ogarcia', JSON.stringify(user.ogarcia));
+  client.set('guest/guest', JSON.stringify(user.guest));
+  client.set('nreina/polka', JSON.stringify(user.nreina));
 };
 
 const saveTranslations = (key, wordArray, client) => {
