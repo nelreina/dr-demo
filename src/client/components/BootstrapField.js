@@ -18,7 +18,7 @@ const BootstrapField = props => {
     <div className="form-group">
       <label>{t(label)}</label>
       {getInputType(type, props)}
-      <div className="invalid-feedback">{t('meta.error')}</div>
+      <div className="invalid-feedback">{t(meta.error)}</div>
     </div>
   );
 };

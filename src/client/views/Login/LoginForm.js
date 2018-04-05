@@ -10,7 +10,7 @@ const validate = values => {
     errors.username = 'Username is required';
   }
   if (values.username && values.username.length < 3) {
-    errors.username = 'Username must be greather then 3 char';
+    errors.username = 'Username must be greater than 3 char';
   }
   if (!values.password) {
     errors.password = 'Password is required';

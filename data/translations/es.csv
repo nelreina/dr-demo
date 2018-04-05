@@ -388,3 +388,6 @@ Logout,Cerrar sesión
 GO BACK,REGRESAR
 Guest User,Usuario invitado
 Credit Cards & Car Loans,Tarjetas de crédito y préstamos para automóviles
+Username must be greater than 3 char,El nombre de usuario debe ser mayor a 3 caracteres
+Password is required,se requiere contraseña
+Username is required,Se requiere nombre de usuario
