@@ -13,6 +13,7 @@ import TopBar from './components/TopBar';
 import ReportList from './views/Reports';
 import Report from './views/Report';
 import Login from './views/Login';
+import NotFound from './views/NotFound';
 
 import './App.css';
 class App extends Component {
@@ -36,9 +37,7 @@ class App extends Component {
           <Route path="/login" exact component={Login} />
           <PrivateRoute path="/reports" exact component={ReportList} />
           <PrivateRoute path="/reports/:id" exact component={Report} />
-          <Route
-            render={props => <h3>Path {props.location.pathname} not found</h3>}
-          />
+          <PrivateRoute component={NotFound} />
         </Switch>
       </div>
     );
