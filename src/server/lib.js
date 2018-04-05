@@ -28,11 +28,11 @@ const saveTranslations = (key, wordArray, client) => {
 
 exports.importReports = (client, logger, dataDir) => {
   fs.readdirSync(`${dataDir}/reports`).forEach(function(file) {
+    const [mid, code] = file.split(' - ');
     logger.debug(`importing... ${file}`);
     const name = file.replace('.json', '').substring(6);
-    const code = findReportCode(name);
     if (code) {
-      const key = `${file.substring(0, 3)} - ${code}`;
+      const key = `${mid} - ${code}`;
       const data = require(`${dataDir}/reports/${file}`);
       client.set(key, JSON.stringify(data));
     }

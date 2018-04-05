@@ -1,0 +1,182 @@
+[
+  {
+    "CoaCode": "1402 10",
+    "Class": "1",
+    "SortCode": 10,
+    "Section": null,
+    "RowDescription": "Credit Cards",
+    "RowType": "HD",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 11",
+    "Class": "1",
+    "SortCode": 20,
+    "Section": null,
+    "RowDescription": "     Governments",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 13",
+    "Class": "1",
+    "SortCode": 30,
+    "Section": null,
+    "RowDescription": "    Other Depository Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 14",
+    "Class": "1",
+    "SortCode": 40,
+    "Section": null,
+    "RowDescription": "     Other Financial Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 15",
+    "Class": "1",
+    "SortCode": 50,
+    "Section": null,
+    "RowDescription": "     Public Nonfinancial Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 16",
+    "Class": "1",
+    "SortCode": 60,
+    "Section": null,
+    "RowDescription": "     Other Nonfinancial Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 17",
+    "Class": "1",
+    "SortCode": 70,
+    "Section": null,
+    "RowDescription": "     Households",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 19",
+    "Class": "1",
+    "SortCode": 80,
+    "Section": null,
+    "RowDescription": "     Other",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 10",
+    "Class": "1",
+    "SortCode": 90,
+    "Section": null,
+    "RowDescription": "Credit Cards",
+    "RowType": "SUM",
+    "AccountGroup": "1402",
+    "Total": "1402 1"
+  },
+  {
+    "CoaCode": "1402 20",
+    "Class": "1",
+    "SortCode": 100,
+    "Section": null,
+    "RowDescription": "Car Loans",
+    "RowType": "HD",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 21",
+    "Class": "1",
+    "SortCode": 110,
+    "Section": null,
+    "RowDescription": "     Governments",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 23",
+    "Class": "1",
+    "SortCode": 120,
+    "Section": null,
+    "RowDescription": "    Other Depository Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 24",
+    "Class": "1",
+    "SortCode": 130,
+    "Section": null,
+    "RowDescription": "     Other Financial Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 25",
+    "Class": "1",
+    "SortCode": 140,
+    "Section": null,
+    "RowDescription": "     Public Nonfinancial Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 26",
+    "Class": "1",
+    "SortCode": 150,
+    "Section": null,
+    "RowDescription": "     Other Nonfinancial Corporations",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 27",
+    "Class": "1",
+    "SortCode": 160,
+    "Section": null,
+    "RowDescription": "     Households",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 29",
+    "Class": "1",
+    "SortCode": 170,
+    "Section": null,
+    "RowDescription": "     Other",
+    "RowType": "VAL",
+    "AccountGroup": "1402",
+    "Total": null
+  },
+  {
+    "CoaCode": "1402 20",
+    "Class": "1",
+    "SortCode": 180,
+    "Section": null,
+    "RowDescription": "Car Loans",
+    "RowType": "SUM",
+    "AccountGroup": "1402",
+    "Total": "1402 2"
+  }
+]

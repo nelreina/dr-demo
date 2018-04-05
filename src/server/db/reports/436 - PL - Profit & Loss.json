@@ -35,8 +35,8 @@
     "AccountGroup": "4101",
     "SumGroup": null,
     "Col1": 0,
-    "Col2": 117633.18,
-    "Total": 117633.18
+    "Col2": 569974.74,
+    "Total": 569974.74
   },
   {
     "CoaCode": "4101 000",
@@ -96,9 +96,9 @@
     "SortCode": 80,
     "Section": null,
     "RowDescription": "Short Term debentures",
-    "RowType": "VAL",
+    "RowType": "SUM",
     "AccountGroup": "4102",
-    "SumGroup": null,
+    "SumGroup": "4102 31",
     "Col1": 0,
     "Col2": 0,
     "Total": 0
@@ -109,12 +109,12 @@
     "SortCode": 90,
     "Section": null,
     "RowDescription": "Long Term debentures",
-    "RowType": "VAL",
+    "RowType": "SUM",
     "AccountGroup": "4102",
-    "SumGroup": null,
-    "Col1": 0,
-    "Col2": 2003152.18,
-    "Total": 2003152.18
+    "SumGroup": "4102 32",
+    "Col1": 2661668.66,
+    "Col2": 30835.46,
+    "Total": 2692504.12
   },
   {
     "CoaCode": "4102 300",
@@ -229,9 +229,9 @@
     "RowType": "VAL",
     "AccountGroup": "4103",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 1402882.8,
-    "Total": 1402882.8
+    "Col1": 1869402.06,
+    "Col2": 648.56,
+    "Total": 1870050.62
   },
   {
     "CoaCode": "4103 200",
@@ -242,9 +242,9 @@
     "RowType": "VAL",
     "AccountGroup": "4103",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 3885899.9,
-    "Total": 3885899.9
+    "Col1": 5244192.9,
+    "Col2": 3585.52,
+    "Total": 5247778.42
   },
   {
     "CoaCode": "4103 300",
@@ -255,9 +255,9 @@
     "RowType": "VAL",
     "AccountGroup": "4103",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 5144880.89,
-    "Total": 5144880.89
+    "Col1": 6469015.64,
+    "Col2": 70879.19,
+    "Total": 6539894.83
   },
   {
     "CoaCode": "4103 400",
@@ -281,9 +281,9 @@
     "RowType": "VAL",
     "AccountGroup": "4103",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 269304.22,
-    "Total": 269304.22
+    "Col1": 61281.06,
+    "Col2": 404518.44,
+    "Total": 465799.5
   },
   {
     "CoaCode": "4103 000",
@@ -333,9 +333,9 @@
     "RowType": "VAL",
     "AccountGroup": "4201",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 202764.83,
-    "Total": 202764.83
+    "Col1": 176512.73,
+    "Col2": 82695.26,
+    "Total": 259207.99
   },
   {
     "CoaCode": "4202 000",
@@ -346,9 +346,9 @@
     "RowType": "VAL",
     "AccountGroup": "4202",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 606953.98,
-    "Total": 606953.98
+    "Col1": 749940.66,
+    "Col2": 64402.02,
+    "Total": 814342.68
   },
   {
     "CoaCode": "4203 000",
@@ -359,9 +359,9 @@
     "RowType": "VAL",
     "AccountGroup": "4203",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 1692816.84,
-    "Total": 1692816.84
+    "Col1": 1807245.35,
+    "Col2": 488217.01,
+    "Total": 2295462.36
   },
   {
     "CoaCode": "4204 000",
@@ -551,9 +551,9 @@
     "SortCode": 430,
     "Section": null,
     "RowDescription": "NET INTEREST INCOME",
-    "RowType": "SUM",
+    "RowType": "VAL",
     "AccountGroup": "4000",
-    "SumGroup": "4",
+    "SumGroup": null,
     "Col1": 0,
     "Col2": 0,
     "Total": 0
@@ -593,9 +593,9 @@
     "RowType": "VAL",
     "AccountGroup": "5101",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 313807.52,
-    "Total": 313807.52
+    "Col1": 411315.06,
+    "Col2": 1772.45,
+    "Total": 413087.51
   },
   {
     "CoaCode": "5101 120",
@@ -606,9 +606,9 @@
     "RowType": "VAL",
     "AccountGroup": "5101",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 51452.58,
-    "Total": 51452.58
+    "Col1": 66208.68,
+    "Col2": 0,
+    "Total": 66208.68
   },
   {
     "CoaCode": "5101 130",
@@ -619,9 +619,9 @@
     "RowType": "VAL",
     "AccountGroup": "5101",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 7833.47,
-    "Total": 7833.47
+    "Col1": 9634.13,
+    "Col2": 0,
+    "Total": 9634.13
   },
   {
     "CoaCode": "5101 140",
@@ -645,9 +645,9 @@
     "RowType": "VAL",
     "AccountGroup": "5101",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 279030.26,
-    "Total": 279030.26
+    "Col1": 425177.03,
+    "Col2": 0,
+    "Total": 425177.03
   },
   {
     "CoaCode": "5101 160",
@@ -658,9 +658,9 @@
     "RowType": "VAL",
     "AccountGroup": "5101",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 572413.21,
-    "Total": 572413.21
+    "Col1": 613007.28,
+    "Col2": 155192.91,
+    "Total": 768200.19
   },
   {
     "CoaCode": "5101 190",
@@ -671,9 +671,9 @@
     "RowType": "VAL",
     "AccountGroup": "5101",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 891202.23,
-    "Total": 891202.23
+    "Col1": 1022103.63,
+    "Col2": 42822.1,
+    "Total": 1064925.73
   },
   {
     "CoaCode": "5101 100",
@@ -724,8 +724,8 @@
     "AccountGroup": "5101",
     "SumGroup": null,
     "Col1": 0,
-    "Col2": 17568.06,
-    "Total": 17568.06
+    "Col2": 25959.58,
+    "Total": 25959.58
   },
   {
     "CoaCode": "5101 320",
@@ -814,8 +814,8 @@
     "RowType": "VAL",
     "AccountGroup": "5101",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 16287.25,
+    "Col1": 16287.25,
+    "Col2": 0,
     "Total": 16287.25
   },
   {
@@ -840,9 +840,9 @@
     "RowType": "VAL",
     "AccountGroup": "5200",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 58589.41,
-    "Total": 58589.41
+    "Col1": 43707.39,
+    "Col2": 58750.45,
+    "Total": 102457.84
   },
   {
     "CoaCode": "5000 000",
@@ -850,9 +850,9 @@
     "SortCode": 660,
     "Section": null,
     "RowDescription": "NET FEES AND COMMISSIONS INCOME",
-    "RowType": "SUM",
+    "RowType": "VAL",
     "AccountGroup": "5000",
-    "SumGroup": "5",
+    "SumGroup": null,
     "Col1": 0,
     "Col2": 0,
     "Total": 0
@@ -876,7 +876,7 @@
     "SortCode": 680,
     "Section": null,
     "RowDescription": "Financial Assets measured at fair value",
-    "RowType": "VAL",
+    "RowType": "HD",
     "AccountGroup": "6101",
     "SumGroup": null,
     "Col1": 0,
@@ -904,7 +904,7 @@
     "RowDescription": "Financial Assets measured at fair value",
     "RowType": "SUM",
     "AccountGroup": "6101",
-    "SumGroup": null,
+    "SumGroup": "6101",
     "Col1": 0,
     "Col2": 0,
     "Total": 0
@@ -967,7 +967,7 @@
     "SortCode": 750,
     "Section": null,
     "RowDescription": "Unrealized Gains /(Losses) on Financial Assets measured at fair value",
-    "RowType": "VAL",
+    "RowType": "HD",
     "AccountGroup": "6201",
     "SumGroup": null,
     "Col1": 0,
@@ -1243,9 +1243,9 @@
     "RowType": "VAL",
     "AccountGroup": "6207",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 533612.44,
-    "Total": 533612.44
+    "Col1": 733649.97,
+    "Col2": 0,
+    "Total": 733649.97
   },
   {
     "CoaCode": "6200 000",
@@ -1269,9 +1269,9 @@
     "RowType": "VAL",
     "AccountGroup": "6300",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 27869.55,
-    "Total": 27869.55
+    "Col1": 88733.11,
+    "Col2": 0,
+    "Total": 88733.11
   },
   {
     "CoaCode": "6400 000",
@@ -1282,9 +1282,9 @@
     "RowType": "VAL",
     "AccountGroup": "6400",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 6869775.45,
-    "Total": 6869775.45
+    "Col1": 9184168.79,
+    "Col2": 0,
+    "Total": 9184168.79
   },
   {
     "CoaCode": "6500 000",
@@ -1295,9 +1295,9 @@
     "RowType": "VAL",
     "AccountGroup": "6500",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 1514622.69,
-    "Total": 1514622.69
+    "Col1": 2177855.15,
+    "Col2": 0,
+    "Total": 2177855.15
   },
   {
     "CoaCode": "6600 000",
@@ -1308,9 +1308,9 @@
     "RowType": "VAL",
     "AccountGroup": "6600",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 974999.97,
-    "Total": 974999.97
+    "Col1": 248070.45,
+    "Col2": 0,
+    "Total": 248070.45
   },
   {
     "CoaCode": "6700 000",
@@ -1438,9 +1438,9 @@
     "RowType": "VAL",
     "AccountGroup": "6900",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 1985789.43,
-    "Total": 1985789.43
+    "Col1": 3258814.35,
+    "Col2": 28241.21,
+    "Total": 3287055.56
   },
   {
     "CoaCode": "6000 000",
@@ -1448,22 +1448,9 @@
     "SortCode": 1120,
     "Section": null,
     "RowDescription": "OPERATING PROFIT",
-    "RowType": "SUM",
+    "RowType": "VAL",
     "AccountGroup": "6000",
-    "SumGroup": "6",
-    "Col1": 0,
-    "Col2": 0,
-    "Total": 0
-  },
-  {
-    "CoaCode": "7000 000",
-    "Class": "7",
-    "SortCode": 1125,
-    "Section": null,
-    "RowDescription": "NON-CONTOLING",
-    "RowType": "HD",
-    "AccountGroup": "7000",
-    "SumGroup": "",
+    "SumGroup": null,
     "Col1": 0,
     "Col2": 0,
     "Total": 0
@@ -1503,9 +1490,9 @@
     "RowType": "VAL",
     "AccountGroup": "7300",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 405000,
-    "Total": 405000
+    "Col1": 540000,
+    "Col2": 0,
+    "Total": 540000
   },
   {
     "CoaCode": "7900 000",
@@ -1542,19 +1529,6 @@
     "RowType": "VAL",
     "AccountGroup": "7900",
     "SumGroup": null,
-    "Col1": 0,
-    "Col2": 0,
-    "Total": 0
-  },
-  {
-    "CoaCode": "7000 000",
-    "Class": "7",
-    "SortCode": 1190,
-    "Section": null,
-    "RowDescription": "NON-CONTOLING",
-    "RowType": "SUM",
-    "AccountGroup": "7000",
-    "SumGroup": "7",
     "Col1": 0,
     "Col2": 0,
     "Total": 0

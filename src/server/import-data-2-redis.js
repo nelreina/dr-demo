@@ -13,9 +13,10 @@ const periods = {
 };
 
 const dataDir = path.resolve(__dirname, '../../data');
+const dbDir = path.resolve(__dirname, './db');
 module.exports = async (client, logger) => {
   client.flushdb();
-  importReports(client, logger, dataDir);
+  importReports(client, logger, dbDir);
   addUsers(client);
   await importTranslations(client, logger, dataDir, 'es.csv');
   client.set('periods', JSON.stringify(periods));
