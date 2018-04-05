@@ -56,7 +56,7 @@ class Report extends Component {
   };
   render() {
     const {
-      match: { params, path },
+      match: { params, url },
       data,
       reports,
       t,
@@ -64,7 +64,7 @@ class Report extends Component {
     } = this.props;
     const report = reports[params.id] || {};
     const cols = getColsArray(report);
-    const options = { style, amountFormat, cols };
+    const options = { style, amountFormat, cols, url };
     return (
       <div>
         <div className="report-header">
@@ -84,6 +84,7 @@ class Report extends Component {
               ))}
           </tbody>
         </table>
+        {/* <pre>{JSON.stringify(this.props.match, null, 2)}</pre> */}
       </div>
     );
   }
