@@ -4,6 +4,7 @@ import { assign } from 'lodash';
 const FETCHING = 'FETCHING_NCOA';
 const FETCH_SUCCESS = 'FETCH_NCOA_SUCCESS';
 const FETCH_ERROR = 'FETCH_NCOA_ERROR';
+const CLEAR_DATA = 'CLEAR_DATA';
 
 const { get } = api;
 const initialState = {};
@@ -30,6 +31,9 @@ export const fetchNcoa = ReportCode => async (dispatch, getState) => {
     });
   }
 };
+export const clearNcoa = () => ({
+  type: CLEAR_DATA
+});
 
 export default (state = initialState, action) => {
   const { type, payload } = action;
@@ -48,6 +52,8 @@ export default (state = initialState, action) => {
       });
     case FETCH_ERROR:
       return assign({}, state, { error: true, message: payload, data: [] });
+    case CLEAR_DATA:
+      return assign({}, state, { data: [] });
 
     default:
       return state;
