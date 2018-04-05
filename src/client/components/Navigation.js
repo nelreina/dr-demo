@@ -5,8 +5,8 @@ const Navigation = ({ t }) => {
   return (
     <ul className="nav">
       <li className="nav nav-item">
-        <NavLink className="nav-link" to="/translate">
-          Translate
+        <NavLink className="nav-link" to="/translations">
+          Translations
         </NavLink>
       </li>
     </ul>

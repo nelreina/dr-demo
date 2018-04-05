@@ -62,6 +62,14 @@ const reports = {
   }
 };
 
+const saveTranslations = (key, wordArray, client) => {
+  const words = {};
+  wordArray.forEach(word => {
+    words[word.key] = word.value.trim();
+  });
+  client.set(key, JSON.stringify(words));
+};
+
 exports.importReports = (client, logger, dataDir) => {
   fs.readdirSync(`${dataDir}/reports`).forEach(function(file) {
     logger.debug(`importing... ${file}`);
@@ -82,10 +90,6 @@ exports.importTranslations = async (client, logger, dataDir, file) => {
     .readFileSync(`${dataDir}/translations/${file}`)
     .toLocaleString();
   const json = await toJSON(data);
-  const words = {};
-  json.forEach(word => {
-    words[word.key] = word.value.trim();
-  });
-  client.set(key, JSON.stringify(words));
+  saveTranslations(key, json, client);
 };
 exports.reports = reports;

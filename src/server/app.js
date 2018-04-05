@@ -3,6 +3,7 @@ const path = require('path');
 const { createClient } = require('then-redis');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const { keys } = require('lodash');
 const Log4js = require('log4js');
 Log4js.configure('./log4js.json');
 
@@ -40,6 +41,29 @@ app.get('/locales/:key', async (req, res) => {
     const data = await client.get(`locale-${key}`);
     if (data) {
       res.json(JSON.parse(data));
+    } else {
+      logger.error(`api/${key}: "No data found"`);
+      res.status(404).json({ message: `No data found!` });
+    }
+  } catch (error) {
+    logger.error(error);
+    res.send('Error occured on the server!');
+  }
+});
+app.get('/api/translations/:key', async (req, res) => {
+  try {
+    const { key } = req.params;
+    logger.info(`get locale/${key}`);
+    const data = await client.get(`locale-${key}`);
+    if (data) {
+      const words = [];
+      const obj = JSON.parse(data);
+      const tkeys = keys(obj);
+      tkeys.forEach(key => {
+        const value = obj[key];
+        words.push({ key, value });
+      });
+      res.send(words);
     } else {
       logger.error(`api/${key}: "No data found"`);
       res.status(404).json({ message: `No data found!` });

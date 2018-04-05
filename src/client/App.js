@@ -14,6 +14,7 @@ import ReportList from './views/Reports';
 import Report from './views/Report';
 import Login from './views/Login';
 import NotFound from './views/NotFound';
+import Translations from './views/Translations';
 
 import './App.css';
 class App extends Component {
@@ -37,6 +38,7 @@ class App extends Component {
           <Route path="/login" exact component={Login} />
           <PrivateRoute path="/reports" exact component={ReportList} />
           <PrivateRoute path="/reports/:id" exact component={Report} />
+          <PrivateRoute path="/translations" exact component={Translations} />
           <PrivateRoute component={NotFound} />
         </Switch>
       </div>
