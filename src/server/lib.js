@@ -5,13 +5,6 @@ const { toJSON } = converters;
 const reports = require('./db/reports.json');
 const user = require('./db/mock-users.json');
 
-const findReportCode = name => {
-  const rkeys = Object.keys(reports);
-  const rdata = rkeys.map(key => reports[key]);
-  const ret = find(rdata, { name });
-  return ret ? ret.code : null;
-};
-
 exports.addUsers = client => {
   client.set('ogarcia/ogarcia', JSON.stringify(user.ogarcia));
   client.set('guest/guest', JSON.stringify(user.guest));
