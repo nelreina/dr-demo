@@ -11,10 +11,14 @@ exports.addUsers = client => {
   client.set('nreina/polka', JSON.stringify(user.nreina));
 };
 
-const saveTranslations = (key, wordArray, client) => {
+const saveTranslations = (key, wordArray, client, logger) => {
   const words = {};
   wordArray.forEach(word => {
-    words[word.key] = word.value.trim();
+    try {
+      words[word.key] = word.value.trim();
+    } catch (error) {
+      logger.error(word);
+    }
   });
   client.set(key, JSON.stringify(words));
 };
@@ -39,6 +43,6 @@ exports.importTranslations = async (client, logger, dataDir, file) => {
     .readFileSync(`${dataDir}/translations/${file}`)
     .toLocaleString();
   const json = await toJSON(data);
-  saveTranslations(key, json, client);
+  saveTranslations(key, json, client, logger);
 };
 exports.reports = reports;

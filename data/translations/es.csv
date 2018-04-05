@@ -110,3 +110,270 @@ LESS:  APPLICABLE PROFIT TAXES, Menos: Impuestos
 NET INCOME FOR THE CURRENT PERIOD, Ingreso neto para el periodo actual
 LESS:  DIVIDENDS DECLARED, Menos: Dividendos declarados
 NET INCOME AFTER DIVIDENDS DECLARED, Ingreso neto despues de dividendos declarados
+CASH AND DEPOSIT BALANCES,Efectivo y fondos disponibles
+Cash on hand,Efectivo 
+Due from Central Banks,Banco Central
+Due from Other Depository Corporations,Otras corporaciones de depositos
+Cash items in process of collection,Efectivo en proceso de cobranza
+Other cash items,Efectivo - otros
+Total Cash and Deposit Balances,Total efectivo y fondos disponibles
+INTERBANK FUNDS - SOLD,Fondos interbancarios - Vendidos
+Other Depository Corporations,Otras corporaciones de depositos
+Total Interbank Funds - Sold,Total fondos interbancarios - Vendidos
+INVESTMENTS,Inversiones
+Financial Assets measured at fair value ,Activos financieros registrados a valor de mercado
+Equity Instruments,Titulos valores
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Other,Otras
+Total Equity Instruments,Total titulos valores
+Debt Instruments,Instrumentos de deuda
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Other ,Otras
+Total Debt Instruments,Total Instrumentos de deuda
+Total Financial Assets measured at fair value ,Total Activos financieros registrados a valor de mercado
+Financial Assets measured at amortized cost,Activos financieros registrados a costo amortizado
+Short Term Debentures,Obligaciones a corto plazo
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Other ,Otras
+Total Short Term Debentures,Total Obligaciones a corto plazo
+Long Term Debentures,Obligaciones a Largo Plazo
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Other ,Otras
+Total Long Term Debentures,Total Obligaciones a Largo plazo
+Total Financial Assets measured at amortised cost,Total Activos financieros registrados a costo amortizado
+Investments in entities accounted for using the equity method,Inversiones en entidades relacionadas registradas por metodo patrimonial
+Other  Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Other,Otras
+Total Investments in entities accounted for using the equity method,Total Inversiones en entidades relacionadas registradas por metodo patrimonial
+Derivatives Financial Assets,Derivados Financieros (Activo)
+Derivatives Held For Trading,Derivados para la venta
+Derivatives Held For Hedging,Derivados para cobertura
+Fair value hedge,Cobertura a valor de mercado
+Cash flow hedge ,Cobertura de flujo de caja
+Hedge of a net investment in a foreign operation,Cobertura de inversiones en operaciones en el exterior
+Total Derivatives Held For Hedging,Total Derivados para cobertura
+Total Derivatives Financial Assets,Total Derivados Financieros (Activos)
+Time Deposits,Depositos a plazo
+Central Banks ,Banco Central
+Other Depository Corporations,Otras corporaciones de depositos
+Total Time Deposits,Total depositos a plazo
+Less: Allowance for Impairment,Menos: Provision
+Total Investments,Total inversiones
+LOANS,Cartera de Creditos
+Current Account Overdrafts,Sobregiros
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Current Accounts Overdrafts,Total sobregiros
+Term Loans,Creditos
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Term Loans,Total creditos
+Mortgages,Hipotecarios
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Mortgages,Total Hipotecarios
+Finance Leases,Arrendamiento Financiero
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Finance Leases,Total arrendamiento Financiero
+Other loans,Otros Creditos
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Other Loans,Total Otros Creditos
+Less: Specific Provisions on Loans,Menos: Provisiones especificas de creditos
+Total Loans (net),Total Cartera de Credito Neta
+CUSTOMERS LIABILITY ON BANKERS ACCEPTANCES,Cartas de Credito
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total customers liability on bankers acceptances,Total Cartas de Creditos
+NON-CURRENT ASSETS HELD FOR SALE AND DISCONTINUED OPERATIONS,Activos no recurrentes para la venta y operaciones descontinuadas
+Real Estate & Other Assets from Debts Previously Contracted,Activos Hipotecarios y otros de deudas previamente contraidas
+All Other Non-current Assets,Otros activos no recurrentes
+Less: Allowance for Impairment,Menos: Provision por perdida
+Total Non-current assets held for sale and discontinued operations,Total Activos no recurrentes para la venta y operaciones descontinuadas
+PROPERTY,"Activo Fijo, Planta y equipo"
+Land ,Terrenos
+Buildings,Edificios
+Leasehold Improvements,Mejoras
+Machinery and Equipment,Maquinaria y Equipo
+Revaluation Reserves,Provisiones de revaluacion de activos
+Less: Accumulated Depreciation,Menos: Depreciacion acumulada
+Less: Allowance for Impairment,Menos: Provision por perdida
+Total Property,"Total Activo Fijo, Planta y equipo"
+OTHER ASSETS ,Otros activos 
+Intangible Assets,Activos Intangibles
+Goodwill,Goodwill
+Other Intangible Assets,Otros activos intangibles
+with indefinite useful life,con vida util indefinida
+with definite useful life,con vida util definida
+Total Intangible Assets,Total Activos intangibles
+Prepaid Expenses,Gastos Prepagados
+Accounts Receivable,Cuentas por cobrar
+Accrued Interest Receivable,Intereses generados por cobrar
+Deferred Tax Assets,Impuestos diferidos
+Dividends Receivable,Dividendos por cobrar
+Other Assets,Otros activos
+Less: Allowance for Impairment ,Menos: Provision por perdida
+Total Other Assets,Total Otros Activos
+TOTAL ASSETS  (Total Accounts #11 through #19),Total Activos
+DEPOSITS,Obligaciones con el Publico
+Demand Deposits,Depositos a la vista
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Demand Deposits,Total Depositos a la Vista
+Savings Deposits,Depositos de Ahorro
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Savings Deposits,Total Depositos de Ahorro
+Time Deposits,Depositos a Plazo
+Governments,Gobiernos
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other ,Otros
+Total Time Deposits,Total Depositos a Plazo
+Total Deposits,Total Obligacion con el Publico
+FINANCIAL LIABILITIES,Pasivos Financieros
+Financial Liabilities measured at fair value,Pasivos financieros registrados a valor de mercado
+Debt Instruments,Instrumentos de deuda
+Other financial instruments,Otros instrumentos financieros
+Total Financial Liabilities measured at fair value,Total Pasivo Financiero registrado a valor de mercado
+Financial Liabilities measured at amortized cost,Pasivo financiero registrado a costo amortizado
+Governments,Gobiernos
+Central banks,Banco Central
+Other Depository Corporations,Otras corporaciones de depositos
+Other Financial Corporations,Otras corporaciones financieras
+Public Nonfinancial Corporations,Corporaciones publicas no financieras
+Other Nonfinancial Corporations,Otras corporaciones no financieras
+Households,Personas Naturales
+Other,Otros
+Total Financial Liabilities measured at amortized cost ,Total Pasivo Financiero registrado a costo amortizado
+Total Financial Liabilities,Total Pasivo Financiero
+DERIVATIVES FINANCIAL LIABILITIES,Derivados Financieros (Pasivo)
+Derivatives Held For Trading,Derivados para la venta
+Derivatives Held For Hedging,Derivados para cobertura
+Fair value hedges,Cobertura a valor de mercado
+Cash flow hedges,Cobertura de Flujo de caja
+Hedge of net investments in foreign operations ,Cobertura de inversiones in operaciones en el exterior
+Total Derivatives Held for Hedging,Total Derivados para cobertura
+Total Derivatives Financial Liabilities,Total derivados financieros (Pasivo)
+INTERBANK FUNDS - BOUGHT,Fondos interbancarios - Compra
+Other Depository Corporations,Otras corporaciones de depositos
+Total Interbank Funds - Bought,Total Fondos interbancarios - Compra
+BANKERS LIABILITY FOR ACCEPTANCES,Cartas de Credito
+ OTHER LIABILITIES,Otros pasivos
+Accrued and Unpaid Expenses,Gastos generados y por pagar
+Taxes Payable,Impuestos por pagar
+Accounts Payable,Cuentas por pagar
+Accrued Interest Payable,Intereses por pagar
+Deferred Tax Liabilities and other Provisions,Impuestos diferidos (Pasivo) y otras provisiones
+Deferred Tax Liabilities,Impuestos diferidos
+Other Provisions,otras provisiones
+Total Deferred Tax Liabilities and other Provisions,Total Impuestos diferidos (Pasivo) y otras provisiones
+Dividends Payable,Dividendos por pagar
+Other Liabilities,Otros pasivos
+Items in suspense,Otros en espera
+Total Other Liabilities,Total Otros pasivos
+LIABILITY INCLUDED IN DISPOSAL GROUPS CLASSIFIED AS HELD FOR SALE,Otros pasivos clasificados para la venta
+SUBORDINATED DEBENTURES AND LIMITED LIFE REDEEMABLE PREFERENCE SHARES,Acciones preferidas y  obligaciones subordinadas 
+Subordinated Debentures,Obligaciones subordinadas
+Qualifying as Secondary Capital,Califican como capital secundario
+Not Qualifying as Secondary Capital,No califican como capital secundario
+Total Subordinated Debentures,Total Obligaciones subordinadas
+Limited Life Redeemable Preference Shares,Acciones preferidas
+Total Subordinated Debentures and Limited Life Redeemable Preference Shares,Total Acciones preferidas y  obligaciones subordinadas 
+TOTAL LIABILITIES (Total Accounts #21 through #28),Total Pasivos
+SHAREHOLDERS EQUITY,Patrimonio
+Share Capital,Capital social
+Share Premium,Acciones premium
+Revaluation and Regulatory Reserves,Provisiones de Revaluacion y Regulatorias
+Revaluation Reserves,Provisiones de revaluacion
+Hedge of net investments in foreign operations ,Cobertura de inversiones en operaciones en el exterior
+Cash flow Hedges,Cobertura de flujo de caja
+Revaluation Reserves Property Plant and Equipment,"Provisiones de reevaluacion de Activo fijo, planta y equipo"
+Revaluation Reserves Intangible Assets ,Provisiones de reevaluacion por Activos intangibles
+Revaluation Reserves of Investment Properties,Provisiones de reevaluacion por Inversion en propiedades
+Unrealized Reserves for Available for Sale Investments,Provisiones sin realizar por Inversiones a la venta
+Total Revaluation Reserves ,Total Provisiones de reevaluacion
+Regulatory Reserves,Provisiones regulatorias
+Regulatory Reserves for Investments,Provisiones regulatorias por Inversiones
+Regulatory Reserves for Loans,Provisiones regulatorias por Creditos
+Regulatory Reserves for Other Assets,Provisiones Regulatorias por otros activos
+Total Regulatory Reserves ,Total Provisiones regulatorias
+Total Revaluation and Regulatory Reserves,Total Provisones regulatorias y por reevaluacion
+Other Reserves,Otras provisiones
+Foreign Currency Translation Reserve,Provisiones por cambio de moneda extranjera
+Statutory Reserves,Provisiones estatutarias
+Non-current assets held for sale and discontinued operations,Activos no recurrentes para la venta y operaciones descontinuadas
+Reserves of investments in entities accounted for using the equity method ,Provisiones en inversiones en companias relacionadas
+Other Reserves,Otras provisiones
+Total Other Reserves,Total otras provisiones
+Retained Earnings,Ganancia retenida
+Retained earnings (prior periods),Ganancia retenida (periodos anteriores)
+Net income current period,Ingreso neto periodo actual
+Less: Transfers to/ from Regulatory reserves,Menos: Trasnferencia desde /hacia Provisiones regulatorias
+Total Retained Earnings,Total Ganancias retenidas
+Total Shareholders Equity,Total Patrimonio
+NON-CONTROLLING INTEREST,Intereses de empresas con participacion minoritaria
+TOTAL EQUITY  (Total accounts #31 and #32),Total Patrimonio
+TOTAL LIABILITIES AND EQUITY (Total Classes #2 and #3),Total Pasivo y Patrimonio
