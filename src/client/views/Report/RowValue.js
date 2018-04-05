@@ -7,7 +7,7 @@ const RowValue = ({ row, options, t }) => {
   return (
     <tr>
       <td style={{ whiteSpace: 'nowrap' }}>{row.CoaCode}</td>
-      <td>{t(row.RowDescription)}</td>
+      <td>{t(row.RowDescription.trim())}</td>
       {cols.map(col => (
         <td style={rightAlign} key={col}>
           {accounting.formatMoney(row[col], amountFormat)}

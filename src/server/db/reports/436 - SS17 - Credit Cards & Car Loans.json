@@ -7,7 +7,12 @@
     "RowDescription": "Credit Cards",
     "RowType": "HD",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 11",
@@ -17,7 +22,12 @@
     "RowDescription": "     Governments",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 13",
@@ -27,7 +37,12 @@
     "RowDescription": "    Other Depository Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 14",
@@ -37,7 +52,12 @@
     "RowDescription": "     Other Financial Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 15",
@@ -47,7 +67,12 @@
     "RowDescription": "     Public Nonfinancial Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 16",
@@ -57,7 +82,12 @@
     "RowDescription": "     Other Nonfinancial Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 318750.5089,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 318750.5089
   },
   {
     "CoaCode": "1402 17",
@@ -67,7 +97,12 @@
     "RowDescription": "     Households",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 2429565.747,
+    "Col3": 0,
+    "Col4": 8674.8591,
+    "Total": 2438240.6061
   },
   {
     "CoaCode": "1402 19",
@@ -77,7 +112,12 @@
     "RowDescription": "     Other",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 4086.8922,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 4086.8922
   },
   {
     "CoaCode": "1402 10",
@@ -87,7 +127,12 @@
     "RowDescription": "Credit Cards",
     "RowType": "SUM",
     "AccountGroup": "1402",
-    "Total": "1402 1"
+    "SumGroup": "1402 1",
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 20",
@@ -97,7 +142,12 @@
     "RowDescription": "Car Loans",
     "RowType": "HD",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 21",
@@ -107,7 +157,12 @@
     "RowDescription": "     Governments",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 23",
@@ -117,7 +172,12 @@
     "RowDescription": "    Other Depository Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 24",
@@ -127,7 +187,12 @@
     "RowDescription": "     Other Financial Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 25",
@@ -137,7 +202,12 @@
     "RowDescription": "     Public Nonfinancial Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 26",
@@ -147,7 +217,12 @@
     "RowDescription": "     Other Nonfinancial Corporations",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 27",
@@ -157,7 +232,12 @@
     "RowDescription": "     Households",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 10462247.54,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 10462247.54
   },
   {
     "CoaCode": "1402 29",
@@ -167,7 +247,12 @@
     "RowDescription": "     Other",
     "RowType": "VAL",
     "AccountGroup": "1402",
-    "Total": null
+    "SumGroup": null,
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   },
   {
     "CoaCode": "1402 20",
@@ -177,6 +262,11 @@
     "RowDescription": "Car Loans",
     "RowType": "SUM",
     "AccountGroup": "1402",
-    "Total": "1402 2"
+    "SumGroup": "1402 2",
+    "Col1": 0,
+    "Col2": 0,
+    "Col3": 0,
+    "Col4": 0,
+    "Total": 0
   }
 ]

@@ -1,6 +1,7 @@
 import React from 'react';
 import FieldText from './FieldText';
 import FieldSelect from './FieldSelect';
+import { translate } from 'react-i18next';
 
 const getInputType = (type, props) => {
   switch (type) {
@@ -12,14 +13,14 @@ const getInputType = (type, props) => {
 };
 
 const BootstrapField = props => {
-  const { type, meta, label } = props;
+  const { type, meta, label, t } = props;
   return (
     <div className="form-group">
-      <label>{label}</label>
+      <label>{t(label)}</label>
       {getInputType(type, props)}
-      <div className="invalid-feedback">{meta.error}</div>
+      <div className="invalid-feedback">{t('meta.error')}</div>
     </div>
   );
 };
 
-export default BootstrapField;
+export default translate()(BootstrapField);

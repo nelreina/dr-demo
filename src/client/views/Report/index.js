@@ -72,7 +72,7 @@ class Report extends Component {
             {report && t(report.name)} - {activePeriod && activePeriod.name}
           </h3>
           <Link to={`/reports`} className="btn btn-light">
-            {t('BACK')}
+            {t('GO BACK')}
           </Link>
         </div>
         <table style={{ zoom: '70%' }} className="table table-sm">

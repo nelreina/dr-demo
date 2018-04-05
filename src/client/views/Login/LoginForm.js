@@ -21,11 +21,11 @@ let LoginForm = ({ handleSubmit, action, message, t }) => {
   return (
     <form onSubmit={handleSubmit(action)}>
       <h5>{t('Please Login')}</h5>
-      {message && <p className="alert alert-danger">{message}</p>}
-      <Field name="username" label={t('Username')} component={BootstrapField} />
+      {message && <p className="alert alert-danger">{t(message)}</p>}
+      <Field name="username" label="Username" component={BootstrapField} />
       <Field
         name="password"
-        label={t('Password')}
+        label="Password"
         component={BootstrapField}
         type="password"
       />
