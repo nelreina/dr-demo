@@ -16,10 +16,11 @@ export const fetchNcoa = ReportCode => async (dispatch, getState) => {
       ? state.periods.activePeriod.id
       : null;
   if (!MatchProcessId) return;
-  const id = `${MatchProcessId} - ${ReportCode}`;
-  dispatch({ type: FETCHING });
+  const key = `${MatchProcessId} - ${ReportCode}`;
+  if (key === state.ncoa.currentKey) return;
+  dispatch({ type: FETCHING, payload: key });
   try {
-    const payload = await get(`/api/${id}`);
+    const payload = await get(`/api/${key}`);
     dispatch({
       type: FETCH_SUCCESS,
       payload
@@ -48,12 +49,13 @@ export default (state = initialState, action) => {
       return assign({}, state, {
         error: false,
         fetching: true,
-        data: undefined
+        data: undefined,
+        currentKey: payload
       });
     case FETCH_ERROR:
       return assign({}, state, { error: true, message: payload, data: [] });
     case CLEAR_DATA:
-      return assign({}, state, { data: [] });
+      return assign({}, state, { data: [], currentKey: '' });
 
     default:
       return state;
