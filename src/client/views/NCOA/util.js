@@ -1,4 +1,5 @@
 import { assign } from 'lodash';
+import S from 'string';
 
 const rightAlign = { textAlign: 'right' };
 const centerAlign = { textAlign: 'center' };
@@ -22,4 +23,15 @@ export const getColsArray = report => {
   }
   cols.push('Total');
   return cols;
+};
+
+export const getReportName = (report, activePeriod, t) => {
+  let reportName = report ? t(report.name) : '';
+  if (reportName) {
+    if (typeof String) {
+      reportName = S(reportName).truncate(35).s;
+      reportName += activePeriod ? ' - ' + activePeriod.name : '';
+    }
+  }
+  return reportName;
 };

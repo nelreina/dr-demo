@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { assign, reduce, isEqual } from 'lodash';
-import { Link } from 'react-router-dom';
-import S from 'string';
 
 import * as actions from '../../store/reducers/ncoa';
+import { style, amountFormat, getColsArray, getReportName } from './util';
 import Row from './Row';
 import NCOAHeader from './NCOAHeader';
-import { style, amountFormat, getColsArray } from './util';
+import Title from './Title';
 
 class Report extends Component {
   componentWillMount() {
@@ -39,25 +38,12 @@ class Report extends Component {
       activePeriod
     } = this.props;
     const report = reports[params.id] || {};
-    let reportName = report && t(report.name);
-    console.info('reportName', reportName);
-    if (reportName) {
-      if (typeof String) {
-        reportName = S(reportName).truncate(35).s;
-      }
-    }
+    let reportName = getReportName(report, activePeriod, t);
     const cols = getColsArray(report);
-    const options = { style, amountFormat, cols, url, reportName };
+    const options = { style, amountFormat, cols, url };
     return (
       <div>
-        <div className="report-header">
-          <Link to={`/reports`} className="btn btn-light">
-            {t('GO BACK')}
-          </Link>
-          <h3>
-            {reportName} - {activePeriod && activePeriod.name}
-          </h3>
-        </div>
+        <Title>{reportName}</Title>
         <table style={{ zoom: '70%' }} className="table table-sm">
           <NCOAHeader options={{ header: style.header }} report={report} />
           <tbody>
