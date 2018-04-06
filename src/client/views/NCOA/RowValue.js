@@ -10,6 +10,7 @@ const RowValue = ({ row, options, t }) => {
       <td>{t(row.RowDescription.trim())}</td>
       {cols.map(col => {
         let link = `${url}/${row.CoaCode}`;
+        link += `/${row.RowDescription.trim()}`;
         link += `/${col.replace('Col', '')}`;
         return (
           <td style={rightAlign} key={col}>

@@ -8,3 +8,6 @@
   justify-content: space-between;
   margin-top: 1em;
 }
+.details-header {
+  text-align: right;
+}

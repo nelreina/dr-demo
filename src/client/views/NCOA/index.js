@@ -51,7 +51,10 @@ class Report extends Component {
           <Title goback={history.goBack}>{reportName}</Title>
         )}
         <Switch>
-          <Route path={`/reports/:id/:account/:col`} component={NCOADetails} />
+          <Route
+            path={`/reports/:id/:account/:descr/:col`}
+            component={NCOADetails}
+          />
 
           <Route
             path="/"
