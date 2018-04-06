@@ -46,9 +46,6 @@ class Report extends Component {
     }
     return true;
   };
-  componentWillUnmount() {
-    this.props.clearNcoa();
-  }
 
   fetchNCOA = props => {
     const { match: { params }, activePeriod } = props;

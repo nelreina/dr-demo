@@ -10,9 +10,10 @@ import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
 import PrivateRoute from './PrivateRoute';
 import TopBar from './components/TopBar';
-import ReportList from './views/Reports';
+import ReportList from './views/ReportList';
 import Report from './views/Report';
 import Login from './views/Login';
+import NCOADetails from './views/NCOADetails';
 import NotFound from './views/NotFound';
 import Translations from './views/Translations';
 
@@ -38,6 +39,11 @@ class App extends Component {
           <Route path="/login" exact component={Login} />
           <PrivateRoute path="/reports" exact component={ReportList} />
           <PrivateRoute path="/reports/:id" exact component={Report} />
+          <PrivateRoute
+            path="/reports/:id/:account/:col"
+            exact
+            component={NCOADetails}
+          />
           <PrivateRoute path="/translations" exact component={Translations} />
           <PrivateRoute component={NotFound} />
         </Switch>
