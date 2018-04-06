@@ -7,7 +7,7 @@ const FETCH_ERROR = 'FETCH_NCOA_ERROR';
 const CLEAR_DATA = 'CLEAR_DATA';
 
 const { get } = api;
-const initialState = {};
+const initialState = { data: [] };
 
 export const fetchNcoa = ReportCode => async (dispatch, getState) => {
   const state = getState();

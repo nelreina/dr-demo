@@ -5,8 +5,7 @@ import { assign, reduce, isEqual } from 'lodash';
 
 import * as actions from '../../store/reducers/ncoa';
 import { style, amountFormat, getColsArray, getReportName } from './util';
-import Row from './Row';
-import NCOAHeader from './NCOAHeader';
+import NCOATable from './NCOATable';
 import Title from './Title';
 
 class Report extends Component {
@@ -40,20 +39,13 @@ class Report extends Component {
     const report = reports[params.id] || {};
     let reportName = getReportName(report, activePeriod, t);
     const cols = getColsArray(report);
-    const options = { style, amountFormat, cols, url };
+    const options = { style, amountFormat, cols, url, header: style.header };
     return (
       <div>
         <Title>{reportName}</Title>
-        <table style={{ zoom: '70%' }} className="table table-sm">
-          <NCOAHeader options={{ header: style.header }} report={report} />
-          <tbody>
-            {data &&
-              data.map((row, key) => (
-                <Row key={key} row={row} options={options} />
-              ))}
-          </tbody>
-        </table>
         {/* <pre>{JSON.stringify(this.props.match, null, 2)}</pre> */}
+        {/* <pre>{JSON.stringify(this.props.location, null, 2)}</pre> */}
+        <NCOATable data={data} report={report} options={options} />
       </div>
     );
   }
