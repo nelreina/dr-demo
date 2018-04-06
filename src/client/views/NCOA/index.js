@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { assign, reduce, isEqual } from 'lodash';
+import { Switch, Route, Link } from 'react-router-dom';
 
 import * as actions from '../../store/reducers/ncoa';
 import { style, amountFormat, getColsArray, getReportName } from './util';
 import NCOATable from './NCOATable';
+import NCOADetails from './NCOADetails';
 import Title from './Title';
 
 class Report extends Component {
@@ -30,7 +32,8 @@ class Report extends Component {
   };
   render() {
     const {
-      match: { params, url },
+      match: { params, url, isExact },
+      history,
       data,
       reports,
       t,
@@ -42,10 +45,21 @@ class Report extends Component {
     const options = { style, amountFormat, cols, url, header: style.header };
     return (
       <div>
-        <Title>{reportName}</Title>
-        {/* <pre>{JSON.stringify(this.props.match, null, 2)}</pre> */}
-        {/* <pre>{JSON.stringify(this.props.location, null, 2)}</pre> */}
-        <NCOATable data={data} report={report} options={options} />
+        {isExact ? (
+          <Title url="/reports">{reportName}</Title>
+        ) : (
+          <Title goback={history.goBack}>{reportName}</Title>
+        )}
+        <Switch>
+          <Route path={`/reports/:id/:account/:col`} component={NCOADetails} />
+
+          <Route
+            path="/"
+            render={props => (
+              <NCOATable data={data} report={report} options={options} />
+            )}
+          />
+        </Switch>
       </div>
     );
   }

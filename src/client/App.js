@@ -38,12 +38,7 @@ class App extends Component {
           <Redirect exact from="/" to="/reports" />
           <Route path="/login" exact component={Login} />
           <PrivateRoute path="/reports" exact component={ReportList} />
-          <PrivateRoute path="/reports/:id" exact component={NCOA} />
-          <PrivateRoute
-            path="/reports/:id/:account/:col"
-            exact
-            component={NCOADetails}
-          />
+          <PrivateRoute path="/reports/:id" component={NCOA} />
           <PrivateRoute path="/translations" exact component={Translations} />
           <PrivateRoute component={NotFound} />
         </Switch>

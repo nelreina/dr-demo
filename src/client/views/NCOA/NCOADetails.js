@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { translate } from 'react-i18next';
 import { connect } from 'react-redux';
 
-import * as actions from '../store/reducers/ncoaDetails';
+import * as actions from '../../store/reducers/ncoaDetails';
 class NCOADetails extends Component {
   componentWillMount() {
     const { match, fetchNcoaDetails } = this.props;
@@ -15,7 +15,6 @@ class NCOADetails extends Component {
     const { data } = details;
     return (
       <div>
-        <button onClick={history.goBack}>{t('GO BACK')}</button>
         <ul style={{ zoom: '85%' }}>
           {data.map(d => (
             <li key={d.R0000}>
