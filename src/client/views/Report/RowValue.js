@@ -8,17 +8,21 @@ const RowValue = ({ row, options, t }) => {
     <tr>
       <td style={{ whiteSpace: 'nowrap' }}>{row.CoaCode}</td>
       <td>{t(row.RowDescription.trim())}</td>
-      {cols.map(col => (
-        <td style={rightAlign} key={col}>
-          {col === 'Total' ? (
-            <span>{accounting.formatMoney(row[col], amountFormat)}</span>
-          ) : (
-            <Link to={`${url}/${row.CoaCode}/${col.replace('Col', '')}`}>
-              {accounting.formatMoney(row[col], amountFormat)}
-            </Link>
-          )}
-        </td>
-      ))}
+      {cols.map(col => {
+        let link = `${url}/${row.CoaCode}`;
+        link += `/${col.replace('Col', '')}`;
+        return (
+          <td style={rightAlign} key={col}>
+            {col === 'Total' ? (
+              <span>{accounting.formatMoney(row[col], amountFormat)}</span>
+            ) : (
+              <Link to={`${link}`}>
+                {accounting.formatMoney(row[col], amountFormat)}
+              </Link>
+            )}
+          </td>
+        );
+      })}
     </tr>
   );
 };

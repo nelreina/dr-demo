@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { assign, reduce, isEqual } from 'lodash';
 import { Link } from 'react-router-dom';
+import S from 'string';
 
 import * as actions from '../../store/reducers/ncoa';
 import Row from './Row';
@@ -60,17 +61,24 @@ class Report extends Component {
       activePeriod
     } = this.props;
     const report = reports[params.id] || {};
+    let reportName = report && t(report.name);
+    console.info('reportName', reportName);
+    if (reportName) {
+      if (typeof String) {
+        reportName = S(reportName).truncate(35).s;
+      }
+    }
     const cols = getColsArray(report);
-    const options = { style, amountFormat, cols, url };
+    const options = { style, amountFormat, cols, url, reportName };
     return (
       <div>
         <div className="report-header">
-          <h3>
-            {report && t(report.name)} - {activePeriod && activePeriod.name}
-          </h3>
           <Link to={`/reports`} className="btn btn-light">
             {t('GO BACK')}
           </Link>
+          <h3>
+            {reportName} - {activePeriod && activePeriod.name}
+          </h3>
         </div>
         <table style={{ zoom: '70%' }} className="table table-sm">
           <ReportHeader options={{ header }} report={report} />
