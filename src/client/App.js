@@ -13,7 +13,6 @@ import TopBar from './components/TopBar';
 import ReportList from './views/ReportList';
 import NCOA from './views/NCOA';
 import Login from './views/Login';
-import NCOADetails from './views/NCOADetails';
 import NotFound from './views/NotFound';
 import Translations from './views/Translations';
 
