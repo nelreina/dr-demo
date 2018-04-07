@@ -3,7 +3,8 @@ import { translate } from 'react-i18next';
 import { connect } from 'react-redux';
 import accounting from 'accounting';
 
-import { style, amountFormat, calcSumDetails } from '../util';
+import FilterDetails from './FilterDetails';
+import { style, amountFormat, calcSumDetails, filterSelector } from '../util';
 import * as actions from '../../../store/reducers/ncoaDetails';
 class NCOADetails extends Component {
   componentWillMount() {
@@ -13,11 +14,11 @@ class NCOADetails extends Component {
   }
 
   render() {
-    const { t, details, match, history } = this.props;
+    const { t, data, match, history } = this.props;
     const { account, col, descr } = match.params;
     let title = `${t('Details of')} ${t('Account')}: ${account}`;
     title += ` - ${t(descr)}`;
-    const { data } = details;
+    // const { data } = details;
     const sum = calcSumDetails(data);
     return (
       <div>
@@ -30,6 +31,8 @@ class NCOADetails extends Component {
         <p style={style.rightAlign} className="text-muted">
           <small>Count: {data.length}</small>
         </p>
+        <hr />
+        <FilterDetails />
         <table style={style.zoom} className="table table-sm">
           <thead>
             <tr>
@@ -65,6 +68,6 @@ class NCOADetails extends Component {
   }
 }
 const msp = state => ({
-  details: state.ncoaDetails
+  data: filterSelector(state)
 });
 export default translate()(connect(msp, actions)(NCOADetails));

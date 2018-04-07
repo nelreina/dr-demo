@@ -1,5 +1,6 @@
 import { assign, reduce } from 'lodash';
 import S from 'string';
+import { createSelector } from 'reselect';
 
 const rightAlign = { textAlign: 'right' };
 const centerAlign = { textAlign: 'center' };
@@ -41,3 +42,24 @@ export const getReportName = (report, activePeriod, t) => {
 
 export const calcSumDetails = data =>
   reduce(data, (sum, key) => sum + key.Amount, 0);
+
+const detials = state => state.ncoaDetails.data;
+const filterDetails = state => state.form.filterDetails;
+
+const execFilter = (details, filterDetails) => {
+  if (filterDetails && filterDetails.values) {
+    const { values: { filter } } = filterDetails;
+    return details.filter(
+      item =>
+        item.E0015.toLowerCase().contains(filter.toLowerCase()) ||
+        item.R0000.contains(filter)
+    );
+  } else {
+    return details;
+  }
+};
+export const filterSelector = createSelector(
+  detials,
+  filterDetails,
+  execFilter
+);
