@@ -2,15 +2,24 @@ import React from 'react';
 import accounting from 'accounting';
 import { translate } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import S from 'string';
+
 const RowValue = ({ row, options, t }) => {
   const { style: { rightAlign }, amountFormat, cols, url } = options;
+  const desc = t(row.RowDescription.trim());
+  const linkDesc = S(desc).replaceAll('/', '||');
   return (
     <tr>
       <td style={{ whiteSpace: 'nowrap' }}>{row.CoaCode}</td>
-      <td>{t(row.RowDescription.trim())}</td>
+      <td>{desc}</td>
       {cols.map(col => {
         let link = `${url}/${row.CoaCode}`;
-        link += `/${row.RowDescription.trim()}`;
+        if (row.Section) {
+          link += row.Section ? `/${t(row.Section.trim())}` : '';
+          link += ` - ${linkDesc}`;
+        } else {
+          link += `/${linkDesc}`;
+        }
         link += `/${col.replace('Col', '')}`;
         return (
           <td style={rightAlign} key={col}>

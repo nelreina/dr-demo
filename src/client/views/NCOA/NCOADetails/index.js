@@ -21,12 +21,12 @@ class NCOADetails extends Component {
     const sum = calcSumDetails(data);
     return (
       <div>
-        <h5 style={style.rightAlign} className="text-muted">
+        <h6 style={style.rightAlign} className="text-muted">
           {title}
-        </h5>
-        <h5 style={style.rightAlign} className="text-primary">
+        </h6>
+        <h6 style={style.rightAlign} className="text-info">
           Total: {accounting.formatMoney(sum, amountFormat)}
-        </h5>
+        </h6>
         <p style={style.rightAlign} className="text-muted">
           <small>Count: {data.length}</small>
         </p>
