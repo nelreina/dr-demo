@@ -14,14 +14,25 @@ class Dashboard extends Component {
     const keys = Object.keys(reports);
     const list = keys.map(k => reports[k]);
     return (
-      <div className="list-group">
+      <div className="dashboard">
         {list.map((report, key) => (
           <Link
-            className="list-group-item"
+            className="dashboard-item"
             key={key}
             to={`${path}/${report.code}`}
           >
-            <h5>{t(report.name)}</h5>
+            <div className="card-header">{t(report.name)}</div>
+            <ul className="card-body">
+              {/* <pre>{JSON.stringify(report.mainGroups, null, 2)}</pre> */}
+              {report.mainGroups.map(group => (
+                <li>
+                  <span>
+                    {group.group} {group.groupName}
+                  </span>
+                  <span>{group.groupAmount}</span>
+                </li>
+              ))}
+            </ul>
           </Link>
         ))}
       </div>
