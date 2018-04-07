@@ -1,11 +1,14 @@
-import { assign } from 'lodash';
+import { assign, reduce } from 'lodash';
 import S from 'string';
 
 const rightAlign = { textAlign: 'right' };
 const centerAlign = { textAlign: 'center' };
 const nowrap = { whiteSpace: 'nowrap' };
 const header = assign({}, nowrap, centerAlign);
-export const style = { rightAlign, nowrap, header };
+const zoom = { zoom: '70%' };
+const link = { color: '#0065FF', cursor: 'pointer' };
+
+export const style = { rightAlign, nowrap, header, zoom, link };
 export const amountFormat = {
   symbol: '',
   precision: 2,
@@ -35,3 +38,6 @@ export const getReportName = (report, activePeriod, t) => {
   }
   return reportName;
 };
+
+export const calcSumDetails = data =>
+  reduce(data, (sum, key) => sum + key.Amount, 0);

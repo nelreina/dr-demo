@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { translate } from 'react-i18next';
 import { connect } from 'react-redux';
+import accounting from 'accounting';
 
+import { style, amountFormat, calcSumDetails } from '../util';
 import * as actions from '../../../store/reducers/ncoaDetails';
 class NCOADetails extends Component {
   componentWillMount() {
@@ -16,16 +18,43 @@ class NCOADetails extends Component {
     let title = `${t('Details of')} ${t('Account')}: ${account}`;
     title += ` - ${t(descr)}`;
     const { data } = details;
+    const sum = calcSumDetails(data);
     return (
       <div>
         <h5 className="details-header text-muted">{title}</h5>
-        <ul style={{ zoom: '85%' }}>
-          {data.map(d => (
-            <li key={d.R0000}>
-              {d.E0015} - {d.Amount}
-            </li>
-          ))}
-        </ul>
+        <h5 className="details-header text-muted">
+          Total: {accounting.formatMoney(sum, amountFormat)}
+        </h5>
+        <table style={style.zoom} className="table table-sm">
+          <thead>
+            <tr>
+              <th>Row</th>
+              <th>Counterparty ID</th>
+              <th>Counterparty Name</th>
+              <th>Group</th>
+              <th>Contract ID</th>
+              <th>Accounting Ledger</th>
+              <th style={style.rightAlign}>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map(d => (
+              <tr key={d.R0000}>
+                <td>
+                  <a style={style.link}>{d.R0000}</a>
+                </td>
+                <td>{d.E0014}</td>
+                <td>{d.E0015}</td>
+                <td>{d.E0024}</td>
+                <td>{d.E0035}</td>
+                <td>{d.E0047}</td>
+                <td style={style.rightAlign}>
+                  {accounting.formatMoney(d.Amount, amountFormat)}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     );
   }

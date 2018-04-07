@@ -3,8 +3,9 @@ import NCOAHeader from './NCOAHeader';
 import Row from './Row';
 
 const NCOATable = ({ data, report, options }) => {
+  const { style } = options;
   return (
-    <table style={{ zoom: '70%' }} className="table table-sm">
+    <table style={style.zoom} className="table table-sm">
       <NCOAHeader options={options} report={report} />
       <tbody>
         {data &&
