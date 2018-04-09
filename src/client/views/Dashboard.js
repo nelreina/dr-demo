@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { translate } from 'react-i18next';
-import * as actions from '../store/reducers/ncoa';
 
+import * as actions from '../store/reducers/ncoa';
+import DashboardItem from './DashboardItem';
 class Dashboard extends Component {
   componentWillMount() {
     this.props.clearNcoa();
@@ -16,24 +16,7 @@ class Dashboard extends Component {
     return (
       <div className="dashboard">
         {list.map((report, key) => (
-          <Link
-            className="dashboard-item"
-            key={key}
-            to={`${path}/${report.code}`}
-          >
-            <div className="card-header">{t(report.name)}</div>
-            <ul className="card-body">
-              {/* <pre>{JSON.stringify(report.mainGroups, null, 2)}</pre> */}
-              {report.mainGroups.map(group => (
-                <li>
-                  <span>
-                    {group.group} {group.groupName}
-                  </span>
-                  <span>{group.groupAmount}</span>
-                </li>
-              ))}
-            </ul>
-          </Link>
+          <DashboardItem key={key} report={report} path={path} />
         ))}
       </div>
     );
