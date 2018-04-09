@@ -5,6 +5,7 @@ import * as reportsActions from './store/reducers/reports';
 import { authActions } from 'nelreina-web-utils';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
@@ -30,18 +31,30 @@ class App extends Component {
   render() {
     const { t, logout } = this.props;
     return (
-      <div className="container">
-        <TopBar {...this.props} />
-        <hr />
-        <Switch>
-          <Redirect exact from="/" to="/reports" />
-          <Route path="/login" exact component={Login} />
-          <PrivateRoute path="/reports" exact component={Dashboard} />
-          <PrivateRoute path="/reports/:id" component={NCOA} />
-          <PrivateRoute path="/translations" exact component={Translations} />
-          <PrivateRoute component={NotFound} />
-        </Switch>
-      </div>
+      <Route
+        render={({ location }) => (
+          <div className="container">
+            <TopBar {...this.props} />
+            <hr />
+            <TransitionGroup>
+              <CSSTransition timeout={300} classNames="fade" key={location.key}>
+                <Switch location={location}>
+                  <Redirect exact from="/" to="/reports" />
+                  <Route path="/login" exact component={Login} />
+                  <PrivateRoute path="/reports" exact component={Dashboard} />
+                  <PrivateRoute path="/reports/:id" component={NCOA} />
+                  <PrivateRoute
+                    path="/translations"
+                    exact
+                    component={Translations}
+                  />
+                  <PrivateRoute component={NotFound} />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          </div>
+        )}
+      />
     );
   }
 }

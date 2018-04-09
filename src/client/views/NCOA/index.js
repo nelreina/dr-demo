@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { assign, reduce, isEqual } from 'lodash';
 import { Switch, Route, Link } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 import * as actions from '../../store/reducers/ncoa';
 import { style, amountFormat, getColsArray, getReportName } from './util';
@@ -44,26 +45,38 @@ class Report extends Component {
     const cols = getColsArray(report);
     const options = { style, amountFormat, cols, url, header: style.header };
     return (
-      <div>
-        {isExact ? (
-          <Title url="/reports">{reportName}</Title>
-        ) : (
-          <Title goback={history.goBack}>{reportName}</Title>
-        )}
-        <Switch>
-          <Route
-            path={`/reports/:id/:account/:descr/:col`}
-            component={NCOADetails}
-          />
-
-          <Route
-            path="/"
-            render={props => (
-              <NCOATable data={data} report={report} options={options} />
+      <Route
+        render={({ location }) => (
+          <div>
+            {isExact ? (
+              <Title url="/reports">{reportName}</Title>
+            ) : (
+              <Title goback={history.goBack}>{reportName}</Title>
             )}
-          />
-        </Switch>
-      </div>
+            <TransitionGroup>
+              <CSSTransition key={location.key} classNames="fade" timeout={300}>
+                <Switch>
+                  <Route
+                    path={`/reports/:id/:account/:descr/:col`}
+                    component={NCOADetails}
+                  />
+
+                  <Route
+                    path="/"
+                    render={props => (
+                      <NCOATable
+                        data={data}
+                        report={report}
+                        options={options}
+                      />
+                    )}
+                  />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          </div>
+        )}
+      />
     );
   }
 }
