@@ -63,3 +63,10 @@ exports.calcGroupSum = (data, SumRow) => {
   );
   return sumCols;
 };
+exports.reportsWtihGroupValue = async (data, client) => {
+  let withVal = data;
+  // data.forEach (rep => {
+
+  // })
+  return withVal;
+};
