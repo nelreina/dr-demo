@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { translate } from 'react-i18next';
 import { connect } from 'react-redux';
 import accounting from 'accounting';
+import List from '../../../components/List';
 
 import FilterDetails from './FilterDetails';
 import { style, amountFormat, calcSumDetails, filterSelector } from '../util';
 import * as actions from '../../../store/reducers/ncoaDetails';
+import RowDetails from './RowDetails';
 class NCOADetails extends Component {
   componentWillMount() {
     const { match, fetchNcoaDetails } = this.props;
@@ -46,21 +48,12 @@ class NCOADetails extends Component {
             </tr>
           </thead>
           <tbody>
-            {data.map(d => (
-              <tr key={d.R0000}>
-                <td>
-                  <a style={style.link}>{d.R0000}</a>
-                </td>
-                <td>{d.E0014}</td>
-                <td>{d.E0015}</td>
-                <td>{d.E0024}</td>
-                <td>{d.E0035}</td>
-                <td>{d.E0047}</td>
-                <td style={style.rightAlign}>
-                  {accounting.formatMoney(d.Amount, amountFormat)}
-                </td>
-              </tr>
-            ))}
+            <List
+              of={RowDetails}
+              iterator={data}
+              style={style}
+              amountFormat={amountFormat}
+            />
           </tbody>
         </table>
       </div>

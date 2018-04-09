@@ -2,7 +2,7 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-const DashboardItem = ({ report, path, t }) => {
+const DashboardItem = ({ item: report, path, t }) => {
   return (
     <Link className="dashboard-item" to={`${path}/${report.code}`}>
       <div className="card-header">{t(report.name)}</div>

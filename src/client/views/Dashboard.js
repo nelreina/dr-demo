@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 
 import * as actions from '../store/reducers/ncoa';
+import List from '../components/List';
 import DashboardItem from './DashboardItem';
 class Dashboard extends Component {
   componentWillMount() {
@@ -15,9 +16,7 @@ class Dashboard extends Component {
     const list = keys.map(k => reports[k]);
     return (
       <div className="dashboard">
-        {list.map((report, key) => (
-          <DashboardItem key={key} report={report} path={path} />
-        ))}
+        <List iterator={list} of={DashboardItem} path={path} />
       </div>
     );
   }
