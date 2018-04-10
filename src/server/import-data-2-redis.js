@@ -8,7 +8,7 @@ const {
   addUsers
 } = require('./lib');
 const periods = {
-  // 433: { id: 433, period: 201801, name: 'Jan 2018' },
+  433: { id: 433, period: 201801, name: 'Jan 2018' },
   436: { id: 436, period: 201802, name: 'Feb 2018' }
 };
 
