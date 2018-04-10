@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { translate } from 'react-i18next';
-import List from '../components/List';
 
+import List from '../components/List';
+import PeriodOption from './PeriodOption';
 class PeriodSelector extends Component {
   state = { key: '' };
 
@@ -13,7 +14,6 @@ class PeriodSelector extends Component {
 
   handleChange = evt => {
     const key = evt.target.value;
-    console.info('###########', key);
     this.setState(() => ({ key }));
     this.props.action(key);
   };
@@ -22,8 +22,7 @@ class PeriodSelector extends Component {
     return (
       <div>
         <select value={this.state.key} onChange={this.handleChange}>
-          <option value="433">Jan 2018</option>
-          <option value="436">Feb 2018</option>
+          <List of={PeriodOption} iterator={periods.data} isobject />
         </select>
         {/* <pre>{JSON.stringify(periods, null, 2)}</pre> */}
       </div>
