@@ -17,7 +17,8 @@ export const fetchPeriods = () => async dispatch => {
     payload
   });
   const keys = Object.keys(payload);
-  dispatch({ type: SET_ACTIVE_PERIOD, payload: payload[keys[0]] });
+  const last = keys.length - 1;
+  dispatch({ type: SET_ACTIVE_PERIOD, payload: payload[keys[last]] });
 };
 
 export const setActivePeriod = period => ({
