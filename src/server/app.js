@@ -12,7 +12,7 @@ Log4js.configure('./log4js.json');
 require('dotenv').config();
 
 const initImport = require('./import-data-2-redis');
-const { reportsWtihGroupValue } = require('./lib');
+const { getReports } = require('./lib');
 const PORT = process.env.PORT;
 
 const publicPath = path.resolve(__dirname, '../../public');
@@ -95,6 +95,16 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
+app.get('/api/reports/:matchId', async (req, res) => {
+  try {
+    const data = await getReports(req.params.matchId);
+    res.send(data);
+  } catch (error) {
+    logger.error(error);
+    res.status(503).send(error);
+  }
+});
+
 app.get('/api/:key', async (req, res) => {
   try {
     const { key } = req.params;
@@ -103,9 +113,6 @@ app.get('/api/:key', async (req, res) => {
     const data = await client.get(key);
     if (data) {
       retjson = data;
-      if (key === 'reports') {
-        retjson = await reportsWtihGroupValue(data, client);
-      }
       res.json(JSON.parse(retjson));
     } else {
       logger.error(`api/${key}: "No data found"`);

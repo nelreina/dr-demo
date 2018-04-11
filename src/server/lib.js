@@ -1,9 +1,13 @@
 const fs = require('fs');
-const { find, reduce } = require('lodash');
+const { find, reduce, keyBy } = require('lodash');
 const { converters } = require('nelreina-node-utils');
 const { toJSON } = converters;
+const { createClient } = require('then-redis');
+
 const reports = require('./db/reports.json');
 const user = require('./db/mock-users.json');
+
+const client = createClient();
 
 exports.addUsers = client => {
   client.set('ogarcia/ogarcia', JSON.stringify(user.ogarcia));
@@ -46,27 +50,46 @@ exports.importTranslations = async (client, logger, dataDir, file) => {
   saveTranslations(key, json, client, logger);
 };
 exports.reports = reports;
-exports.calcGroupSum = (data, SumRow) => {
-  const sumCols = {
-    groupAmount: 0
-  };
+const calcGroupSum = (data, SumRow) => {
   const calcRows = data.filter(
     row => row.CoaCode.startsWith(SumRow['groupValue']) && row.RowType === 'VAL'
   );
-  reduce(
+  const groupSum = reduce(
     calcRows,
     (sum, row) => {
-      sum.groupAmount += row.groupAmount;
+      sum += row.Total;
       return sum;
     },
-    sumCols
+    0
   );
-  return sumCols;
+  return groupSum;
 };
-exports.reportsWtihGroupValue = async (data, client) => {
-  let withVal = data;
-  // data.forEach (rep => {
+exports.getReports = async id => {
+  const reports = await redis('reports');
+  const promises = [];
+  const reportCodes = Object.keys(reports);
+  reportCodes.forEach(code => {
+    promises.push(calcReport(id, code, reports[code]));
+  });
+  const allrep = await Promise.all(promises);
+  return keyBy(allrep, 'code');
+};
 
-  // })
-  return withVal;
+const redis = async key => {
+  const data = await client.get(key);
+  return JSON.parse(data);
 };
+
+const calcReport = async (id, code, report) => {
+  const data = await redis(`${id} - ${code}`);
+  const mainGroups = report.mainGroups.map(grp => {
+    const sum = calcGroupSum(data, grp);
+    grp.groupAmount = sum;
+    return grp;
+  });
+  report['mainGroups'] = mainGroups;
+
+  return report;
+};
+
+exports.redis = redis;
