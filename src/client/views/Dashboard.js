@@ -5,6 +5,7 @@ import { assign } from 'lodash';
 
 import * as actionsNcoa from '../store/reducers/ncoa';
 import * as actionsPeriods from '../store/reducers/periods';
+import * as actionsReports from '../store/reducers/reports';
 
 import List from '../components/List';
 import PeriodSelector from '../components/PeriodSelector';
@@ -14,8 +15,9 @@ class Dashboard extends Component {
     this.props.clearNcoa();
   }
   setActivePeriod = key => {
-    const { periods, setActivePeriod } = this.props;
+    const { periods, setActivePeriod, fetchReports } = this.props;
     setActivePeriod(periods.data[key]);
+    fetchReports(key);
   };
 
   render() {
@@ -33,7 +35,7 @@ class Dashboard extends Component {
     );
   }
 }
-const actions = assign({}, actionsNcoa, actionsPeriods);
+const actions = assign({}, actionsNcoa, actionsPeriods, actionsReports);
 export default translate()(
   connect(
     state => ({

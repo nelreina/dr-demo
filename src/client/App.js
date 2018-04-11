@@ -19,9 +19,9 @@ import Translations from './views/Translations';
 
 import './App.css';
 class App extends Component {
-  componentWillMount() {
-    this.props.fetchPeriods();
-    this.props.fetchReports();
+  async componentWillMount() {
+    const activePeriod = await this.props.fetchPeriods();
+    this.props.fetchReports(activePeriod.id);
   }
   changeLang = lng => {
     const { i18n } = this.props;

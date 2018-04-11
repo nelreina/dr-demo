@@ -8,9 +8,10 @@ const FETCH_ERROR = 'FETCH_REPORTS_ERROR';
 const { get } = api;
 const initialState = {};
 
-export const fetchReports = () => async dispatch => {
+export const fetchReports = matchId => async dispatch => {
+  if (!matchId) return;
   dispatch({ type: FETCHING });
-  const payload = await get(`/api/reports`);
+  const payload = await get(`/api/reports/${matchId}`);
   dispatch({
     type: FETCH_SUCCESS,
     payload
