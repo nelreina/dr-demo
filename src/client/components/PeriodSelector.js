@@ -21,7 +21,7 @@ class PeriodSelector extends Component {
     const { t, periods, action } = this.props;
     return (
       <div>
-        <select value={this.state.key} onChange={this.handleChange}>
+        <select  className="form-control" value={this.state.key} onChange={this.handleChange}>
           <List of={PeriodOption} iterator={periods.data} isobject />
         </select>
         {/* <pre>{JSON.stringify(periods, null, 2)}</pre> */}

@@ -25,6 +25,7 @@ class Dashboard extends Component {
     return (
       <div>
         <PeriodSelector periods={periods} action={this.setActivePeriod} />
+        <hr />
         <div className="dashboard">
           <List iterator={list} of={DashboardItem} path={path} />
         </div>
