@@ -33,25 +33,32 @@ class App extends Component {
     return (
       <Route
         render={({ location }) => (
-          <div className="container">
-            <TopBar {...this.props} />
-            <hr />
-            <TransitionGroup>
-              <CSSTransition timeout={300} classNames="fade" key={location.key}>
-                <Switch location={location}>
-                  <Redirect exact from="/" to="/reports" />
-                  <Route path="/login" exact component={Login} />
-                  <PrivateRoute path="/reports" exact component={Dashboard} />
-                  <PrivateRoute path="/reports/:id" component={NCOA} />
-                  <PrivateRoute
-                    path="/translations"
-                    exact
-                    component={Translations}
-                  />
-                  <PrivateRoute component={NotFound} />
-                </Switch>
-              </CSSTransition>
-            </TransitionGroup>
+          <div className="App">
+            <aside className="" />
+            <div className="container">
+              <TopBar {...this.props} />
+              <hr />
+              <TransitionGroup>
+                <CSSTransition
+                  timeout={300}
+                  classNames="fade"
+                  key={location.key}
+                >
+                  <Switch location={location}>
+                    <Redirect exact from="/" to="/reports" />
+                    <Route path="/login" exact component={Login} />
+                    <PrivateRoute path="/reports" exact component={Dashboard} />
+                    <PrivateRoute path="/reports/:id" component={NCOA} />
+                    <PrivateRoute
+                      path="/translations"
+                      exact
+                      component={Translations}
+                    />
+                    <PrivateRoute component={NotFound} />
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
+            </div>
           </div>
         )}
       />

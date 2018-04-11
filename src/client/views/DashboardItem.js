@@ -2,6 +2,7 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import accounting from 'accounting';
+import S from 'string';
 
 import { amountFormat } from './NCOA/util';
 
@@ -13,7 +14,7 @@ const DashboardItem = ({ item: report, path, t }) => {
         {/* <pre>{JSON.stringify(report.mainGroups, null, 2)}</pre> */}
         {report.mainGroups.map(group => (
           <li key={group.groupValue}>
-            <span>{group.groupName}</span>
+            <span>{S(t(group.groupName)).capitalize().s}</span>
             <span>
               {accounting.formatMoney(group.groupAmount, amountFormat)}
             </span>

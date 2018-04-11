@@ -5,7 +5,7 @@ import BootstrapField from '../../../components/BootstrapField';
 
 let FilterDetails = ({}) => {
   return (
-    <form>
+    <form className="form-inline">
       <Field name="filter" component={BootstrapField} />
     </form>
   );

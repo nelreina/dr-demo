@@ -35,6 +35,7 @@ class NCOADetails extends Component {
         </p>
         <hr />
         <FilterDetails />
+        <hr />
         <table style={style.zoom} className="table table-sm">
           <thead>
             <tr>
