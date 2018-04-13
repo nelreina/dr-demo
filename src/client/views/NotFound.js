@@ -8,7 +8,9 @@ const NotFound = props => {
       <h3>
         {t('Path')} {props.location.pathname} {t('not found')}
       </h3>
-      <Link to="/reports">Go back to Reports</Link>
+      <button onClick={props.history.goBack} className="btn btn-link">
+        Go back
+      </button>
     </div>
   );
 };
