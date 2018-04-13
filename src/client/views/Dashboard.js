@@ -9,6 +9,7 @@ import * as actionsReports from '../store/reducers/reports';
 
 import List from '../components/List';
 import PeriodSelector from '../components/PeriodSelector';
+import { dashboardSelector } from './NCOA/util';
 import DashboardItem from './DashboardItem';
 class Dashboard extends Component {
   componentWillMount() {
@@ -21,9 +22,7 @@ class Dashboard extends Component {
   };
 
   render() {
-    const { reports, periods, match: { path }, t } = this.props;
-    const keys = Object.keys(reports);
-    const list = keys.map(k => reports[k]);
+    const { list, periods, match: { path }, t } = this.props;
     return (
       <div>
         <PeriodSelector periods={periods} action={this.setActivePeriod} />
@@ -39,7 +38,7 @@ const actions = assign({}, actionsNcoa, actionsPeriods, actionsReports);
 export default translate()(
   connect(
     state => ({
-      reports: state.reports.data ? state.reports.data : {},
+      list: dashboardSelector(state),
       periods: state.periods
     }),
     actions

@@ -30,7 +30,11 @@ export const getColsArray = report => {
 };
 
 export const getReportName = (report, activePeriod, t) => {
-  let reportName = report ? t(report.name) : '';
+  let reportName = '';
+  if (report) {
+    reportName += report.schedule === 'Y' ? `${report.code} - ` : '';
+    reportName += t(report.name);
+  }
   if (reportName) {
     if (typeof String) {
       reportName = S(reportName).truncate(35).s;
@@ -44,7 +48,13 @@ export const calcSumDetails = data =>
   reduce(data, (sum, key) => sum + key.Amount, 0);
 
 const detials = state => state.ncoaDetails.data;
+const reports = state => state.reports.data;
 const filterDetails = state => state.form.filterDetails;
+
+const showDashboard = reports => {
+  const list = Object.keys(reports).map(k => reports[k]);
+  return list.filter(rep => rep.dashboard === 1);
+};
 
 const execFilter = (details, filterDetails) => {
   if (filterDetails && filterDetails.values) {
@@ -63,3 +73,4 @@ export const filterSelector = createSelector(
   filterDetails,
   execFilter
 );
+export const dashboardSelector = createSelector(reports, showDashboard);

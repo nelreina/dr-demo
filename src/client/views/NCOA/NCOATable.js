@@ -9,7 +9,9 @@ const NCOATable = ({ data, report, options }) => {
       <NCOAHeader options={options} report={report} />
       <tbody>
         {data &&
+          data.length > 0 &&
           data.map((row, key) => <Row key={key} row={row} options={options} />)}
+        {data.length === 0 && 'No data available'}
       </tbody>
     </table>
   );

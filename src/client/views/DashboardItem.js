@@ -9,12 +9,15 @@ import { amountFormat } from './NCOA/util';
 const DashboardItem = ({ item: report, path, t }) => {
   return (
     <Link className="dashboard-item" to={`${path}/${report.code}`}>
-      <div className="card-header">{t(report.name)}</div>
+      <div className="card-header">
+        {report.schedule === 'Y' && `${report.code} - `}
+        {t(report.name)}
+      </div>
       <ul className="card-body">
         {/* <pre>{JSON.stringify(report.mainGroups, null, 2)}</pre> */}
         {report.mainGroups.map(group => (
           <li key={group.groupValue}>
-            <span>{S(t(group.groupName)).capitalize().s}</span>
+            <span>{S(t(group.groupName)).titleCase().s}</span>
             <span>
               {accounting.formatMoney(group.groupAmount, amountFormat)}
             </span>
