@@ -1,95 +1,335 @@
-{
-  "BS": {
-    "code": "BS",
+[
+  {
     "name": "Balance Sheet",
+    "code": "BS",
+    "group": "Main Reports",
     "header": "ResidentDetailed",
     "countAmountColumns": 4,
-    "mainGroups": [
-      {
-        "group": "class",
-        "groupName": "Assets",
-        "groupValue": "1",
-        "groupAmount": 0
-      },
-      {
-        "group": "class",
-        "groupName": "Liabilities",
-        "groupValue": "2",
-        "groupAmount": 0
-      },
-      {
-        "group": "class",
-        "groupName": "Equity",
-        "groupValue": "3",
-        "groupAmount": 0
-      }
-    ]
+    "dashboard": 1,
+    "schedule": "N"
   },
-  "PL": {
-    "code": "PL",
+  {
+    "name": "Contingent Liability",
+    "code": "CL",
+    "group": "Main Reports",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "N"
+  },
+  {
     "name": "Profit & Loss",
+    "code": "PL",
+    "group": "Main Reports",
     "header": "Resident",
     "countAmountColumns": 2,
-
-    "mainGroups": [
-      {
-        "group": "class",
-        "groupName": "Net Interest Income",
-        "groupValue": "4",
-        "groupAmount": 0
-      },
-      {
-        "group": "class",
-        "groupName": "Net Fees And Commissions",
-        "groupValue": "5",
-        "groupAmount": 0
-      },
-      {
-        "group": "class",
-        "groupName": "Operating Profit",
-        "groupValue": "6",
-        "groupAmount": 0
-      },
-      {
-        "group": "class",
-        "groupName": "Non Controling Interest",
-        "groupValue": "7",
-        "groupAmount": 0
-      }
-    ]
+    "dashboard": 1,
+    "schedule": "N"
   },
-  "SS17": {
-    "code": "SS17",
-    "name": "Credit Cards & Car Loans",
+  {
+    "name": "Sub Report I",
+    "code": "SUB1",
+    "group": "Main Reports",
     "header": "ResidentDetailed",
     "countAmountColumns": 4,
-    "mainGroups": [
-      {
-        "group": "product",
-        "groupName": "Credit Cards",
-        "groupValue": "1402 1",
-        "groupAmount": 0
-      },
-      {
-        "group": "product",
-        "groupName": "Car Loans",
-        "groupValue": "1402 2",
-        "groupAmount": 0
-      }
-    ]
+    "dashboard": 0,
+    "schedule": "N"
   },
-  "SUB2": {
+  {
+    "name": "Sub Report II D",
     "code": "SUB2",
-    "name": "Sub Report II",
+    "group": "Main Reports",
     "header": "ResidentDetailed",
     "countAmountColumns": 4,
-    "mainGroups": [
-      {
-        "group": "product",
-        "groupName": "mortgages meeting the qualification criteria",
-        "groupValue": "1403",
-        "groupAmount": 0
-      }
-    ]
+    "dashboard": 1,
+    "schedule": "N"
+  },
+  {
+    "name": "Capital",
+    "code": "SS1B",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Risk Weighted Assets",
+    "code": "SS1C",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Risk Weighted  Assets Contingent Liabilities ",
+    "code": "SS1D",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Operational Risk Basic Indicator Approach",
+    "code": "SS1F-1",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Equity Position Risk Per National Market - Country",
+    "code": "SS1I-1",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Foreign Exchange Risk",
+    "code": "SS1J",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Due From/ To Unconsolidated Affiliates",
+    "code": "SS4",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Breakdown of loans granted by collateral type",
+    "code": "SS5A",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Credit Extensions",
+    "code": "SS5B",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Large Exposure",
+    "code": "SS6",
+    "group": "Schedules Capital",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Large Depositors",
+    "code": "SS10",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Country Risk exposure",
+    "code": "SS11",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Gross to Net Report",
+    "code": "SS12",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Savings Deposits",
+    "code": "SS19",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Liquidity Report",
+    "code": "SS2A",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Prudential liquidity and loan to loan deposit",
+    "code": "SS2B",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Maturity Shedule",
+    "code": "SS9A",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Interest rate repricing",
+    "code": "SS9B",
+    "group": "Schedules Liquidity",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Pledged Assets",
+    "code": "SS2C",
+    "group": "Schedules Others",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "**Derive from BalanceSheet (Overdrawn Current Account Overdrafts)",
+    "code": "SS7A",
+    "group": "Schedules Others",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Delinqunet And Non-Performing Loans",
+    "code": "SS7B",
+    "group": "Schedules Others",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Alloated Loan Loss provision",
+    "code": "SS8",
+    "group": "Schedules Others",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Explanations for large variances on non performing loans",
+    "code": "SS8A",
+    "group": "Schedules Others",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Reserve Requirements",
+    "code": "SS13",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Short Tem Net Foreign Assets",
+    "code": "SS14",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Domestic Loans And Acceptances",
+    "code": "SS15A",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "New Domestic Loans And Acceptances",
+    "code": "SS15B",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Foreign Loans and Acceptances",
+    "code": "SS15C",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "New Domestic Loans By Type and Acceptances",
+    "code": "SS16",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Credit Cards and Car Loans",
+    "code": "SS17",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 1,
+    "schedule": "Y"
+  },
+  {
+    "name": "Maturity Of Time Deposits",
+    "code": "SS18",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
+  },
+  {
+    "name": "Weekly Net Foreign Assets Position",
+    "code": "SS42",
+    "group": "Schedules Monetary",
+    "header": "ResidentDetailed",
+    "countAmountColumns": 4,
+    "dashboard": 0,
+    "schedule": "Y"
   }
-}
+]

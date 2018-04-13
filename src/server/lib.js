@@ -5,9 +5,25 @@ const { toJSON } = converters;
 const { createClient } = require('then-redis');
 
 const reports = require('./db/reports.json');
+const dashboard = require('./db/dashboard.json');
 const user = require('./db/mock-users.json');
 
 const client = createClient();
+
+const initReports = reports => {
+  const init = reports.map(rep => {
+    const group = rep.code;
+    const groupName = 'Total ' + rep.name;
+    const groupValue = '1';
+    const groupAmount = 0;
+
+    rep.mainGroups = dashboard[rep.code] || [
+      { group, groupName, groupValue, groupAmount }
+    ];
+    return rep;
+  });
+  return keyBy(init, 'code');
+};
 
 exports.addUsers = client => {
   client.set('ogarcia/ogarcia', JSON.stringify(user.ogarcia));
@@ -49,19 +65,23 @@ exports.importTranslations = async (client, logger, dataDir, file) => {
   const json = await toJSON(data);
   saveTranslations(key, json, client, logger);
 };
-exports.reports = reports;
+exports.reports = initReports(reports);
 const calcGroupSum = (data, SumRow) => {
-  const calcRows = data.filter(
-    row => row.CoaCode.startsWith(SumRow['groupValue']) && row.RowType === 'VAL'
-  );
-  const groupSum = reduce(
-    calcRows,
-    (sum, row) => {
-      sum += row.Total;
-      return sum;
-    },
-    0
-  );
+  let groupSum = 0;
+  if (data) {
+    const calcRows = data.filter(
+      row =>
+        row.CoaCode.startsWith(SumRow['groupValue']) && row.RowType === 'VAL'
+    );
+    groupSum = reduce(
+      calcRows,
+      (sum, row) => {
+        sum += row.Total;
+        return sum;
+      },
+      0
+    );
+  }
   return groupSum;
 };
 exports.getReports = async id => {

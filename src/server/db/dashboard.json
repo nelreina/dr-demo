@@ -1,0 +1,70 @@
+{
+  "BS": [
+    {
+      "group": "class",
+      "groupName": "Assets",
+      "groupValue": "1",
+      "groupAmount": 0
+    },
+    {
+      "group": "class",
+      "groupName": "Liabilities",
+      "groupValue": "2",
+      "groupAmount": 0
+    },
+    {
+      "group": "class",
+      "groupName": "Equity",
+      "groupValue": "3",
+      "groupAmount": 0
+    }
+  ],
+  "PL": [
+    {
+      "group": "class",
+      "groupName": "Net Interest Income",
+      "groupValue": "4",
+      "groupAmount": 0
+    },
+    {
+      "group": "class",
+      "groupName": "Net Fees And Commissions",
+      "groupValue": "5",
+      "groupAmount": 0
+    },
+    {
+      "group": "class",
+      "groupName": "Operating Profit",
+      "groupValue": "6",
+      "groupAmount": 0
+    },
+    {
+      "group": "class",
+      "groupName": "Non Controling Interest",
+      "groupValue": "7",
+      "groupAmount": 0
+    }
+  ],
+  "SS17": [
+    {
+      "group": "product",
+      "groupName": "Credit Cards",
+      "groupValue": "1402 1",
+      "groupAmount": 0
+    },
+    {
+      "group": "product",
+      "groupName": "Car Loans",
+      "groupValue": "1402 2",
+      "groupAmount": 0
+    }
+  ],
+  "SUB2": [
+    {
+      "group": "product",
+      "groupName": "mortgages meeting the qualification criteria",
+      "groupValue": "1403",
+      "groupAmount": 0
+    }
+  ]
+}
