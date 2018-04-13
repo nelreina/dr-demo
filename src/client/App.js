@@ -34,7 +34,7 @@ class App extends Component {
       <Route
         render={({ location }) => (
           <div className="App">
-            <aside className="" />
+            <aside className="sidebar">Logo</aside>
             <div className="container">
               <TopBar {...this.props} />
               <hr />
@@ -45,9 +45,13 @@ class App extends Component {
                   key={location.key}
                 >
                   <Switch location={location}>
-                    <Redirect exact from="/" to="/reports" />
+                    <Redirect exact from="/" to="/dashboard" />
                     <Route path="/login" exact component={Login} />
-                    <PrivateRoute path="/reports" exact component={Dashboard} />
+                    <PrivateRoute
+                      path="/dashboard"
+                      exact
+                      component={Dashboard}
+                    />
                     <PrivateRoute path="/reports/:id" component={NCOA} />
                     <PrivateRoute
                       path="/translations"
