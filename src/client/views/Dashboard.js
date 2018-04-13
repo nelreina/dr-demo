@@ -10,7 +10,7 @@ import * as actionsReports from '../store/reducers/reports';
 import List from '../components/List';
 import PeriodSelector from '../components/PeriodSelector';
 import { dashboardSelector } from './NCOA/util';
-import DashboardItem from './DashboardItem';
+import ReportListItem from './NCOA/ReportListItem';
 class Dashboard extends Component {
   componentWillMount() {
     this.props.clearNcoa();
@@ -27,8 +27,8 @@ class Dashboard extends Component {
       <div>
         <PeriodSelector periods={periods} action={this.setActivePeriod} />
         <hr />
-        <div className="dashboard">
-          <List iterator={list} of={DashboardItem} path={'/reports'} />
+        <div className="report-list">
+          <List iterator={list} of={ReportListItem} path={'/reports'} />
         </div>
       </div>
     );

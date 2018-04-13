@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 import accounting from 'accounting';
 import S from 'string';
 
-import { amountFormat } from './NCOA/util';
+import { amountFormat } from './util';
 
-const DashboardItem = ({ item: report, path, t }) => {
+const ReportListItem = ({ item: report, path, t }) => {
   return (
-    <Link className="dashboard-item" to={`${path}/${report.code}`}>
+    <Link className="report-list-item" to={`${path}/${report.code}`}>
       <div className="card-header">
         {report.schedule === 'Y' && `${report.code} - `}
         {t(report.name)}
@@ -17,7 +17,7 @@ const DashboardItem = ({ item: report, path, t }) => {
         {/* <pre>{JSON.stringify(report.mainGroups, null, 2)}</pre> */}
         {report.mainGroups.map(group => (
           <li key={group.groupValue}>
-            <span>{S(t(group.groupName)).titleCase().s}</span>
+            <span>{S(t(group.groupName).toLowerCase()).titleCase().s}</span>
             <span>
               {accounting.formatMoney(group.groupAmount, amountFormat)}
             </span>
@@ -28,4 +28,4 @@ const DashboardItem = ({ item: report, path, t }) => {
   );
 };
 
-export default translate()(DashboardItem);
+export default translate()(ReportListItem);

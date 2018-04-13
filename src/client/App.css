@@ -25,31 +25,31 @@
 .details-header {
   text-align: right;
 }
-.dashboard {
+.report-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
   grid-auto-rows: 1fr;
 }
-.dashboard a {
+.report-list a {
   text-decoration: none;
 }
-.dashboard-item {
+.report-list-item {
   font-size: 0.85em;
   border: 1px #ddd solid;
   border-radius: 0.5em;
 }
-.dashboard-item:hover {
+.report-list-item:hover {
   border: 1px #0065ff solid;
 }
-.dashboard-item > .card-body {
+.report-list-item > .card-body {
   color: #292d31;
   list-style-type: none;
 }
-.dashboard-item > .card-body > ul {
+.report-list-item > .card-body > ul {
   background: #000;
 }
-.dashboard-item > .card-body > li {
+.report-list-item > .card-body > li {
   display: flex;
   justify-content: space-between;
 }
