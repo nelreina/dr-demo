@@ -10,7 +10,7 @@ class Login extends Component {
   render() {
     const { login, t, auth } = this.props;
     return auth.isAuthenticated ? (
-      <Redirect to="/reports" />
+      <Redirect to="/" />
     ) : (
       <LoginForm action={login} message={auth.message} />
     );

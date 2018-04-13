@@ -6,7 +6,7 @@ const FieldText = ({ meta, label, input, type, t }) => {
   return (
     <input
       className={getInputClass(meta)}
-      placeholder={`${S(t(input.name)).capitalize().s}`}
+      placeholder={`${t(S(input.name).capitalize().s)}`}
       type={type}
       {...input}
     />

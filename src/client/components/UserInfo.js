@@ -1,10 +1,14 @@
 import React from 'react';
 import { translate } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const UserInfo = ({ t, user, logout }) => {
   return (
     <div>
-      {t('Logged in as')} <a href="#">{t(user.fullName)}</a>
+      {t('Logged in as')}{' '}
+      <Link to="/user" href="#">
+        {t(user.fullName)}
+      </Link>
       <a
         style={{ marginLeft: '1em' }}
         onClick={logout}
