@@ -11,6 +11,7 @@ import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
 
 import PrivateRoute from './PrivateRoute';
 import TopBar from './components/TopBar';
+import Sidebar from './components/Sidebar';
 import Dashboard from './views/Dashboard';
 import NCOA from './views/NCOA';
 import Login from './views/Login';
@@ -34,7 +35,7 @@ class App extends Component {
       <Route
         render={({ location }) => (
           <div className="App">
-            <aside className="sidebar">Logo</aside>
+            <Sidebar {...this.props} />
             <div className="container">
               <TopBar {...this.props} />
               <hr />

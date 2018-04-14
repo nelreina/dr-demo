@@ -2,11 +2,20 @@
   display: grid;
   grid-template-columns: 200px 1fr;
 }
-.App > aside {
-  background: #555;
+.App > .sidebar {
+  background: #777;
   height: 100vh;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: green solid 0.7em;
 }
+/* 
+.App > .sidebar > .sidebar-nav {
+  height: 400px;
+} */
+
 .App > .container {
   height: 100vh;
   overflow: scroll;
@@ -40,7 +49,8 @@
   border-radius: 0.5em;
 }
 .report-list-item:hover {
-  border: 1px #0065ff solid;
+  border: 0.15em green solid;
+  transition: 150ms ease-in all;
 }
 .report-list-item > .card-body {
   color: #292d31;
