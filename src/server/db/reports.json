@@ -41,7 +41,7 @@
     "group": "Main Reports",
     "header": "ResidentDetailed",
     "countAmountColumns": 4,
-    "dashboard": 1,
+    "dashboard": 0,
     "schedule": "N"
   },
   {
