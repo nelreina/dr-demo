@@ -14,6 +14,7 @@ import TopBar from './components/TopBar';
 import Sidebar from './components/Sidebar';
 import Dashboard from './views/Dashboard';
 import NCOA from './views/NCOA';
+import ReportList from './views/NCOA/ReportList';
 import Login from './views/Login';
 import NotFound from './views/NotFound';
 import Translations from './views/Translations';
@@ -54,6 +55,7 @@ class App extends Component {
                       component={Dashboard}
                     />
                     <PrivateRoute path="/reports/:id" component={NCOA} />
+                    <PrivateRoute path="/reportlist" component={ReportList} />
                     <PrivateRoute
                       path="/translations"
                       exact

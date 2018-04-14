@@ -1,4 +1,4 @@
-import { assign, reduce } from 'lodash';
+import { assign, reduce, groupBy } from 'lodash';
 import S from 'string';
 import { createSelector } from 'reselect';
 
@@ -56,6 +56,18 @@ const showDashboard = reports => {
   return list.filter(rep => rep.dashboard === 1);
 };
 
+const tabNav = reports => {
+  const list = Object.keys(reports).map(k => reports[k]);
+  const group = groupBy(list, 'group');
+  return Object.keys(group).map(grp => ({
+    name: grp,
+    url: `/reportlist/tab/${grp.toLowerCase()}`
+  }));
+};
+const reportGroup = reports => {
+  const list = Object.keys(reports).map(k => reports[k]);
+  return groupBy(list, 'group');
+};
 const execFilter = (details, filterDetails) => {
   if (filterDetails && filterDetails.values) {
     const { values: { filter } } = filterDetails;
@@ -74,3 +86,5 @@ export const filterSelector = createSelector(
   execFilter
 );
 export const dashboardSelector = createSelector(reports, showDashboard);
+export const tabNavSelector = createSelector(reports, tabNav);
+export const reportGroupSelector = createSelector(reports, reportGroup);

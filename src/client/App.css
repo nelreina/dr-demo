@@ -20,7 +20,9 @@
   height: 100vh;
   overflow: scroll;
 }
-
+.App > .container .nav-tabs {
+  margin-bottom: 1em;
+}
 .report-header {
   display: flex;
   justify-content: space-between;
