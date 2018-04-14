@@ -1,7 +1,7 @@
 import React from 'react';
 import { translate } from 'react-i18next';
-import { NavLink } from 'react-router-dom';
 import List from './List';
+import NavLinkItem from './NavLinkItem';
 
 const navs = [
   {
@@ -10,7 +10,7 @@ const navs = [
   },
   {
     name: 'View Reports',
-    url: '/reports'
+    url: '/reportlist'
   },
   {
     name: 'Uploaded Data',
@@ -21,12 +21,6 @@ const navs = [
     url: '/corrections'
   }
 ];
-
-const NavLinkItem = ({ item }) => (
-  <NavLink className="nav-link" activeClassName="active" to={item.url}>
-    {item.name}
-  </NavLink>
-);
 
 const SidebarNav = ({ t }) => {
   return (
