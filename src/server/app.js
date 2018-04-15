@@ -16,6 +16,7 @@ const { getReports } = require('./lib');
 const PORT = process.env.PORT;
 
 const publicPath = path.resolve(__dirname, '../../public');
+const faviconPath = path.resolve(__dirname, '../client');
 
 // Get logger
 const logger = Log4js.getLogger('dr-demo');
@@ -35,6 +36,10 @@ const client = createClient();
 client.on('connect', () => {
   logger.info('Connected to redis...');
   initImport(client, logger);
+});
+
+app.get('/favicon.ico', (req, res) => {
+  res.sendfile(`${faviconPath}/favicon.ico`);
 });
 
 app.get('/locales/:key', async (req, res) => {
