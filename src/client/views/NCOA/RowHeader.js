@@ -6,9 +6,9 @@ const RowHeader = ({ row, options, t }) => {
   return (
     <tr className="table-primar">
       <td colSpan="7">
-        <h5 className="text-center text-uppercase">
+        <p className="text-uppercase">
           {t(row.RowDescription)} ({row.CoaCode})
-        </h5>
+        </p>
       </td>
     </tr>
   );

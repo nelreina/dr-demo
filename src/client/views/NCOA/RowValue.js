@@ -22,7 +22,7 @@ const RowValue = ({ row, options, t }) => {
         }
         link += `/${col.replace('Col', '')}`;
         return (
-          <td style={rightAlign} key={col}>
+          <td style={rightAlign} className="amount" key={col}>
             {col === 'Total' ? (
               <span>{accounting.formatMoney(row[col], amountFormat)}</span>
             ) : (

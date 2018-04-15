@@ -12,7 +12,7 @@ const RowDetails = ({ item, style, amountFormat }) => {
       <td>{item.E0024}</td>
       <td>{item.E0035}</td>
       <td>{item.E0047}</td>
-      <td style={style.rightAlign}>
+      <td style={style.rightAlign} className="amount">
         {accounting.formatMoney(item.Amount, amountFormat)}
       </td>
     </tr>

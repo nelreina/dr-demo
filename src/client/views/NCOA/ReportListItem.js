@@ -18,7 +18,7 @@ const ReportListItem = ({ item: report, path, t }) => {
         {report.mainGroups.map(group => (
           <li key={group.groupValue}>
             <span>{S(t(group.groupName).toLowerCase()).titleCase().s}</span>
-            <span>
+            <span className="text-muted amount">
               {accounting.formatMoney(group.groupAmount, amountFormat)}
             </span>
           </li>

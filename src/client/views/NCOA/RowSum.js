@@ -34,11 +34,11 @@ const RowSum = ({ row, options, data, t }) => {
   const { style: { rightAlign, nowrap }, amountFormat, cols } = options;
   const sum = data ? calcSum(data, row, 'SumGroup') : {};
   return (
-    <tr className="table-secondary">
+    <tr className="table-success">
       <th style={nowrap}>{row.CoaCode}</th>
       <th className="text-uppercase">TOTAL {t(row.RowDescription)}</th>
       {cols.map(col => (
-        <th style={rightAlign} key={col}>
+        <th style={rightAlign} className="amount" key={col}>
           {accounting.formatMoney(sum[col], amountFormat)}
         </th>
       ))}
