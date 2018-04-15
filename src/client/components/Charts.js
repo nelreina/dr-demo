@@ -1,6 +1,7 @@
 import React from 'react';
 import { translate } from 'react-i18next';
 import { Doughnut } from 'react-chartjs-2';
+import 'chart.piecelabel.js';
 
 const Charts = ({ t }) => {
   return (
@@ -11,15 +12,24 @@ const Charts = ({ t }) => {
             datasets: [
               {
                 data: [17544, 1780],
-                backgroundColor: ['green', 'darkred']
+                backgroundColor: ['#2DA139', '#1D1B1B']
               }
             ],
             labels: ['Matched', 'Unmatched']
           }}
-          width={100}
-          height={200}
           options={{
-            maintainAspectRatio: false
+            maintainAspectRatio: true,
+            layout: {
+              padding: 0
+            },
+            title: {
+              display: true,
+              position: 'bottom',
+              text: 'Rows loaded this month'
+            },
+            pieceLabel: {
+              render: 'value'
+            }
           }}
         />
       </div>
