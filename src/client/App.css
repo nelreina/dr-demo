@@ -11,6 +11,11 @@
   justify-content: space-between;
   border-right: #2da139 solid 0.7em;
 }
+
+.dashboard > .charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 /* 
 .App > .sidebar > .sidebar-nav {
   height: 400px;

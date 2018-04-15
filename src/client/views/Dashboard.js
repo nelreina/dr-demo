@@ -9,6 +9,7 @@ import * as actionsReports from '../store/reducers/reports';
 
 import List from '../components/List';
 import PeriodSelector from '../components/PeriodSelector';
+import Charts from '../components/Charts';
 import { dashboardSelector } from './NCOA/util';
 import ReportListView from './NCOA/ReportListView';
 class Dashboard extends Component {
@@ -24,8 +25,10 @@ class Dashboard extends Component {
   render() {
     const { list, periods, match: { path }, t } = this.props;
     return (
-      <div>
+      <div className="dashboard">
         <PeriodSelector periods={periods} action={this.setActivePeriod} />
+        <hr />
+        <Charts />
         <hr />
         <ReportListView list={list} />
       </div>
