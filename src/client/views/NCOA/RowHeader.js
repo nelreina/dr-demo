@@ -7,8 +7,7 @@ const RowHeader = ({ row, options, t }) => {
     <tr className="table-primar">
       <td colSpan="7">
         <h5 className="text-center text-uppercase">
-          {row.CoaCode} -
-          {t(row.RowDescription)}
+          {t(row.RowDescription)} ({row.CoaCode})
         </h5>
       </td>
     </tr>
