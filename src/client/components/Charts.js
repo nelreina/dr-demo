@@ -4,17 +4,23 @@ import { connect } from 'react-redux';
 import ChartMatchUnMatch from './ChartMatchUnMatch';
 import ChartCreditCardCarLoans from './ChartCreditCardCarLoans';
 
-const Charts = ({ bankload }) => {
+import { ccChartSelector } from '../views/NCOA/util';
+
+const Charts = ({ bankload, ccdata }) => {
   return (
     <div className="charts">
       <div>
         <ChartMatchUnMatch data={bankload.data} />
       </div>
       <div>
-        <ChartCreditCardCarLoans data={{ cc: 2761078.01, cl: 10462247 }} />
+        {/* <pre>{JSON.stringify(ccdata, null, 2)}</pre> */}
+        <ChartCreditCardCarLoans data={ccdata} />
       </div>
     </div>
   );
 };
 
-export default connect(state => ({ bankload: state.bankload }))(Charts);
+export default connect(state => ({
+  bankload: state.bankload,
+  ccdata: ccChartSelector(state)
+}))(Charts);

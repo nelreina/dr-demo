@@ -19,18 +19,20 @@ const validate = values => {
 };
 let LoginForm = ({ handleSubmit, action, message, t }) => {
   return (
-    <form onSubmit={handleSubmit(action)}>
-      <h5>{t('Please Login')}</h5>
-      {message && <p className="alert alert-danger">{t(message)}</p>}
-      <Field name="username" label="Username" component={BootstrapField} />
-      <Field
-        name="password"
-        label="Password"
-        component={BootstrapField}
-        type="password"
-      />
-      <button className="btn btn-primary">{t('Login')}</button>
-    </form>
+    <div id="loginform">
+      <form className="" onSubmit={handleSubmit(action)}>
+        <h5>{t('Please Login')}</h5>
+        {message && <p className="alert alert-danger">{t(message)}</p>}
+        <Field name="username" label="Username" component={BootstrapField} />
+        <Field
+          name="password"
+          label="Password"
+          component={BootstrapField}
+          type="password"
+        />
+        <button className="btn btn-primary">{t('Login')}</button>
+      </form>
+    </div>
   );
 };
 

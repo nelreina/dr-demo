@@ -19,8 +19,19 @@ import ReportList from './views/NCOA/ReportList';
 import Login from './views/Login';
 import NotFound from './views/NotFound';
 import Translations from './views/Translations';
+import bg from '../client/assets/Greenwave.png';
 
 import './App.css';
+
+const styleLogin = {
+  backgroundImage: `url(${bg})`,
+  backgroundSize: 'cover'
+};
+
+const styleAuth = {
+  display: 'grid',
+  gridTemplateColumns: '200px 1fr'
+};
 class App extends Component {
   async componentWillMount() {
     const activePeriod = await this.props.fetchPeriods();
@@ -33,12 +44,12 @@ class App extends Component {
   };
 
   render() {
-    const { t, logout } = this.props;
+    const { t, logout, auth: { isAuthenticated } } = this.props;
     return (
       <Route
         render={({ location }) => (
-          <div className="App">
-            <Sidebar {...this.props} />
+          <div className="App" style={isAuthenticated ? styleAuth : styleLogin}>
+            {isAuthenticated && <Sidebar {...this.props} />}
             <div className="container">
               <TopBar {...this.props} />
               <hr />

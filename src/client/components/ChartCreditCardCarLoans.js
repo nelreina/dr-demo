@@ -3,6 +3,7 @@ import { translate } from 'react-i18next';
 import { Pie } from 'react-chartjs-2';
 import 'chart.piecelabel.js';
 import { isEmpty } from 'lodash';
+import S from 'string';
 
 const CrClChart = ({ t, data }) => {
   let { cc, cl } = data;
@@ -10,7 +11,11 @@ const CrClChart = ({ t, data }) => {
     cc = 0;
     cl = 0;
   }
-  const title = `Credit Cards & Car Loans`;
+  const title = `${S(t('Credit Cards'))
+    .toLowerCase()
+    .titleCase()} & ${S(t('Car Loans'))
+    .toLowerCase()
+    .titleCase()}`;
   return (
     <Pie
       data={{

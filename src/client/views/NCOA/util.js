@@ -55,6 +55,16 @@ const showDashboard = reports => {
   const list = Object.keys(reports).map(k => reports[k]);
   return list.filter(rep => rep.dashboard === 1);
 };
+const ccChart = reports => {
+  const ret = {};
+  const report = reports['SS17'];
+  if (!report) {
+    return [];
+  }
+  ret.cc = report.mainGroups[0].groupAmount;
+  ret.cl = report.mainGroups[1].groupAmount;
+  return ret;
+};
 
 const tabNav = reports => {
   const list = Object.keys(reports).map(k => reports[k]);
@@ -87,4 +97,5 @@ export const filterSelector = createSelector(
 );
 export const dashboardSelector = createSelector(reports, showDashboard);
 export const tabNavSelector = createSelector(reports, tabNav);
+export const ccChartSelector = createSelector(reports, ccChart);
 export const reportGroupSelector = createSelector(reports, reportGroup);
