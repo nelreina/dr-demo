@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-right: green solid 0.7em;
+  border-right: #2da139 solid 0.7em;
 }
 /* 
 .App > .sidebar > .sidebar-nav {
@@ -51,7 +51,7 @@
   border-radius: 0.5em;
 }
 .report-list-item:hover {
-  border: 0.15em green solid;
+  border: 0.15em #2da139 solid;
   transition: 150ms ease-in all;
 }
 .report-list-item > .card-body {
