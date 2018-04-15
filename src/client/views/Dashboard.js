@@ -4,6 +4,7 @@ import { translate } from 'react-i18next';
 import { assign } from 'lodash';
 
 import * as actionsNcoa from '../store/reducers/ncoa';
+import * as actionsBankload from '../store/reducers/bankload';
 import * as actionsPeriods from '../store/reducers/periods';
 import * as actionsReports from '../store/reducers/reports';
 
@@ -17,9 +18,15 @@ class Dashboard extends Component {
     this.props.clearNcoa();
   }
   setActivePeriod = key => {
-    const { periods, setActivePeriod, fetchReports } = this.props;
+    const {
+      periods,
+      setActivePeriod,
+      fetchReports,
+      fetchBankload
+    } = this.props;
     setActivePeriod(periods.data[key]);
     fetchReports(key);
+    fetchBankload(key);
   };
 
   render() {
@@ -35,7 +42,13 @@ class Dashboard extends Component {
     );
   }
 }
-const actions = assign({}, actionsNcoa, actionsPeriods, actionsReports);
+const actions = assign(
+  {},
+  actionsBankload,
+  actionsNcoa,
+  actionsPeriods,
+  actionsReports
+);
 export default translate()(
   connect(
     state => ({

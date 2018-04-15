@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { assign } from 'lodash';
-import * as periodsActions from './store/reducers/periods';
-import * as reportsActions from './store/reducers/reports';
 import { authActions } from 'nelreina-web-utils';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-
 import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
+
+import * as reportsActions from './store/reducers/reports';
+import * as periodsActions from './store/reducers/periods';
+import * as bankloadActions from './store/reducers/bankload';
 
 import PrivateRoute from './PrivateRoute';
 import TopBar from './components/TopBar';
@@ -24,6 +25,7 @@ class App extends Component {
   async componentWillMount() {
     const activePeriod = await this.props.fetchPeriods();
     this.props.fetchReports(activePeriod.id);
+    this.props.fetchBankload(activePeriod.id);
   }
   changeLang = lng => {
     const { i18n } = this.props;
@@ -72,7 +74,13 @@ class App extends Component {
     );
   }
 }
-const actions = assign({}, periodsActions, reportsActions, authActions);
+const actions = assign(
+  {},
+  periodsActions,
+  reportsActions,
+  authActions,
+  bankloadActions
+);
 const AppConnect = connect(state => state, actions)(App);
 const AppTranslate = translate()(AppConnect);
 const AppWithRouter = withRouter(AppTranslate);

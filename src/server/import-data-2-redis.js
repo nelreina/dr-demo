@@ -21,6 +21,14 @@ module.exports = async (client, logger) => {
   await importTranslations(client, logger, dataDir, 'es.csv');
   client.set('periods', JSON.stringify(periods));
   client.set('reports', JSON.stringify(reports));
+  client.set(
+    'bankload - 433',
+    JSON.stringify({ match: 17087, unmatched: 199 })
+  );
+  client.set(
+    'bankload - 436',
+    JSON.stringify({ match: 17843, unmatched: 234 })
+  );
   const ret = await client.get('reports');
   logger.info('Imported reports: ', ret);
 };

@@ -1,41 +1,20 @@
 import React from 'react';
-import { translate } from 'react-i18next';
-import { Doughnut } from 'react-chartjs-2';
-import 'chart.piecelabel.js';
+import { connect } from 'react-redux';
 
-const Charts = ({ t }) => {
+import ChartMatchUnMatch from './ChartMatchUnMatch';
+import ChartCreditCardCarLoans from './ChartCreditCardCarLoans';
+
+const Charts = ({ bankload }) => {
   return (
     <div className="charts">
       <div>
-        <Doughnut
-          data={{
-            datasets: [
-              {
-                data: [17544, 1780],
-                backgroundColor: ['#2DA139', '#1D1B1B']
-              }
-            ],
-            labels: ['Matched', 'Unmatched']
-          }}
-          options={{
-            maintainAspectRatio: true,
-            layout: {
-              padding: 0
-            },
-            title: {
-              display: true,
-              position: 'bottom',
-              text: 'Rows loaded this month'
-            },
-            pieceLabel: {
-              render: 'value'
-            }
-          }}
-        />
+        <ChartMatchUnMatch data={bankload.data} />
       </div>
-      <p />
+      <div>
+        <ChartCreditCardCarLoans data={{ cc: 2761078.01, cl: 10462247 }} />
+      </div>
     </div>
   );
 };
 
-export default translate()(Charts);
+export default connect(state => ({ bankload: state.bankload }))(Charts);
