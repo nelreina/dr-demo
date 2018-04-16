@@ -25,7 +25,8 @@ import './App.css';
 
 const styleLogin = {
   backgroundImage: `url(${bg})`,
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
+  backgroundPosition: 'right'
 };
 
 const styleAuth = {

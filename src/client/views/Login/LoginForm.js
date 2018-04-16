@@ -3,6 +3,7 @@ import { reduxForm, Field } from 'redux-form';
 import { translate } from 'react-i18next';
 import BootstrapField from '../../components/BootstrapField';
 import { connect } from 'react-redux';
+import gllogo from '../../assets/greenlight_logo_loginpage.png';
 
 const validate = values => {
   const errors = {};
@@ -32,6 +33,16 @@ let LoginForm = ({ handleSubmit, action, message, t }) => {
         />
         <button className="btn btn-primary">{t('Login')}</button>
       </form>
+      <img
+        style={{
+          width: '350px',
+          position: 'fixed',
+          bottom: '300px',
+          right: '200px'
+        }}
+        src={gllogo}
+        alt=""
+      />
     </div>
   );
 };
