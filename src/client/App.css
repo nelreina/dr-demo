@@ -110,3 +110,9 @@
   font-size: 1.5em;
   top: -100px;
 }
+#side-bar-period-name {
+  color: #2da139;
+  text-transform: uppercase;
+  font-size: 2em;
+  /* font-weight: bold; */
+}

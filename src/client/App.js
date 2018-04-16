@@ -13,6 +13,7 @@ import * as bankloadActions from './store/reducers/bankload';
 import PrivateRoute from './PrivateRoute';
 import TopBar from './components/TopBar';
 import Sidebar from './components/Sidebar';
+import Corrections from './views/Corrections';
 import Dashboard from './views/Dashboard';
 import NCOA from './views/NCOA';
 import ReportList from './views/NCOA/ReportList';
@@ -67,6 +68,11 @@ class App extends Component {
                       path="/dashboard"
                       exact
                       component={Dashboard}
+                    />
+                    <PrivateRoute
+                      path="/corrections"
+                      exact
+                      component={Corrections}
                     />
                     <PrivateRoute path="/reports/:id" component={NCOA} />
                     <PrivateRoute path="/reportlist" component={ReportList} />

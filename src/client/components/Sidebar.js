@@ -2,13 +2,18 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import logo from '../assets/greenlight.png';
 import SidebarNav from './SidebarNav';
+import { times } from 'lodash';
 
-const Sidebar = ({ t, auth }) => {
-  const { isAuthenticated } = auth;
+const Sidebar = ({ t, periods }) => {
+  const { activePeriod } = periods;
   return (
     <aside className="sidebar">
       <img src={logo} alt="Site Logo" />
-      {isAuthenticated ? <SidebarNav /> : <nav />}
+      <div className="container" id="side-bar-period-name">
+        {activePeriod.name}
+      </div>
+      <SidebarNav />
+      {times(15, () => <div />)}
       <div className="container footer">
         <small>IBIS Management </small>
       </div>

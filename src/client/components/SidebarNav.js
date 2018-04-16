@@ -13,8 +13,8 @@ const navs = [
     url: '/reportlist'
   },
   {
-    name: 'Uploaded Data',
-    url: '/uploaded-data'
+    name: 'View Data',
+    url: '/view-data'
   },
   {
     name: 'Corrections',
