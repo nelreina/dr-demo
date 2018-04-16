@@ -48,7 +48,9 @@ class Report extends Component {
       <Route
         render={({ location }) => (
           <div>
-            <Title goback={history.goBack}>{reportName}</Title>
+            <Title details={!isExact} goback={history.goBack}>
+              {reportName}
+            </Title>
             <TransitionGroup>
               <CSSTransition key={location.key} classNames="fade" timeout={300}>
                 <Switch>

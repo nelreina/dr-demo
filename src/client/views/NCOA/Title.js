@@ -1,24 +1,20 @@
 import React from 'react';
 import { translate } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import ExportToolbar from '../../components/ExportToolbar';
+import { connect } from 'react-redux';
 
-const Title = ({ t, children, goback, url = '/' }) => {
+const Title = ({ t, children, goback, details, ncoa, ncoaDetails }) => {
   const goBackText = 'GO BACK';
-  const goBackClass = 'btn btn-light';
+  const goBackClass = 'btn btn-light btn-sm';
   return (
     <div className="report-header">
-      {goback ? (
-        <button className={goBackClass} onClick={goback}>
-          {t(goBackText)}
-        </button>
-      ) : (
-        <Link to={url} className={goBackClass}>
-          {t(goBackText)}
-        </Link>
-      )}
-      <h4>{children}</h4>
+      <button className={goBackClass} onClick={goback}>
+        {t(goBackText)}
+      </button>
+      <h5>{children}</h5>
+      <ExportToolbar data={details ? ncoaDetails.data : ncoa.data} />
     </div>
   );
 };
 
-export default translate()(Title);
+export default connect(state => state)(translate()(Title));
