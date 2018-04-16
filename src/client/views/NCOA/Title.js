@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 
 const Title = ({ t, children, goback, details, ncoa, ncoaDetails }) => {
   const goBackText = 'GO BACK';
+  let filename = children;
+  filename += details ? ' Details' : '';
   const goBackClass = 'btn btn-light btn-sm';
   return (
     <div className="report-header">
@@ -12,7 +14,10 @@ const Title = ({ t, children, goback, details, ncoa, ncoaDetails }) => {
         {t(goBackText)}
       </button>
       <h5>{children}</h5>
-      <ExportToolbar data={details ? ncoaDetails.data : ncoa.data} />
+      <ExportToolbar
+        filename={filename}
+        data={details ? ncoaDetails.data : ncoa.data}
+      />
     </div>
   );
 };

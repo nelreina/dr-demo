@@ -23,6 +23,7 @@
     "nelreina-web-utils": "^0.0.16",
     "react": "^16.2.0",
     "react-chartjs-2": "^2.7.0",
+    "react-csv": "^1.0.14",
     "react-dom": "^16.2.0",
     "react-i18next": "^7.5.1",
     "react-redux": "^5.0.7",
