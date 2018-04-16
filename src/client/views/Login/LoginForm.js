@@ -44,7 +44,7 @@ let LoginForm = ({ handleSubmit, action, message, t }) => {
         style={{
           width: '350px',
           position: 'fixed',
-          bottom: '300px',
+          bottom: '200px',
           right: '200px'
         }}
         src={gllogo}
