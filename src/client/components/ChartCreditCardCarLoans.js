@@ -4,18 +4,19 @@ import { Pie } from 'react-chartjs-2';
 import 'chart.piecelabel.js';
 import { isEmpty } from 'lodash';
 import S from 'string';
-
 const CrClChart = ({ t, data }) => {
+  const cct = S(t('Credit Cards'))
+    .toLowerCase()
+    .titleCase();
+  const clt = S(t('Car Loans'))
+    .toLowerCase()
+    .titleCase();
   let { cc, cl } = data;
   if (isEmpty(data)) {
     cc = 0;
     cl = 0;
   }
-  const title = `${S(t('Credit Cards'))
-    .toLowerCase()
-    .titleCase()} & ${S(t('Car Loans'))
-    .toLowerCase()
-    .titleCase()}`;
+  const title = `${cct} & ${clt}`;
   return (
     <Pie
       data={{
@@ -25,7 +26,7 @@ const CrClChart = ({ t, data }) => {
             backgroundColor: ['#2DA139', '#1D1B1B']
           }
         ],
-        labels: ['Credit Cards', 'Car Loans']
+        labels: [cct, clt]
       }}
       options={{
         maintainAspectRatio: true,

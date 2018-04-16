@@ -16,9 +16,9 @@ const ReportListItem = ({ item: report, path, t }) => {
       <ul className="card-body">
         {/* <pre>{JSON.stringify(report.mainGroups, null, 2)}</pre> */}
         {report.mainGroups.map(group => (
-          <li key={group.groupValue}>
+          <li key={group.groupValue} style={{ fontSize: '0.85em' }}>
             <span>{S(t(group.groupName).toLowerCase()).titleCase().s}</span>
-            <span className="text-muted amount">
+            <span className="text-primary amount">
               {accounting.formatMoney(group.groupAmount, amountFormat)}
             </span>
           </li>

@@ -10,7 +10,7 @@ const ChartMatchUnMatch = ({ t, data }) => {
     match = 0;
     unmatched = 0;
   }
-  const title = `Total of ${match + unmatched} rows loaded from source(s)`;
+  const title = `${t('Rows loaded from source(s)')}: ${match + unmatched} `;
   return (
     <Doughnut
       data={{
@@ -20,7 +20,7 @@ const ChartMatchUnMatch = ({ t, data }) => {
             backgroundColor: ['#2DA139', '#1D1B1B']
           }
         ],
-        labels: ['Matched', 'Unmatched']
+        labels: [t('Matched'), t('Unmatched')]
       }}
       options={{
         maintainAspectRatio: true,
