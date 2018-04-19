@@ -10,7 +10,7 @@ const Button = ({ lang, i18n }) => (
     onClick={() => {
       i18n.changeLanguage(lang);
     }}
-    className={`btn btn-${langColor[lang]}`}
+    className={`btn  btn-sm btn-${langColor[lang]}`}
   >
     {lang.toUpperCase()}
   </button>
