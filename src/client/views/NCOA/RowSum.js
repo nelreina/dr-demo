@@ -3,6 +3,7 @@ import accounting from 'accounting';
 import { reduce } from 'lodash';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
+import { ncoaFormat } from './util';
 
 const calcSum = (data, SumRow, group) => {
   const sumCols = {
@@ -31,7 +32,10 @@ const calcSum = (data, SumRow, group) => {
 };
 
 const RowSum = ({ row, options, data, t }) => {
-  const { style: { rightAlign, nowrap }, amountFormat, cols } = options;
+  const {
+    style: { rightAlign, nowrap },
+    cols
+  } = options;
   const sum = data ? calcSum(data, row, 'SumGroup') : {};
   return (
     <tr className="table-success">
@@ -39,7 +43,7 @@ const RowSum = ({ row, options, data, t }) => {
       <th className="text-uppercase">TOTAL {t(row.RowDescription)}</th>
       {cols.map(col => (
         <th style={rightAlign} className="amount" key={col}>
-          {accounting.formatMoney(sum[col], amountFormat)}
+          {accounting.formatMoney(sum[col] / 1000, ncoaFormat)}
         </th>
       ))}
     </tr>

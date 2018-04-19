@@ -3,9 +3,14 @@ import accounting from 'accounting';
 import { translate } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import S from 'string';
+import { ncoaFormat } from './util';
 
 const RowValue = ({ row, options, t }) => {
-  const { style: { rightAlign }, amountFormat, cols, url } = options;
+  const {
+    style: { rightAlign },
+    cols,
+    url
+  } = options;
   const desc = t(row.RowDescription.trim());
   const linkDesc = S(desc).replaceAll('/', '||');
   return (
@@ -24,10 +29,10 @@ const RowValue = ({ row, options, t }) => {
         return (
           <td style={rightAlign} className="amount" key={col}>
             {col === 'Total' ? (
-              <span>{accounting.formatMoney(row[col], amountFormat)}</span>
+              <span>{accounting.formatMoney(row[col] / 1000, ncoaFormat)}</span>
             ) : (
               <Link to={`${link}`}>
-                {accounting.formatMoney(row[col], amountFormat)}
+                {accounting.formatMoney(row[col] / 1000, ncoaFormat)}
               </Link>
             )}
           </td>

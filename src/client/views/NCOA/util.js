@@ -20,6 +20,7 @@ export const amountFormat = {
     zero: '%s  -'
   }
 };
+export const ncoaFormat = assign({}, amountFormat, { precision: 0 });
 export const getColsArray = report => {
   const cols = [];
   for (let i = 1; i <= report.countAmountColumns; i++) {
@@ -80,7 +81,9 @@ const reportGroup = reports => {
 };
 const execFilter = (details, filterDetails) => {
   if (filterDetails && filterDetails.values) {
-    const { values: { filter } } = filterDetails;
+    const {
+      values: { filter }
+    } = filterDetails;
     return details.filter(
       item =>
         item.E0015.toLowerCase().contains(filter.toLowerCase()) ||

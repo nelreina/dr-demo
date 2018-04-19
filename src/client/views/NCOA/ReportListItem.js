@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import accounting from 'accounting';
 import S from 'string';
 
-import { amountFormat } from './util';
+import { ncoaFormat } from './util';
 
 const ReportListItem = ({ item: report, path, t }) => {
   return (
@@ -19,7 +19,7 @@ const ReportListItem = ({ item: report, path, t }) => {
           <li key={group.groupValue} style={{ fontSize: '0.85em' }}>
             <span>{S(t(group.groupName).toLowerCase()).titleCase().s}</span>
             <span className="text-primary amount">
-              {accounting.formatMoney(group.groupAmount, amountFormat)}
+              {accounting.formatMoney(group.groupAmount / 1000, ncoaFormat)}
             </span>
           </li>
         ))}
