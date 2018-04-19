@@ -94,10 +94,10 @@
   /* transform: scale(0.9) translateY(50%); */
   transition: all 300ms ease-out;
 }
-/* *::-webkit-scrollbar,
+*::-webkit-scrollbar,
 *::-webkit-scrollbar-thumb {
   display: none;
-} */
+}
 .text-bold {
   font-weight: bold;
 }

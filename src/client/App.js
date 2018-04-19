@@ -26,8 +26,9 @@ import './App.css';
 
 const styleLogin = {
   backgroundImage: `url(${bg})`,
-  backgroundSize: 'cover',
-  backgroundPosition: 'right'
+  backgroundSize: '100% 25%',
+  backgroundPosition: 'bottom',
+  backgroundRepeat: 'no-repeat'
 };
 
 const styleAuth = {
@@ -46,7 +47,11 @@ class App extends Component {
   };
 
   render() {
-    const { t, logout, auth: { isAuthenticated } } = this.props;
+    const {
+      t,
+      logout,
+      auth: { isAuthenticated }
+    } = this.props;
     return (
       <Route
         render={({ location }) => (
