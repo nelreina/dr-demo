@@ -13,7 +13,7 @@ const Sidebar = ({ t, periods }) => {
         {activePeriod.name}
       </div>
       <SidebarNav />
-      {times(15, () => <div />)}
+      {times(15, i => <div key={i} />)}
       <div className="container footer">
         <small>IBIS Management </small>
       </div>

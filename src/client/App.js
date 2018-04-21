@@ -68,13 +68,9 @@ class App extends Component {
                   key={location.key}
                 >
                   <Switch location={location}>
-                    <Redirect exact from="/" to="/dashboard" />
+                    {/* <Redirect exact from="/" to="/dashboard" /> */}
                     <Route path="/login" exact component={Login} />
-                    <PrivateRoute
-                      path="/dashboard"
-                      exact
-                      component={Dashboard}
-                    />
+                    <PrivateRoute path="/" exact component={Dashboard} />
                     <PrivateRoute
                       path="/corrections"
                       exact
