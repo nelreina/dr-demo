@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { Switch, Route, withRouter, Redirect } from 'react-router-dom';
+import { compose } from 'recompose';
 
 import * as reportsActions from './store/reducers/reports';
 import * as periodsActions from './store/reducers/periods';
@@ -104,7 +105,11 @@ const actions = assign(
   authActions,
   bankloadActions
 );
-const AppConnect = connect(state => state, actions)(App);
-const AppTranslate = translate()(AppConnect);
-const AppWithRouter = withRouter(AppTranslate);
-export default AppWithRouter;
+
+const enhance = compose(
+  withRouter,
+  connect(state => state, actions),
+  translate()
+);
+export default enhance(App);
+// export default AppWithRouter;
