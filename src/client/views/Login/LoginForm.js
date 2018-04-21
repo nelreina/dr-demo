@@ -38,7 +38,7 @@ let LoginForm = ({ handleSubmit, action, message, t }) => {
           component={BootstrapField}
           type="password"
         />
-        <button className="btn btn-primary">{t('Login')}</button>
+        <button className="btn btn-success">{t('Login')}</button>
       </form>
       <img
         style={{
