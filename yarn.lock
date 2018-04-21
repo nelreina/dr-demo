@@ -3636,6 +3636,10 @@ npmlog@^4.0.2:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
+nr-react-list@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nr-react-list/-/nr-react-list-1.0.0.tgz#c1befd4811e55db93f3794af7a83dc76e65ba5d9"
+
 nth-check@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-1.0.1.tgz#9929acdf628fc2c41098deab82ac580cf149aae4"

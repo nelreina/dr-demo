@@ -3,8 +3,8 @@ import { translate } from 'react-i18next';
 import { connect } from 'react-redux';
 import { Route, Redirect } from 'react-router-dom';
 import S from 'string';
+import List from 'nr-react-list';
 
-import List from '../../components/List';
 import NavLinkItem from '../../components/NavLinkItem';
 import ReportListView from './ReportListView';
 import { tabNavSelector, reportGroupSelector } from './util';

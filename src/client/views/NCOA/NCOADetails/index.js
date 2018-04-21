@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { translate } from 'react-i18next';
 import { connect } from 'react-redux';
 import accounting from 'accounting';
-import List from '../../../components/List';
+import List from 'nr-react-list';
 
 import FilterDetails from './FilterDetails';
 import { style, amountFormat, calcSumDetails, filterSelector } from '../util';

@@ -2,7 +2,7 @@ import React from 'react';
 import RowValue from './RowValue';
 import RowHeader from './RowHeader';
 import RowSum from './RowSum';
-const Row = ({ row, options }) => {
+const Row = ({ item: row, options }) => {
   let retRow = '';
   switch (row.RowType) {
     case 'HD':

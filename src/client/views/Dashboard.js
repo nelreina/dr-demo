@@ -8,7 +8,6 @@ import * as actionsBankload from '../store/reducers/bankload';
 import * as actionsPeriods from '../store/reducers/periods';
 import * as actionsReports from '../store/reducers/reports';
 
-import List from '../components/List';
 import PeriodSelector from '../components/PeriodSelector';
 import Charts from '../components/Charts';
 import { dashboardSelector } from './NCOA/util';
@@ -30,7 +29,12 @@ class Dashboard extends Component {
   };
 
   render() {
-    const { list, periods, match: { path }, t } = this.props;
+    const {
+      list,
+      periods,
+      match: { path },
+      t
+    } = this.props;
     return (
       <div className="dashboard">
         <PeriodSelector periods={periods} action={this.setActivePeriod} />

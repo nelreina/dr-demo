@@ -1,6 +1,6 @@
 import React from 'react';
 import { translate } from 'react-i18next';
-import List from './List';
+import List from 'nr-react-list';
 import NavLinkItem from './NavLinkItem';
 
 const navs = [

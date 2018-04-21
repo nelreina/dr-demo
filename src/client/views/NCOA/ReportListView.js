@@ -1,6 +1,6 @@
 import React from 'react';
 
-import List from '../../components/List';
+import List from 'nr-react-list';
 import ReportListItem from './ReportListItem';
 
 const ReportListView = ({ list }) => {

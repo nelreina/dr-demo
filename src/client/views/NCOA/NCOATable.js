@@ -1,6 +1,7 @@
 import React from 'react';
 import NCOAHeader from './NCOAHeader';
 import Row from './Row';
+import List from 'nr-react-list';
 
 const NCOATable = ({ data, report, options }) => {
   const { style } = options;
@@ -9,9 +10,14 @@ const NCOATable = ({ data, report, options }) => {
       <NCOAHeader options={options} report={report} />
       <tbody>
         {data &&
-          data.length > 0 &&
-          data.map((row, key) => <Row key={key} row={row} options={options} />)}
-        {data.length === 0 && 'No data available'}
+          data.length > 0 && (
+            <List of={Row} iterator={data} options={options} />
+          )}
+        {data.length === 0 && (
+          <tr>
+            <td>No data available</td>
+          </tr>
+        )}
       </tbody>
     </table>
   );

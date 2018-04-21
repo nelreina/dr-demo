@@ -21,6 +21,7 @@
     "method-override": "^2.3.10",
     "nelreina-node-utils": "^0.0.4",
     "nelreina-web-utils": "^0.0.16",
+    "nr-react-list": "^1.0.0",
     "react": "^16.2.0",
     "react-chartjs-2": "^2.7.0",
     "react-csv": "^1.0.14",
