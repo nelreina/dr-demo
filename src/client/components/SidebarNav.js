@@ -6,7 +6,7 @@ import NavLinkItem from './NavLinkItem';
 const navs = [
   {
     name: 'Dashboard',
-    url: '/dashboard'
+    url: '/'
   },
   {
     name: 'View Reports',
