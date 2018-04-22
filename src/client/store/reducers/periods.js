@@ -1,4 +1,3 @@
-import { api } from 'nelreina-web-utils';
 import { assign } from 'lodash';
 
 const FETCHING = 'FETCHING_PERIODS';
@@ -6,12 +5,11 @@ const FETCH_SUCCESS = 'FETCH_PERIODS_SUCCESS';
 const FETCH_ERROR = 'FETCH_PERIODS_ERROR';
 const SET_ACTIVE_PERIOD = 'SET_ACTIVE_PERIOD';
 
-const { get } = api;
 const initialState = {};
 
-export const fetchPeriods = () => async dispatch => {
+export const fetchPeriods = () => async (dispatch, getState, api) => {
   dispatch({ type: FETCHING });
-  const payload = await get(`/api/periods`);
+  const payload = await api.get(`/api/periods`);
   dispatch({
     type: FETCH_SUCCESS,
     payload

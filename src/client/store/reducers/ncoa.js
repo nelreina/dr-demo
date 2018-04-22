@@ -1,4 +1,3 @@
-import { api } from 'nelreina-web-utils';
 import { assign } from 'lodash';
 
 const FETCHING = 'FETCHING_NCOA';
@@ -6,10 +5,9 @@ const FETCH_SUCCESS = 'FETCH_NCOA_SUCCESS';
 const FETCH_ERROR = 'FETCH_NCOA_ERROR';
 const CLEAR_DATA = 'CLEAR_DATA';
 
-const { get } = api;
 const initialState = { data: [] };
 
-export const fetchNcoa = ReportCode => async (dispatch, getState) => {
+export const fetchNcoa = ReportCode => async (dispatch, getState, api) => {
   const state = getState();
   const MatchProcessId =
     state.periods && state.periods.activePeriod
@@ -20,7 +18,7 @@ export const fetchNcoa = ReportCode => async (dispatch, getState) => {
   if (key === state.ncoa.currentKey) return;
   dispatch({ type: FETCHING, payload: key });
   try {
-    const payload = await get(`/api/${key}`);
+    const payload = await api.get(`/api/${key}`);
     dispatch({
       type: FETCH_SUCCESS,
       payload
