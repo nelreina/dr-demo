@@ -22,6 +22,7 @@
     "nelreina-node-utils": "^0.0.4",
     "nelreina-web-utils": "^1.0.1",
     "nr-react-list": "^1.0.0",
+    "nr-react-private-route": "^1.0.0",
     "react": "^16.2.0",
     "react-chartjs-2": "^2.7.0",
     "react-csv": "^1.0.14",

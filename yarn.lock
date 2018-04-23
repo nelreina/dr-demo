@@ -3640,6 +3640,12 @@ nr-react-list@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/nr-react-list/-/nr-react-list-1.0.0.tgz#c1befd4811e55db93f3794af7a83dc76e65ba5d9"
 
+nr-react-private-route@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nr-react-private-route/-/nr-react-private-route-1.0.0.tgz#bd2ab16638d0659dce705cfb7e1312a0c4e00e50"
+  dependencies:
+    react-router-dom "^4.2.2"
+
 nth-check@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-1.0.1.tgz#9929acdf628fc2c41098deab82ac580cf149aae4"
