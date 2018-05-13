@@ -3,11 +3,15 @@ import { reduxForm, Field } from 'redux-form';
 import { translate } from 'react-i18next';
 import BootstrapField from '../../../components/BootstrapField';
 
-let FilterDetails = ({}) => {
+let FilterDetails = ({ }) => {
   return (
-    <form className="form-inline">
-      <Field name="filter" component={BootstrapField} />
-    </form>
+    <div className="ncoa-details-filter-form">
+      <hr />
+      <form className="form-inline">
+        <Field name="filter" component={BootstrapField} />
+      </form>
+      <hr />
+    </div>
   );
 };
 

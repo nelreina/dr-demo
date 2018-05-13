@@ -12,10 +12,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-/* 
-.App > .sidebar > .sidebar-nav {
-  height: 400px;
-} */
+
 
 .App > .container {
   height: 100vh;
@@ -47,7 +44,7 @@
   text-decoration: none;
 }
 .report-list-item {
-  font-size: 0.85em;
+  /* font-size: 0.85em; */
   border: 1px #ddd solid;
   border-radius: 0.5em;
 }
@@ -66,32 +63,19 @@
   display: flex;
   justify-content: space-between;
 }
-/* React Animation */
-/* .fade-enter {
-  opacity: 0;
-  z-index: 1;
-}
 
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 250ms ease-in;
-} */
 .fade-enter {
   opacity: 0.01;
-  /* transform: scale(0.9) translateY(50%); */
 }
 .fade-enter-active {
   opacity: 1;
-  /* transform: scale(1) translateY(0%); */
   transition: all 600ms ease-out;
 }
 .fade-exit {
   opacity: 1;
-  /* transform: scale(1) translateY(0%); */
 }
 .fade-exit-active {
   opacity: 0;
-  /* transform: scale(0.9) translateY(50%); */
   transition: all 300ms ease-out;
 }
 *::-webkit-scrollbar,
@@ -118,4 +102,33 @@
 }
 .export-toolbar {
   margin-bottom: 1em;
+}
+
+@media print {
+*{
+  /* background: transparent !important; */
+  color: #000  !important;
+  box-shadow: none  !important;
+  text-shadow: none  !important;
+  font-size: 12pt;
+}
+
+  .App > .sidebar,
+  .export-toolbar,
+  .top-bar,
+  .report-header button,
+  .ncoa-details-filter-form
+  {
+    display: none;
+  }
+  .App > .container {
+  height: auto;
+  overflow: none;
+}
+  a{
+    text-decoration: none !important;
+  }
+  .ncoa-row-sum {
+   font-size: 14pt;
+  }
 }

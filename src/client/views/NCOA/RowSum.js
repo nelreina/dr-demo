@@ -38,7 +38,7 @@ const RowSum = ({ row, options, data, t }) => {
   } = options;
   const sum = data ? calcSum(data, row, 'SumGroup') : {};
   return (
-    <tr className="table-success">
+    <tr className="ncoa-row-sum table-success">
       <th style={nowrap}>{row.CoaCode}</th>
       <th className="text-uppercase">TOTAL {t(row.RowDescription)}</th>
       {cols.map(col => (

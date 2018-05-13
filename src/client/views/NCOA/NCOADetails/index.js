@@ -33,9 +33,7 @@ class NCOADetails extends Component {
         <p style={style.rightAlign} className="text-muted">
           <small>Count: {data.length}</small>
         </p>
-        <hr />
         <FilterDetails />
-        <hr />
         <table style={style.zoom} className="table table-sm">
           <thead>
             <tr>
