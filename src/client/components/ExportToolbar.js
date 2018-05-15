@@ -5,7 +5,9 @@ const fontSize = '1.5em';
 const ExportToolbar = ({ data, filename }) => {
   return (
     <div className="btn-group export-toolbar">
-      <button className="btn btn-light">
+      <button
+        onClick={() => window.print()}
+        className="btn btn-light">
         <i
           style={{ color: '#D12836', fontSize }}
           className="fa fa-file-pdf-o"
