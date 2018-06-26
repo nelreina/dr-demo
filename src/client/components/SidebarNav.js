@@ -2,25 +2,8 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import List from 'nr-react-list';
 import NavLinkItem from './NavLinkItem';
+import navs from './navs_definitions';
 
-const navs = [
-  {
-    name: 'Dashboard',
-    url: '/'
-  },
-  {
-    name: 'View Reports',
-    url: '/reportlist'
-  },
-  {
-    name: 'View Data',
-    url: '/view-data'
-  },
-  {
-    name: 'Corrections',
-    url: '/corrections'
-  }
-];
 
 const SidebarNav = ({ t }) => {
   return (

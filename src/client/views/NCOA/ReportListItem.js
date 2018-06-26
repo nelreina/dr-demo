@@ -10,8 +10,8 @@ const ReportListItem = ({ item: report, path, t }) => {
   return (
     <Link className="report-list-item" to={`${path}/${report.code}`}>
       <div className="card-header">
-        {report.schedule === 'Y' && `${report.code} - `}
-        {t(report.name)}
+        <h3>{report.schedule === 'Y' && `${report.code} - `}
+        {t(report.name)}</h3>
       </div>
       <ul className="card-body">
         {/* <pre>{JSON.stringify(report.mainGroups, null, 2)}</pre> */}

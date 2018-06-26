@@ -7,11 +7,8 @@ const ExportToolbar = ({ data, filename }) => {
     <div className="btn-group export-toolbar">
       <button
         onClick={() => window.print()}
-        className="btn btn-light">
-        <i
-          style={{ color: '#D12836', fontSize }}
-          className="fa fa-file-pdf-o"
-        />
+        className="btn btn-success btn-sm btn-icon-pdf">
+        Export to PDF
       </button>
       {data && (
         <ExportCSV data={data} filename={filename} fontSize={fontSize} />
