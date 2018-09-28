@@ -4,20 +4,24 @@ import ExportToolbar from '../../components/ExportToolbar';
 import { connect } from 'react-redux';
 
 const Title = ({ t, children, goback, details, ncoa, ncoaDetails }) => {
-  const goBackText = 'GO BACK';
+  const goBackText = 'Go back';
   let filename = children;
   filename += details ? ' Details' : '';
-  const goBackClass = 'btn btn-light btn-sm';
+  const goBackClass = 'btn btn-secondary btn-sm';
   return (
     <div className="report-header">
-      <button className={goBackClass} onClick={goback}>
-        {t(goBackText)}
-      </button>
-      <h5>{children}</h5>
-      <ExportToolbar
-        filename={filename}
-        data={details ? ncoaDetails.data : ncoa.data}
-      />
+      <div className="titleHeader">
+        <h2>{children}</h2>
+        <button className={goBackClass} onClick={goback}>
+          {t(goBackText)}
+        </button>
+      </div>
+      <div className="actionButtons">
+        <ExportToolbar
+          filename={filename}
+          data={details ? ncoaDetails.data : ncoa.data}
+        />
+      </div>
     </div>
   );
 };

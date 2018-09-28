@@ -1,18 +1,9 @@
 .App > .sidebar {
-  background: #777;
   height: 100vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-right: #2da139 solid 0.7em;
 }
-
-.dashboard > .charts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 
 .App > .container {
   height: 100vh;
@@ -26,11 +17,7 @@
   justify-content: space-between;
   padding-bottom: 1em;
 }
-.top-bar {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1em;
-}
+
 .details-header {
   text-align: right;
 }
@@ -43,13 +30,7 @@
 .report-list a {
   text-decoration: none;
 }
-.report-list-item {
-  /* font-size: 0.85em; */
-  border: 1px #ddd solid;
-  border-radius: 0.5em;
-}
 .report-list-item:hover {
-  border: 0.15em #2da139 solid;
   transition: 150ms ease-in all;
 }
 .report-list-item > .card-body {
@@ -89,17 +70,8 @@
 .amount {
   letter-spacing: 0.075em;
 }
-.sidebar-nav > a {
-  color: white;
-  font-size: 1.5em;
-  top: -100px;
-}
-#side-bar-period-name {
-  color: #2da139;
-  text-transform: uppercase;
-  font-size: 2em;
-  /* font-weight: bold; */
-}
+
+
 .export-toolbar {
   margin-bottom: 1em;
 }

@@ -12,7 +12,8 @@ import { tabNavSelector, reportGroupSelector } from './util';
 const ReportList = ({ t, tabs, reportGroup, match, location }) => {
   return (
     <div>
-      <nav className="nav nav-tabs nav-fill">
+      <h2>Reports</h2>
+      <nav className="nav navStyling">
         <List of={NavLinkItem} iterator={tabs} />
       </nav>
       {match.isExact && <Redirect to={`${match.path}/tab/main reports`} />}

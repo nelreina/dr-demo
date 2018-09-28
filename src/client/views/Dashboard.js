@@ -36,13 +36,12 @@ class Dashboard extends Component {
       t
     } = this.props;
     return (
-      <div className="dashboard">
-        <PeriodSelector periods={periods} action={this.setActivePeriod} />
-        <hr />
-        <Charts />
-        <hr />
-        <ReportListView list={list} />
-      </div>
+        <div className="dashboard">
+          <h2>{t('Dashboard')}</h2>
+          <PeriodSelector periods={periods} action={this.setActivePeriod} />
+          <Charts />
+          <ReportListView list={list} />
+        </div>
     );
   }
 }

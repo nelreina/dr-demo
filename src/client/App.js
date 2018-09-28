@@ -14,6 +14,7 @@ import * as bankloadActions from './store/reducers/bankload';
 
 import TopBar from './components/TopBar';
 import Sidebar from './components/Sidebar';
+import ScrollApp from './components/ScrollApp';
 import Corrections from './views/Corrections';
 import Dashboard from './views/Dashboard';
 import NCOA from './views/NCOA';
@@ -21,20 +22,16 @@ import ReportList from './views/NCOA/ReportList';
 import Login from './views/Login';
 import NotFound from './views/NotFound';
 import Translations from './views/Translations';
-import bg from '../client/assets/Greenwave.png';
+import User from './views/User';
+
 
 import './App.css';
-
-const styleLogin = {
-  backgroundImage: `url(${bg})`,
-  backgroundSize: '100% 25%',
-  backgroundPosition: 'bottom',
-  backgroundRepeat: 'no-repeat'
-};
+import './NewStyle.css';
 
 const styleAuth = {
   display: 'grid',
-  gridTemplateColumns: '200px 1fr'
+  gridTemplateColumns: '200px 1fr',
+  background: '#e4e5e6'
 };
 class App extends Component {
   async componentWillMount() {
@@ -57,11 +54,11 @@ class App extends Component {
     return (
       <Route
         render={({ location }) => (
-          <div className="App" style={isAuthenticated ? styleAuth : styleLogin}>
+          <div className="App" style={styleAuth}>
             {isAuthenticated && <Sidebar {...this.props} />}
-            <div className="container">
-              <TopBar {...this.props} />
-              <hr />
+            <div className="wrapperContainer">
+              {isAuthenticated && <TopBar {...this.props} />}
+              <div className="container">
               <TransitionGroup>
                 <CSSTransition
                   timeout={300}
@@ -85,6 +82,12 @@ class App extends Component {
                     />
                     <PrivateRoute
                       auth={auth}
+                      path="/user"
+                      exact
+                      component={User}
+                    />
+                    <PrivateRoute
+                      auth={auth}
                       path="/reports/:id"
                       component={NCOA}
                     />
@@ -103,8 +106,11 @@ class App extends Component {
                   </Switch>
                 </CSSTransition>
               </TransitionGroup>
+              {isAuthenticated && <ScrollApp/>}
+              </div>
             </div>
           </div>
+
         )}
       />
     );

@@ -9,13 +9,10 @@ const ExportCSV = ({ t, data, fontSize, filename }) => {
     <CSVLink
       data={csv}
       filename={`${filename}.csv`}
-      className="btn btn-light"
+      className="btn btn-success btn-sm btn-icon-csv"
       target=""
     >
-      <i
-        style={{ color: '#2DA139', fontSize }}
-        className="fa fa-file-excel-o"
-      />
+      Export to CSV
     </CSVLink>
   );
 };

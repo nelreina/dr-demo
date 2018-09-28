@@ -4,6 +4,9 @@ import { translate } from 'react-i18next';
 import BootstrapField from '../../components/BootstrapField';
 import { connect } from 'react-redux';
 import gllogo from '../../assets/greenlight_logo_loginpage.png';
+import bgLoginForm from '../../assets/blurredBG.png';
+import logoBank from '../../assets/logo-banco-di-caribe.png';
+import Languages from '../../components/Languages';
 
 const validate = values => {
   const errors = {};
@@ -21,35 +24,46 @@ const validate = values => {
 let LoginForm = ({ handleSubmit, action, message, t }) => {
   return (
     <div id="loginform">
-      <form
-        style={{
-          width: 350,
-          margin: '0 auto'
-        }}
-        className=""
-        onSubmit={handleSubmit(action)}
-      >
-        <h5>{t('Please Login')}</h5>
-        {message && <p className="alert alert-danger">{t(message)}</p>}
-        <Field name="username" label="Username" component={BootstrapField} />
-        <Field
-          name="password"
-          label="Password"
-          component={BootstrapField}
-          type="password"
-        />
-        <button className="btn btn-success">{t('Login')}</button>
-      </form>
+    <Languages langs={['en', 'es']} />
+    <div style={{clear:'both'}}></div>
+    <div style={{
+      display: 'block',
+      width: '100%'
+    }}>
+    <div className="containerLogin" style = {{ backgroundImage: 'url(' + bgLoginForm + ')' }}>
       <img
-        style={{
-          width: '350px',
-          position: 'fixed',
-          bottom: '200px',
-          right: '200px'
-        }}
         src={gllogo}
         alt=""
+        className="logoLogin"
       />
+        <form
+          style={{
+            width: 350,
+            margin: '0 auto'
+          }}
+          className=""
+          onSubmit={handleSubmit(action)}
+        >
+          {message && <p className="alert alert-danger">{t(message)}</p>}
+          <Field name="username" label="Username" component={BootstrapField} />
+          <Field
+            name="password"
+            label="Password"
+            component={BootstrapField}
+            type="password"
+          />
+          <button className="btn btn-success float-right">{t('Login')}</button>
+          <div style={{clear:'both'}}></div>
+        </form>
+      </div>
+      <div className="clientLogoContainer">
+      <img
+        src={logoBank}
+        alt=""
+        className="logoClient"
+      />
+      </div>
+    </div>
     </div>
   );
 };

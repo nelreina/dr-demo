@@ -6,21 +6,26 @@ const langColor = {
   es: 'dark'
 };
 const Button = ({ lang, i18n }) => (
-  <button
+  <a
     onClick={() => {
       i18n.changeLanguage(lang);
     }}
-    className={`btn  btn-sm btn-${langColor[lang]}`}
+    className={`${langColor[lang]}`}
   >
     {lang.toUpperCase()}
-  </button>
+  </a>
 );
 const LangButton = translate()(Button);
 
 const Languages = ({ langs }) => {
   return (
-    <div className="btn-group">
-      {langs.map(lang => <LangButton key={lang} lang={lang} />)}
+    <div className="languageDropdown">
+      <div className="dropdown">
+        <button className="dropbtn">Language <i className="fa fa-sort-desc"></i></button>
+        <div className="dropdown-content">
+          {langs.map(lang => <LangButton key={lang} lang={lang} />)}
+        </div>
+      </div>
     </div>
   );
 };
